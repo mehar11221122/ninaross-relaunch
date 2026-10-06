@@ -1,0 +1,180 @@
+{
+  "type": "condition",
+  "slug": "alopecia-areata",
+  "name": "Alopecia Areata",
+  "seoTitle": "Alopecia Areata: Why Patches Appear, What Helps | Nina Ross",
+  "description": "Alopecia areata explained: smooth round patches, exclamation mark hairs, and why the follicle stays alive. Read at 200x. Serving all of Metro Atlanta.",
+  "h1": "Alopecia Areata: <em>Why Patches Appear and What Stops Them</em>",
+  "subtitle": "Smooth, round patches that appear quickly. The follicle usually survives.",
+  "hero": {
+    "slot": "TRICHO-alopecia-areata-hero",
+    "src": "img/alopecia-areata-patch-scalp-closeup-nina-ross-atlanta.png",
+    "width": 1448,
+    "height": 1086,
+    "alt": "Round alopecia areata patch on the scalp with smooth skin and short fine hairs at the border",
+    "caption": "The patch border, at 200x."
+  },
+  "quickAnswer": "Alopecia areata is an autoimmune condition where the immune system interrupts follicles that are in their growth phase. The result is usually a smooth, round patch that appears over days rather than months, with skin that looks normal rather than scarred. Because the follicle itself is not destroyed, regrowth is possible even after a long patch, and hair often returns fine and light before it returns fully pigmented. Patches can also appear in the beard or eyebrows. At Nina Ross Atlanta in Sandy Springs we confirm the pattern at 200x, look at the systems that keep the immune response stirred up, and track each patch with photographs. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "The follicle is usually not destroyed.",
+    "Regrowth often starts fine and light.",
+    "The patch border shows whether it is active."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "A smooth bald circle appeared out of nowhere",
+        "us": "Well-circumscribed patch of non-scarring loss",
+        "why": "A round patch that appears over days is commonly linked to immune activity pushing many growing follicles out of their growth phase at once.",
+        "check": "We confirm the pattern at 200x and check that the skin is intact, which separates alopecia areata from scarring conditions."
+      },
+      {
+        "you": "Short hairs that look like tiny commas",
+        "us": "Exclamation mark hairs at the patch margin",
+        "why": "Short hairs that narrow toward the scalp are commonly linked to a patch that is still active. The follicle was interrupted mid-growth.",
+        "check": "We read the border at 200x for these tapered hairs, which tells us whether the patch is still spreading."
+      },
+      {
+        "you": "The skin there looks totally normal",
+        "us": "Preserved follicular openings",
+        "why": "Normal-looking skin is a good sign. It usually means the follicles are still there, resting rather than scarred.",
+        "check": "Magnification shows whether the openings are present, which is why regrowth stays possible."
+      },
+      {
+        "you": "White or fine hairs coming back in",
+        "us": "Regrowth of unpigmented vellus hair",
+        "why": "Fine, light hairs are commonly the first sign a follicle has restarted. Pigment and thickness often return later.",
+        "check": "We photograph the same points each visit, so you can see regrowth before it shows in the mirror."
+      },
+      {
+        "you": "Pitting or ridges in my nails",
+        "us": "Nail pitting associated with alopecia areata",
+        "why": "Small pits or ridges in the nails are described alongside alopecia areata in some people, because the same immune activity can reach the nail.",
+        "check": "Tell us about it at your visit. It is part of the systemic picture we look at beyond the scalp."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Autoimmune activity",
+        "text": "The immune system stops recognizing the growing follicle as its own and pushes it out of the growth phase early."
+      },
+      {
+        "title": "Stress and illness as triggers",
+        "text": "A major stressor or illness often sits just before the first patch. Stress can be a trigger, and it is rarely the whole cause."
+      },
+      {
+        "title": "Other autoimmune conditions",
+        "text": "Thyroid disease, vitiligo and other autoimmune conditions show up more often alongside alopecia areata, which is why we look beyond the scalp.{cite:1}"
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "What the patch border <em>tells us at 200x</em>",
+    "paras": [
+      "The edge of the patch is the most informative part."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-alopecia-areata-01",
+        "src": "img/alopecia-areata-exclamation-mark-hairs-patch-border-nina-ross-atlanta.png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Short tapered exclamation mark hairs along the border of an active alopecia areata patch",
+        "label": "Still active",
+        "caption": "Short tapered hairs that narrow toward the scalp at the border."
+      },
+      {
+        "slot": "TRICHO-alopecia-areata-02",
+        "src": "img/alopecia-areata-restarting-new-growth-nina-ross-atlanta.png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Fine unpigmented new hairs emerging within an alopecia areata patch as growth restarts",
+        "label": "Restarting",
+        "caption": "Fine unpigmented hairs coming up through the patch."
+      }
+    ],
+    "text": "We photograph the same border every visit, so you know which of those two things is happening."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We confirm the pattern at 200x, then support the follicle while the immune activity settles. Growth signal therapies and light-based therapy are used where they fit, and the systemic picture is part of the plan. We photograph every patch at each visit so regrowth is measured rather than debated.",
+    "steps": [
+      "Confirm the pattern at 200x",
+      "Support the follicle while immune activity settles",
+      "Photograph every patch at each visit"
+    ],
+    "treatments": [
+      {
+        "slug": "prp-therapy",
+        "text": "Growth signals placed into the scalp to wake follicles that are still viable."
+      },
+      {
+        "slug": "exosome-therapy",
+        "text": "Concentrated growth signals delivered to follicles that have gone quiet."
+      },
+      {
+        "slug": "growth-factors-therapy"
+      },
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      }
+    ],
+    "links": [
+      {
+        "href": "/alopecia-areata-doctor-atlanta",
+        "label": "Alopecia areata care in Atlanta"
+      },
+      {
+        "href": "/functional-medicine",
+        "label": "The whole-body side"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Patches read very differently against textured hair and deeper skin, and they get dismissed as breakage more often than they should. We look under magnification and take you at your word.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "telogen-effluvium",
+    "trichotillomania",
+    "lichen-planus"
+  ],
+  "faq": [
+    {
+      "q": "Will my hair grow back?",
+      "a": "The follicle is not scarred, so regrowth is possible. What we cannot tell you is the timeline, because it varies with how widespread the patches are and how long they have been active. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Why did it happen so fast?",
+      "a": "The immune system interrupts many growing follicles at the same moment, so the hair releases together over days. It feels sudden because it is."
+    },
+    {
+      "q": "Can it come back after it fills in?",
+      "a": "It can. Alopecia areata can return after regrowth, which is why we keep photographing the same points and look at the systems that keep the immune response stirred up."
+    },
+    {
+      "q": "Is this caused by stress?",
+      "a": "Stress often sits just before a first patch and can act as a trigger. The underlying driver is immune activity at the follicle, so we look at both."
+    },
+    {
+      "q": "Do you treat beard and eyebrow patches?",
+      "a": "Patches can appear in the beard or eyebrows too. Bring them to your visit and we read them the same way we read the scalp."
+    }
+  ],
+  "references": [
+    {
+      "text": "Alopecia areata: an update. PubMed 32956487",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32956487/"
+    }
+  ],
+  "results": true
+}

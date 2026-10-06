@@ -1,0 +1,66 @@
+// @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
+// or the app will break with duplicate plugins:
+//   - TanStack devtools (dev-only, first), tanstackStart, viteReact, tailwindcss, tsConfigPaths,
+//     nitro (build-only using cloudflare as a default target), VITE_* env injection, @ path alias,
+//     React/TanStack dedupe, error logger plugins, and sandbox detection (port/host/strictPort).
+// You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+
+export default defineConfig({
+  tanstackStart: {
+    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
+    // nitro/vite builds from this
+    server: { entry: "server" },
+    pages: [
+      { path: "/about" },
+      { path: "/concerns" },
+      { path: "/treatments" },
+      { path: "/treatments/restorative-therapy" },
+      { path: "/treatments/prp-therapy" },
+      { path: "/treatments/growth-factors-therapy" },
+      { path: "/treatments/exosome-therapy" },
+      { path: "/treatments/microneedling" },
+      { path: "/treatments/iv-nutrient-therapy" },
+      { path: "/treatments/fusion-mesotherapy" },
+      { path: "/treatments/red-light-therapy" },
+      { path: "/concerns/alopecia-areata" },
+      { path: "/concerns/anagen-effluvium" },
+      { path: "/concerns/ccca" },
+      { path: "/concerns/excess-dht" },
+      { path: "/concerns/female-hair-loss" },
+      { path: "/concerns/folliculitis" },
+      { path: "/concerns/hormonal-hair-loss" },
+      { path: "/concerns/lichen-planopilaris" },
+      { path: "/concerns/lichen-planus" },
+      { path: "/concerns/male-pattern-baldness" },
+      { path: "/concerns/medication-hair-loss" },
+      { path: "/concerns/pcos-hair-loss" },
+      { path: "/concerns/postpartum-hair-loss" },
+      { path: "/concerns/scalp-bumps" },
+      { path: "/concerns/seborrheic-dermatitis" },
+      { path: "/concerns/telogen-effluvium" },
+      { path: "/concerns/traction-alopecia" },
+      { path: "/concerns/trichotillomania" },
+      { path: "/blog/hair-loss-and-potassium-deficiency" },
+      { path: "/blog/iron-deficiency-and-hair-loss" },
+      { path: "/blog/hair-loss-epidemic-among-black-women" },
+      { path: "/blog/hair-growth-hormones" },
+      { path: "/blog/how-to-stop-alopecia-areata-from-spreading" },
+      { path: "/blog/stop-hair-loss-with-dht-blockers" },
+      { path: "/blog/minoxidil-itchy-scalp" },
+      { path: "/blog/magnesium-for-hair-growth" },
+      { path: "/blog/oily-scalp-and-hair-loss" },
+      { path: "/blog/choosing-a-trichologist-near-me" },
+      { path: "/blog/trichologist-for-black-hair" },
+      { path: "/blog/amino-acids-for-hair-regrowth" },
+      { path: "/blog/l-lysine-benefits-for-skin" },
+      { path: "/blog/traction-alopecia-reversibility" },
+      { path: "/blog/hair-loss" },
+      { path: "/blog/health-wellness" },
+      { path: "/blog/treatment-methods" },
+      { path: "/blog/scalp-concerns" },
+      { path: "/blog/hair-care" },
+    ],
+    prerender: { enabled: true, autoStaticPathsDiscovery: false },
+  },
+});

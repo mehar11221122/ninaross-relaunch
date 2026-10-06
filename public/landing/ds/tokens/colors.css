@@ -1,0 +1,23 @@
+:root{
+/* Core palette (approved) */
+--nr-black:#101112;--nr-black-deep:#080909;--nr-bone:#F5F1E9;--nr-cocoa:#5B463B;--nr-champagne:#CFB078;--nr-champagne-light:#DCC38D;--nr-olive:#666B57;--nr-wine:#764D4B;--nr-wine-deep:#4F302E;
+/* Alias kept for source-code compatibility (landing page uses --nr-gold) */
+--nr-gold:#CFB078;
+/* Support neutrals (from landing source) */
+--nr-white:#FFFFFF;--nr-ink:#171717;--nr-muted:#6F6A64;--nr-line:#DCD4C8;--nr-disclaimer:#837D75;
+/* On-dark text tints */
+--nr-on-dark:#FFFFFF;--nr-on-dark-soft:#C3C1BE;--nr-on-dark-muted:#AAAAAA;--nr-on-wine:#EADFDB;
+/* Semantic surfaces */
+--surface-page:var(--nr-bone);--surface-page-alt:#EFE9DF;--surface-page-warm:#EEE7DE;--surface-card:var(--nr-white);--surface-dark:var(--nr-black);--surface-deep:var(--nr-black-deep);--surface-wine:var(--nr-wine);
+/* Semantic text */
+--text-body:var(--nr-ink);--text-muted:var(--nr-muted);--text-accent:var(--nr-champagne);--text-link:var(--nr-wine);
+/* Lines & borders */
+--border-subtle:rgba(16,17,18,.08);--line-on-dark:rgba(255,255,255,.16);--line-on-dark-strong:rgba(255,255,255,.2);--line-gold-soft:rgba(207,176,120,.38);
+/* Status (inferred from brand sheet form-error swatch; not in source code) */
+--nr-error:#B3413A;
+/* Gradients */
+--grad-gold:linear-gradient(135deg,#DCC38D,#CFB078); /* @kind color */
+--grad-wine:linear-gradient(115deg,#4F302E,#764D4B); /* @kind color */
+--grad-wine-cta:linear-gradient(120deg,#563331,#764D4B); /* @kind color */
+--grad-hero:radial-gradient(circle at 76% 28%,#2A231F 0,#151717 37%,#080909 74%); /* @kind color */
+}

@@ -1,0 +1,7 @@
+:root{
+--shadow-card:0 14px 30px rgba(0,0,0,.055);--shadow-subtle:0 4px 16px rgba(0,0,0,.06);--shadow-gold:0 10px 25px rgba(207,176,120,.18);--shadow-gold-hover:0 14px 30px rgba(207,176,120,.28);--shadow-float:0 18px 50px rgba(0,0,0,.3);--shadow-header:0 8px 28px rgba(0,0,0,.14);--shadow-badge:0 14px 32px rgba(0,0,0,.28);
+--ease-brand:ease; /* @kind other */
+--duration-brand:.2s; /* @kind other */
+--lift-hover:translateY(-1px); /* @kind other */
+--photo-filter:saturate(.92) contrast(1.02); /* @kind other */
+}

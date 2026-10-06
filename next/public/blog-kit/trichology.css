@@ -1,0 +1,91 @@
+/* /trichology page additions. Loads after detail.css. */
+.is-trich .hb-hero__num{font-size:clamp(120px,22vw,300px)}
+.tr-layers{margin:28px 0 0;padding:0;list-style:none;display:grid;gap:16px}
+.tr-layers li{position:relative;padding:26px 22px 24px;background:#fff;border:1px solid var(--border-subtle);box-shadow:var(--shadow-card);overflow:hidden}
+.tr-layers li>i{position:absolute;right:14px;top:-6px;font-style:normal;font-size:84px;font-weight:900;line-height:1;letter-spacing:-.05em;color:#EFE9DF}
+.tr-layers__ic{position:relative;width:46px;height:46px;display:grid;place-items:center;border:1px solid var(--nr-gold);border-radius:50%;color:var(--nr-cocoa)}
+.tr-layers__ic svg{width:22px;height:22px}
+.tr-layers h3{position:relative;margin:16px 0 8px;font-size:20px;font-weight:800;letter-spacing:-.01em}
+.tr-layers p{position:relative;margin:0;font-size:15.5px;line-height:1.6;color:var(--nr-muted)}
+.tr-when{margin-top:26px;display:grid;gap:12px}
+.tr-when div{display:grid;grid-template-columns:36px 1fr;gap:4px 14px;padding:18px 20px;background:var(--nr-bone);border:1px solid var(--nr-line)}
+.tr-when span{grid-row:span 2;font-size:26px;line-height:1}
+.tr-when h3{margin:0;font-size:17px;font-weight:800;line-height:1.3}
+.tr-when p{margin:0;font-size:15px;line-height:1.55;color:var(--nr-muted)}
+.tr-fit{margin-top:26px;display:grid;gap:16px}
+.tr-fit article{padding:26px 22px;background:#fff;border:1px solid var(--border-subtle);box-shadow:var(--shadow-card)}
+.tr-fit article:first-child{border-top:3px solid var(--nr-gold)}
+.tr-fit article:last-child{border-top:3px solid var(--nr-wine)}
+.tr-fit__k{margin:0 0 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--nr-wine)}
+.tr-fit h3{margin:0 0 12px;font-size:21px;font-weight:800;line-height:1.2;letter-spacing:-.01em}
+.tr-fit p{margin:0 0 12px;font-size:16px;line-height:1.6;color:var(--nr-muted)}
+.tr-fit p:last-child{margin-bottom:0}
+.tr-reads{margin:28px 0 32px;padding:0;list-style:none;display:grid;gap:0;border-top:1px solid rgba(255,255,255,.16)}
+.tr-reads li{display:grid;grid-template-columns:48px 1fr;gap:4px 16px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.16)}
+.tr-reads i{grid-row:span 2;font-style:normal;font-size:26px;font-weight:900;color:var(--nr-gold);letter-spacing:-.02em}
+.tr-reads h3{margin:0;font-size:18px;font-weight:800;color:#fff}
+.tr-reads p{margin:0;font-size:15.5px;line-height:1.6;color:#C9C5BF}
+.tr-circ{width:100%;aspect-ratio:1;border-radius:50%;overflow:hidden;border:2px solid rgba(207,176,120,.6);box-sizing:border-box}
+.tr-circ img{width:100%;height:100%;object-fit:cover;display:block}
+.tr-steps{margin-top:28px}
+.tr-cards{margin-top:26px}
+.tr-cases{margin-top:26px;display:grid;gap:22px}
+.tr-cases h3{margin:0 0 12px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:18px;font-weight:800}
+.tr-cases h3 span{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--nr-wine)}
+.tr-tri{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.tr-tri figure{position:relative;margin:0}
+.tr-tri .ph,.tr-tri img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.tr-tri--two{grid-template-columns:repeat(2,1fr)}
+.tr-tri figcaption{position:absolute;left:8px;bottom:8px;padding:4px 8px;background:rgba(16,17,18,.84);color:#fff;font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+@media(min-width:700px){.tr-when{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){
+  .tr-layers{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+  .tr-layers li{padding:32px 28px}
+  .tr-fit{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  .tr-fit article{padding:34px 32px}
+  .tr-reads{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px}
+  .tr-cases{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+}
+@media(min-width:1000px){.tr-steps{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:700px) and (max-width:999px){.tr-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Trichologist vs dermatologist panels */
+.tr-vs{margin-top:28px;display:grid}
+.tr-vs article{padding:30px 22px}
+.tr-vs__derm{position:relative;isolation:isolate;background-color:#1a1716;background-image:var(--tr-derm-image);background-position:50% 38%;background-size:cover;background-repeat:no-repeat;color:#fff}
+.tr-vs__derm::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(24,20,18,.8),rgba(24,20,18,.93))}
+.tr-vs__derm .tr-fit__k{color:#C9C3BB}
+.tr-vs__us{background:#fff;border:1px solid var(--nr-gold)}
+.tr-vs h3{margin:0 0 18px;padding-bottom:18px;font-size:24px;font-weight:800;letter-spacing:-.015em;position:relative}
+.tr-vs h3::after{content:"";position:absolute;left:0;bottom:0;width:44px;height:1px;background:rgba(255,255,255,.45)}
+.tr-vs__us h3::after{background:var(--nr-gold)}
+.tr-dash{margin:0;padding:0;list-style:none;display:grid;gap:14px}
+.tr-dash li{display:grid;grid-template-columns:22px 1fr;gap:12px;font-size:16px;line-height:1.5;color:#EDE9E3}
+.tr-dash li::before{content:"";height:1px;margin-top:.75em;background:rgba(255,255,255,.5)}
+.tr-vs__fair{margin:24px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.2);font-size:14px;line-height:1.6;color:#C9C3BB}
+.tr-tb{margin:0;padding:0;list-style:none;display:grid;gap:16px}
+.tr-tb li{display:grid;grid-template-columns:40px 1fr;gap:14px;align-items:start;font-size:16px;line-height:1.5;font-weight:600;color:var(--nr-ink)}
+.tr-tb li>span:last-child{padding-top:8px}
+.tr-tb a{color:var(--nr-wine)}
+.tr-tb__ic{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--nr-gold);color:var(--nr-cocoa)}
+.tr-tb__ic svg{width:20px;height:20px}
+.tr-vs__check{margin:24px 0 0;padding-top:20px;border-top:1px solid var(--nr-line);display:grid;grid-template-columns:24px 1fr;gap:12px;font-size:15.5px;font-weight:700;line-height:1.45}
+.tr-vs__check span{width:24px;height:24px;display:grid;place-items:center;background:var(--grad-gold);color:#171717;font-size:12px}
+.tr-salon{margin-top:20px;padding:22px;background:var(--nr-bone);border:1px solid var(--nr-line)}
+.tr-salon p{margin:0;font-size:15.5px;line-height:1.6;color:var(--nr-muted)}
+.tr-salon .tr-fit__k{margin-bottom:8px}
+@media(min-width:1000px){.tr-vs{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}.tr-vs article{padding:44px 40px}.tr-tb{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}.tr-salon{padding:26px 32px}}
+.tr-nap{margin:36px auto 0;max-width:880px;padding-top:28px;border-top:1px solid rgba(255,255,255,.18);display:grid;gap:20px;font-style:normal;text-align:center}
+.tr-nap span{font-size:14.5px;line-height:1.6;color:#E3DCD6}
+.tr-nap b{display:block;margin-bottom:4px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--nr-gold)}
+@media(min-width:800px){.tr-nap{grid-template-columns:1fr .8fr 1.3fr;gap:32px}}
+
+/* This page uses editorial title case from its first paint. */
+.nr-trichology-root h1,.nr-trichology-root h2,.nr-trichology-root h3,.nr-trichology-root h4{text-transform:none;letter-spacing:0}
+.nr-trichology-root .tr-fit__k,.nr-trichology-root .dt-k,.nr-trichology-root .kicker,.nr-trichology-root .hb-card__n,.nr-trichology-root .tr-nap b,.nr-trichology-root .tr-cases h3 span{text-transform:uppercase}
+
+/* Keep the magnified scalp image present at the top on smaller screens. */
+@media(max-width:999px){
+  .nr-trichology-root .hb-hero__grid>div{grid-row:2}
+  .nr-trichology-root .hb-hero__img{display:block;grid-row:1;max-width:230px;width:62vw;margin:8px auto 6px}
+}

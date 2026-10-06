@@ -1,0 +1,159 @@
+{
+  "type": "condition",
+  "slug": "seborrheic-dermatitis",
+  "name": "Seborrheic Dermatitis",
+  "seoTitle": "Seborrheic Dermatitis and Hair Loss: The Link | Nina Ross",
+  "description": "Seborrheic dermatitis explained: greasy scale, itch, and how ongoing inflammation affects hair. Sandy Springs trichology, serving all of Metro Atlanta.",
+  "h1": "Seborrheic Dermatitis and Hair Loss: <em>The Real Link</em>",
+  "subtitle": "Greasy flaking and itch that keep the scalp inflamed.",
+  "hero": {
+    "slot": "TRICHO-seborrheic-dermatitis-hero",
+    "src": "img/seborrheic-dermatitis-greasy-flakes-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x close-up of the scalp showing greasy, yellow-tinged flakes stuck to the skin around the hairs, with pink skin underneath",
+    "caption": "Greasy flakes stuck to the skin around the hairs, with pink skin underneath. At 200x."
+  },
+  "quickAnswer": "Seborrheic dermatitis is a chronic inflammatory scalp condition involving Malassezia yeast, oil production and an individual immune response. It shows up as greasy yellowish scale, redness that can be hard to see on deeper skin, and an itch that comes and goes with stress, weather and washing frequency. It does not directly destroy follicles. What it does is keep the scalp inflamed, and an inflamed scalp sheds more and holds density less well, especially when another condition is already at work underneath. Clearing the flaking and settling the inflammation is often the first step that lets everything else respond. We read your scalp at 200x at Nina Ross Atlanta in Sandy Springs. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "It does not destroy follicles.",
+    "An inflamed scalp sheds more and holds density less well.",
+    "Clearing the scale first shows what is underneath."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Greasy yellow flakes",
+        "us": "Greasy adherent scale",
+        "why": "Greasy, yellowish scale that sticks to the scalp is commonly linked to an immune reaction to Malassezia yeast living on scalp oils.",
+        "check": "We read the scale at 200x, then clear it and read the same area again to see what the follicles underneath are doing."
+      },
+      {
+        "you": "My scalp itches constantly",
+        "us": "Pruritus",
+        "why": "Ongoing itch is commonly linked to the inflammation seborrheic dermatitis keeps running on the scalp.",
+        "check": "We look at how much inflammation is present at the follicle openings, and what your wash routine and products are adding."
+      },
+      {
+        "you": "Worse when I am stressed or it is cold",
+        "us": "Seasonal and stress-linked flares",
+        "why": "Cold, dry seasons and high-stress stretches are the classic triggers, which is why it comes and goes.",
+        "check": "We note your flare pattern so the plan accounts for the times of year and life when it tends to return."
+      },
+      {
+        "you": "Flaking behind my ears and my eyebrows",
+        "us": "Involvement of sebaceous-rich areas",
+        "why": "Flaking in oil-rich areas like the eyebrows and behind the ears is a strong clue it is seborrheic dermatitis rather than dry scalp.",
+        "check": "Tell us where else you see it. Together with the scalp read, it helps confirm what we are dealing with."
+      },
+      {
+        "you": "I shed more when it flares",
+        "us": "Inflammation-associated shedding",
+        "why": "Shedding that rises with flares is commonly linked to inflammation making the scalp hold density less well.",
+        "check": "We check whether another condition sits underneath, because seborrheic dermatitis often masks one."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Malassezia yeast response",
+        "text": "Everyone carries this yeast. Some immune systems react to its byproducts, and that reaction is the inflammation you see."
+      },
+      {
+        "title": "Oil production",
+        "text": "The yeast lives on scalp oils, so oil-rich areas flare hardest. Washing less does not calm it down."
+      },
+      {
+        "title": "Stress, weather and washing patterns",
+        "text": "Cold, dry seasons and high stress periods are the classic triggers. Long gaps between washes with heavy product also feed it."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "What scale hides <em>at 200x</em>",
+    "paras": [
+      "Heavy scale is a screen. Until it is cleared, you cannot assess what the follicles underneath are doing.",
+      "We clear it and then read the same area again in the same visit. That second read is where we regularly find early miniaturization or inflammation around the follicle that had been written off as dandruff for years."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-seborrheic-dermatitis-01",
+        "label": "Before clearing",
+        "caption": "Thick, stuck-on scale covering the follicle openings, where the hairs come out barely visible.",
+        "src": "img/seborrheic-dermatitis-stuck-on-scale-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x close-up showing thick, stuck-on scale covering the follicle openings so the hairs barely show"
+      },
+      {
+        "slot": "TRICHO-seborrheic-dermatitis-02",
+        "label": "After clearing",
+        "caption": "The scale gone, with clean openings, calm skin, and the hairs clearly visible.",
+        "src": "img/seborrheic-dermatitis-clean-openings-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x close-up showing clean follicle openings, calm skin, and the hairs clearly visible after the scale was cleared"
+      }
+    ],
+    "text": "Clearing first, reading second, is the sequence that changes plans."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We start by clearing adherent scale with deep scalp cleansing, so the scalp can actually be seen and treated. Light-based therapy helps settle the inflammatory response. Then we look at what is underneath, because seborrheic dermatitis often sits on top of another condition and masks it.",
+    "steps": [
+      "Clear the scale",
+      "Settle the inflammation",
+      "Read what is underneath"
+    ],
+    "treatments": [
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      }
+    ],
+    "links": [
+      {
+        "href": "/blog/oily-scalp-and-hair-loss",
+        "label": "Oily scalp and thinning hair"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Redness reads as darkening rather than pink on deeper skin, so seborrheic dermatitis gets underestimated. Wash frequency with textured hair is also different by necessity, and advice that ignores that is not usable advice.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "folliculitis",
+    "scalp-bumps",
+    "telogen-effluvium"
+  ],
+  "faq": [
+    {
+      "q": "Does seborrheic dermatitis cause baldness?",
+      "a": "It does not destroy follicles. It does keep the scalp inflamed, and that inflammation can increase shedding and make other hair loss worse."
+    },
+    {
+      "q": "Is it just dandruff?",
+      "a": "Dandruff is a mild form of the same process. Seborrheic dermatitis brings more inflammation, greasier scale and often redness, and it can hide other conditions underneath."
+    },
+    {
+      "q": "Should I wash more or less?",
+      "a": "Washing less does not calm it down, because the yeast lives on scalp oils. The right rhythm depends on your hair and styles, and we build one that fits textured hair."
+    },
+    {
+      "q": "Why does it keep coming back?",
+      "a": "It is a chronic condition that flares with stress, weather and buildup. The goal is fewer, milder flares and a scalp that stays readable."
+    },
+    {
+      "q": "Can I treat it with braids in?",
+      "a": "Often, yes. We work around the style you are wearing and plan the deeper cleansing for when the scalp is accessible."
+    }
+  ]
+}

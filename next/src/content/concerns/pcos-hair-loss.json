@@ -1,0 +1,169 @@
+{
+  "type": "condition",
+  "slug": "pcos-hair-loss",
+  "name": "PCOS Hair Loss",
+  "seoTitle": "PCOS Hair Loss: Why It Thins on Top | Nina Ross",
+  "description": "PCOS thins hair at the crown while adding it to the face and body. Why that happens, what we read at 200x, and how we approach it. Serving Metro Atlanta.",
+  "h1": "PCOS Hair Loss: <em>Why It Thins on Top and Grows Elsewhere</em>",
+  "subtitle": "Higher androgens thin the crown and thicken hair where you did not ask for it.",
+  "hero": {
+    "slot": "TRICHO-pcos-hair-loss-hero",
+    "src": "img/pcos-hair-loss-widened-part-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x view of miniaturized hairs along the part",
+    "caption": "Miniaturization along the part, at 200x."
+  },
+  "quickAnswer": "Polycystic ovary syndrome raises androgen activity, and androgens affect scalp hair and body hair in opposite directions. On the scalp, follicles at the crown and along the part are sensitive to DHT and gradually produce finer, shorter hairs. On the face, chin, chest and abdomen, the same androgens push soft hair to become coarse and pigmented. Insulin resistance frequently sits underneath the picture and raises androgen activity further, which is why PCOS hair loss rarely responds to scalp products alone. At Nina Ross Atlanta in Sandy Springs we read the crown at 200x for miniaturization and work the metabolic side in-house at the same time. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "The same androgens thin the scalp and coarsen body hair.",
+    "Insulin resistance often sits underneath.",
+    "Scalp and metabolic work run together."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Thinning right down my part",
+        "us": "Central pattern miniaturization",
+        "why": "Thinning along the part is commonly linked to DHT-sensitive follicles producing finer, shorter hairs each cycle when androgen activity runs high.",
+        "check": "We read the part at 200x for hairs of mixed thickness and compare them with the back of your head."
+      },
+      {
+        "you": "Coarse hair on my chin and jaw",
+        "us": "Hirsutism in androgen-dependent areas",
+        "why": "Androgens push soft facial hair to become coarse and dark, the opposite of what they do on the scalp. Seeing both together is a strong clue.",
+        "check": "Tell us about it at your visit. Together with the scalp read, it helps us decide which systems to look at."
+      },
+      {
+        "you": "Irregular or missing periods",
+        "us": "Oligomenorrhea or amenorrhea",
+        "why": "Irregular cycles are one of the most common features of PCOS, linked to the same hormone pattern that affects the follicles.",
+        "check": "We take your cycle history into account alongside the scalp read and the metabolic side of the picture."
+      },
+      {
+        "you": "Weight that will not move",
+        "us": "Insulin resistance features",
+        "why": "Weight that resists effort is commonly linked to insulin resistance, which raises androgen activity and adds load on the follicle.",
+        "check": "We look at the metabolic drivers in-house, so the scalp work has the internal support to hold."
+      },
+      {
+        "you": "Breakouts along my jawline",
+        "us": "Androgen-pattern acne",
+        "why": "Breakouts along the jaw and chin are commonly linked to higher androgen activity, the same driver behind the scalp thinning.",
+        "check": "We note it with the rest of your picture. It helps confirm whether androgens are the driver."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Androgen excess",
+        "text": "Higher circulating androgens convert to DHT, which shortens the growth phase of sensitive scalp follicles cycle after cycle.{cite:1}"
+      },
+      {
+        "title": "Insulin resistance",
+        "text": "Insulin resistance increases ovarian androgen production and lowers the protein that binds androgens, so more of them stay active."
+      },
+      {
+        "title": "Chronic low-grade inflammation",
+        "text": "Inflammation associated with PCOS adds to the load on the follicle, which is one reason the scalp can feel irritated as well as thin."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Crown versus back of head: <em>the comparison that settles it</em>",
+    "paras": [
+      "DHT-driven thinning is regional. The crown and part respond, and the back and sides usually do not."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-pcos-hair-loss-01",
+        "label": "Crown",
+        "src": "img/pcos-hair-loss-pcos-pattern-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of crown thinning with the hairline intact and finer hairs between full-thickness hairs",
+        "caption": "Crown thinning with the hairline still intact."
+      },
+      {
+        "slot": "TRICHO-pcos-hair-loss-02",
+        "label": "Coarse hair",
+        "src": "img/pcos-hair-loss-coarse-hair-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of thicker coarser strands mixed with finer thinned hairs growing from the same area of the scalp",
+        "caption": "Coarse and thinned hairs side by side. The contrast is the finding."
+      }
+    ],
+    "text": "Capturing both in the same session also gives you a baseline that makes future visits measurable."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "Scalp work and metabolic work run together here. We document miniaturization at the crown at 200x, use a restorative program to support the follicles, and address nutrient status and insulin-related drivers in-house.",
+    "steps": [
+      "Document the crown at 200x",
+      "Work the metabolic drivers in-house",
+      "Support the follicles"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "iv-nutrient-therapy",
+        "text": "Targeted nutrient support when your labs show what the follicle is missing."
+      }
+    ],
+    "links": [
+      {
+        "href": "/functional-medicine",
+        "label": "The whole-body side"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "PCOS is underdiagnosed in Black women, and hair changes are often the first thing noticed and the last thing taken seriously. Bring what you have noticed. It counts as data here.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "hormonal-hair-loss",
+    "excess-dht",
+    "female-hair-loss"
+  ],
+  "faq": [
+    {
+      "q": "Will treating my PCOS regrow my hair?",
+      "a": "Improving the driver gives the follicle a better environment, and that matters. Follicles that have already miniaturized need direct scalp support as well, which is why we do both. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Why is hair growing on my face while it thins on my head?",
+      "a": "Androgens act on scalp hair and body hair in opposite directions. On the scalp they shrink sensitive follicles, and on the face and body they make soft hair coarse and dark."
+    },
+    {
+      "q": "Do I need bloodwork?",
+      "a": "Often it helps. If your scalp read and history point to androgens or insulin resistance, testing shows which drivers to work on, and that work happens in-house."
+    },
+    {
+      "q": "Can I do anything about the shedding while I wait?",
+      "a": "Yes. Scalp support starts alongside the metabolic work, so the follicles are being cared for while the internal picture improves."
+    },
+    {
+      "q": "How is this different from regular female pattern loss?",
+      "a": "The scalp pattern can look similar. The difference is the driver underneath: in PCOS, androgen activity and often insulin resistance are pushing it, so the plan works on those too."
+    }
+  ],
+  "references": [
+    {
+      "text": "Hormonal effects on hair follicles. PubMed 31608498",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31608498/"
+    }
+  ],
+  "results": true
+}

@@ -1,0 +1,34 @@
+/* Reviews wall (replaces the old four-quote testimonials) */
+.nr-reviews__lede{margin:12px 0 0;text-align:center;font-size:15.5px;color:var(--nr-muted)}
+.nr-rv-grid{margin-top:26px;columns:1;column-gap:18px}
+.nr-rv{break-inside:avoid;margin:0 0 16px;background:#fff;border:1px solid rgba(16,17,18,.1);border-radius:18px;box-shadow:var(--shadow-card);padding:22px 22px 20px;font-family:Arial,Helvetica,sans-serif;color:#202124}
+.nr-rv__head{display:flex;align-items:center;gap:14px}
+.nr-rv__av{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:19px;font-weight:700}
+.nr-rv__who{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.nr-rv__who b{font-size:16px;font-weight:700}
+.nr-rv__who span{font-size:13px;color:#5f6368}
+.nr-rv__g{flex:none;width:24px;height:24px}
+.nr-rv__meta{margin:14px 0 0;display:flex;align-items:center;gap:10px;font-size:13px;color:#5f6368}
+.nr-rv__stars{color:#FBBC04;font-size:14px;letter-spacing:1px}
+.nr-rv__text{margin-top:12px}
+.nr-rv__text p{margin:0 0 10px;font-size:16px;line-height:1.5;font-weight:600;color:#202124}
+.nr-rv__text p:last-child{margin-bottom:0}
+.nr-rv--long .nr-rv__text{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:6;overflow:hidden}
+.nr-rv--long .nr-rv__text p+p{display:none}
+.nr-rv--long.is-open .nr-rv__text{display:block;-webkit-line-clamp:unset}
+.nr-rv--long.is-open .nr-rv__text p+p{display:block}
+.nr-rv__more{margin:12px 0 0;padding:6px 0;min-height:44px;border:0;background:none;color:#1a73e8;font:700 15px/1.2 Arial,Helvetica,sans-serif;cursor:pointer}
+.nr-rv__more:hover{text-decoration:underline}
+@media (min-width:1000px){
+  .nr-rv-grid{columns:3;column-gap:22px;margin-top:44px}
+  .nr-rv{margin-bottom:22px;padding:26px 26px 22px}
+  .nr-rv__text p{font-size:17px}
+  .nr-reviews__lede{font-size:17px}
+}
+
+/* Preserve the established phone/tablet testimonial layout. */
+.nr-reviews-desktop{display:none}
+@media (min-width:1000px){
+  #stories > .nr-eyebrow,#stories > .nr-h2,#stories > .nr-stories{display:none}
+  .nr-reviews-desktop{display:block}
+}

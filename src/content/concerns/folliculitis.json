@@ -1,0 +1,156 @@
+{
+  "type": "condition",
+  "slug": "folliculitis",
+  "name": "Scalp Folliculitis",
+  "seoTitle": "Scalp Folliculitis: Why Bumps Hurt, What Clears | Nina Ross",
+  "description": "Scalp folliculitis explained: tender bumps around the follicle, what keeps them coming back, and what clears them. Serving all of Metro Atlanta.",
+  "h1": "Scalp Folliculitis: <em>Why Those Bumps Hurt and What Clears Them</em>",
+  "subtitle": "Tender, sometimes pus-filled bumps sitting right on the follicle.",
+  "hero": {
+    "slot": "TRICHO-folliculitis-hero",
+    "src": "img/folliculitis-inflamed-follicle-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x close-up of the scalp showing small red bumps centered on the follicle openings with yellow crusting, with hairs still emerging",
+    "caption": "Red bumps centered on the follicle openings, with hairs still coming through. At 200x."
+  },
+  "quickAnswer": "Scalp folliculitis is inflammation of the hair follicle itself. It shows up as small tender bumps, sometimes with a white head, usually with a hair coming through the center. It can sting, itch or feel sore to the touch, and it often clusters at the back of the head, along the hairline, or wherever a style sits tight. Most cases involve bacteria, yeast or occlusion from product buildup, sweat and covered hair. It is not a hygiene failure. Left running for months, repeated inflammation around the same follicles can cost you hair, which is why persistent bumps deserve a proper look. We read your scalp at 200x at Nina Ross Atlanta in Sandy Springs. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "It is inflammation of the follicle itself.",
+    "It is not a hygiene failure.",
+    "Bacterial and yeast types need different care."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Sore bumps with a hair in the middle",
+        "us": "Follicular papules and pustules",
+        "why": "A tender bump centered on a hair is the classic sign of folliculitis, commonly linked to bacteria, yeast or buildup at the follicle opening.",
+        "check": "We read the bumps at 200x to see whether they look bacterial or yeast-driven, because each needs different care."
+      },
+      {
+        "you": "It stings when I brush",
+        "us": "Follicular tenderness",
+        "why": "Stinging when you brush is commonly linked to inflamed follicles reacting to touch and tension.",
+        "check": "We read the tender areas at 200x and look at what your styling and products are putting on the scalp."
+      },
+      {
+        "you": "They keep coming back in the same spots",
+        "us": "Recurrent folliculitis",
+        "why": "Bumps that return in the same spots are commonly linked to a cause that has not been addressed, often the wrong type being treated.",
+        "check": "We identify the type first, then re-check the same area at follow-up instead of assuming it cleared."
+      },
+      {
+        "you": "Crusting after they pop",
+        "us": "Pustular rupture with crust formation",
+        "why": "Crusting is what a pustule leaves after it breaks. Picking or popping can spread irritation to nearby follicles.",
+        "check": "We read the crusted areas and the skin around them to see how far the inflammation reaches."
+      },
+      {
+        "you": "Firm bumps at my nape that will not go",
+        "us": "Keloidal papules at the occipital hairline",
+        "why": "Firm bumps at the nape are commonly linked to repeated irritation along the back hairline, especially with fades and close cuts.",
+        "check": "We read the nape at 200x and look at ingrown hairs, friction and cut style, so care fits what is actually there."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Bacterial or yeast overgrowth",
+        "text": "Staph species and Malassezia yeast are both common. They behave differently and respond to different care, which is why guessing is expensive."
+      },
+      {
+        "title": "Occlusion and buildup",
+        "text": "Heavy product, sweat under a style, and a scalp that stays covered create the warm, occluded environment the follicle reacts to."
+      },
+      {
+        "title": "Friction and tension",
+        "text": "Tight styles, helmets and repeated friction irritate the follicle opening and make recurrence more likely."
+      },
+      {
+        "title": "Ingrown hairs",
+        "text": "Curved hair re-entering the skin sets off the same inflammatory response, especially at the nape and along faded edges."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Bacterial versus yeast <em>at the follicle</em>",
+    "paras": [
+      "Under magnification these separate cleanly."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-folliculitis-01",
+        "label": "Crusting",
+        "caption": "Crusts where the bumps have broken open, with hairs still passing through.",
+        "src": "img/folliculitis-crusting-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x close-up of the scalp showing red bumps broken open into tiny crusts centered on the follicle openings, with hairs passing through"
+      },
+      {
+        "slot": "TRICHO-folliculitis-02",
+        "label": "Healing",
+        "caption": "The redness settled, with small darker spots where bumps have flattened and hairs regrowing through them.",
+        "src": "img/folliculitis-healing-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x close-up of the scalp showing settled redness with small darker spots where bumps have flattened and hairs regrowing through them"
+      }
+    ],
+    "text": "Treating one as the other is the most common reason scalp bumps keep coming back, which is why we look before we act."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We look at the bumps at 200x to see what we are dealing with, since bacterial and yeast-driven folliculitis look different at the follicle. Care usually starts with deep scalp cleansing to clear buildup, light-based therapy to settle inflammation, and a routine that fits your actual styling life. Then we re-check the same area rather than assuming it cleared.",
+    "steps": [
+      "Identify the type at 200x",
+      "Clear buildup and settle inflammation",
+      "Re-check the same area"
+    ],
+    "treatments": [
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Bumps at the nape and hairline are extremely common with textured hair and fades, and they are too often written off as razor bumps or poor hygiene. Neither is a diagnosis. We look at the follicle and treat what is there.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "scalp-bumps",
+    "seborrheic-dermatitis",
+    "ccca"
+  ],
+  "faq": [
+    {
+      "q": "Is folliculitis caused by not washing enough?",
+      "a": "No. Buildup plays a role, and so do bacteria, yeast, friction and ingrown hairs. Plenty of people with meticulous routines get it."
+    },
+    {
+      "q": "Can folliculitis cause permanent hair loss?",
+      "a": "Left running for months, repeated inflammation around the same follicles can cost you hair. That is why persistent bumps deserve a proper look early."
+    },
+    {
+      "q": "Should I pop them?",
+      "a": "It is better not to. Popping can spread irritation to nearby follicles and leave marks, especially on deeper skin tones."
+    },
+    {
+      "q": "Why does it come back after antibiotics?",
+      "a": "One common reason is that the bumps were yeast-driven rather than bacterial, or the buildup and friction behind them never changed. Identifying the type is the first step."
+    },
+    {
+      "q": "Can I keep my braids in?",
+      "a": "Often, yes. We look at where the bumps are and how tight the style sits, then work out what fits your styling life while the scalp settles."
+    }
+  ]
+}

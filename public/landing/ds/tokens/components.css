@@ -1,0 +1,128 @@
+/* Component classes — copied verbatim from NinaRossHairTherapyLandingPage-v2.jsx where they exist there;
+   form fields / stats / trust badges / quote cards / feature cards derive from the Digital UI System brand sheet. */
+
+/* Eyebrow */
+.nr-eyebrow{margin:0 0 16px;font-size:12px;line-height:1.2;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--nr-wine)}
+.nr-gold{color:var(--nr-gold)!important}
+
+/* Icon */
+.nr-icon{width:34px;height:34px}
+
+/* Text link */
+.nr-text-link{display:inline-block;color:var(--nr-wine)!important;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+.nr-text-link:hover{color:var(--nr-cocoa)!important}
+.nr-text-link--gold{color:var(--nr-gold)!important}
+.nr-text-link--gold:hover{color:var(--nr-champagne-light)!important}
+
+/* Buttons */
+.nr-btn{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 19px;border:0;border-radius:999px;font-family:var(--font-sans);font-size:11px;line-height:1;font-weight:800;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;cursor:pointer;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,color .2s ease,background-color .2s ease}
+.nr-btn:hover{transform:translateY(-1px)}
+.nr-btn--gold{color:#171717;background:linear-gradient(135deg,#DCC38D,var(--nr-gold));box-shadow:0 10px 25px rgba(207,176,120,.18)}
+.nr-btn--gold:hover{box-shadow:0 14px 30px rgba(207,176,120,.28)}
+.nr-btn--gold:active{background:var(--nr-olive);color:#fff;box-shadow:none}
+.nr-btn--outlineLight{color:#fff;background:transparent;border:1px solid rgba(255,255,255,.45)}
+.nr-btn--outlineLight:hover{color:var(--nr-gold);border-color:var(--nr-gold)}
+.nr-btn--outlineDark{color:var(--nr-ink);background:transparent;border:1px solid rgba(16,17,18,.4)}
+.nr-btn--outlineDark:hover{color:#fff;background:var(--nr-black);border-color:var(--nr-black)}
+.nr-btn--dark{color:#fff;background:var(--nr-black)}
+.nr-btn--dark:hover{background:#000}
+.nr-btn.is-disabled{pointer-events:none;opacity:1}
+.nr-btn--gold.is-disabled{background:#EBDDBE;color:#A79A7D;box-shadow:none}
+.nr-btn--outlineLight.is-disabled{color:rgba(255,255,255,.35);border-color:rgba(255,255,255,.2)}
+.nr-btn--outlineDark.is-disabled{color:rgba(16,17,18,.3);border-color:rgba(16,17,18,.15)}
+.nr-btn--dark.is-disabled{background:rgba(16,17,18,.25)}
+
+/* Logo (typographic lockup — no vector files were provided) */
+.nr-logo{display:inline-flex;flex-direction:column;line-height:1;color:var(--nr-black);font-family:var(--font-sans)}
+.nr-logo--light{color:#fff}
+.nr-logo__main{font-size:1em;font-weight:500;letter-spacing:.26em}
+.nr-logo__sub{display:flex;align-items:center;gap:.35em;margin-top:.35em;font-size:.348em;font-weight:400;letter-spacing:.42em}
+.nr-logo__sub i{display:block;width:2.75em;height:1px;background:var(--nr-gold)}
+
+/* Badge mark / monogram */
+.nr-badge{display:flex;flex-direction:column;align-items:center;justify-content:center;border:1px solid var(--nr-gold);border-radius:50%;background:var(--nr-black);box-shadow:0 14px 32px rgba(0,0,0,.28)}
+.nr-badge--plain{background:transparent;box-shadow:none}
+.nr-badge__monogram{color:var(--nr-gold);font-family:Georgia,serif;letter-spacing:-.04em}
+.nr-badge__text{margin-top:.35em;color:#fff;text-align:center;font-weight:500;line-height:1.45;letter-spacing:.1em;text-transform:uppercase}
+
+/* Form fields (from Digital UI System sheet) */
+.nr-field{display:flex;flex-direction:column;gap:7px;font-family:var(--font-sans)}
+.nr-field__label{font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--nr-ink)}
+.nr-input{padding:13px 14px;border:1px solid var(--nr-line);border-radius:2px;background:var(--nr-white);font-size:13px;color:var(--nr-ink);outline:none;transition:border-color .2s ease,background-color .2s ease}
+.nr-input::placeholder{color:var(--nr-muted)}
+.nr-input:focus{border-color:var(--nr-black)}
+.nr-input.is-filled{background:var(--nr-bone)}
+.nr-input.is-error{border-color:var(--nr-error)}
+.nr-field__error{font-size:11px;color:var(--nr-error)}
+
+/* Stat block */
+.nr-stat{display:flex;flex-direction:column;gap:7px;font-family:var(--font-sans)}
+.nr-stat__value{font-size:38px;font-weight:900;letter-spacing:-.02em;line-height:1;color:var(--nr-black)}
+.nr-stat__label{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--nr-ink)}
+.nr-stat__caption{font-size:11px;color:var(--nr-muted)}
+.nr-stat--light .nr-stat__value,.nr-stat--light .nr-stat__label{color:#fff}
+.nr-stat--light .nr-stat__caption{color:var(--nr-on-dark-muted)}
+
+/* Trust badge */
+.nr-trust{display:flex;flex-direction:column;align-items:center;gap:11px;text-align:center;max-width:118px;color:var(--nr-ink);font-family:var(--font-sans)}
+.nr-trust__ring{width:58px;height:58px;display:grid;place-items:center;border:1.5px solid currentColor;border-radius:50%}
+.nr-trust__ring .nr-icon{width:27px;height:27px}
+.nr-trust__label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;line-height:1.5}
+.nr-trust--light{color:#fff}
+.nr-trust--gold{color:var(--nr-gold)}
+
+/* Quote card (social system) */
+.nr-quote-card{position:relative;display:flex;flex-direction:column;gap:22px;padding:26px 26px 24px;min-height:225px;font-family:var(--font-sans)}
+.nr-quote-card__text{margin:0;flex:1;font-family:Georgia,serif;font-size:17px;line-height:1.5;font-style:italic}
+.nr-quote-card__text::before{content:"\201C\00a0";font-family:Georgia,serif;font-style:normal;font-size:30px;line-height:0;vertical-align:-8px;color:var(--nr-gold)}
+.nr-quote-card__brand{display:flex;flex-direction:column;gap:4px;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase}
+.nr-quote-card__brand small{font-size:7px;font-weight:400;letter-spacing:.38em;opacity:.75}
+.nr-quote-card--bone{background:var(--nr-bone);border:1px solid var(--nr-line);color:var(--nr-ink)}
+.nr-quote-card--wine{background:var(--nr-wine);color:#fff}
+.nr-quote-card--olive{background:var(--nr-olive);color:#fff}
+.nr-quote-card--black{background:var(--nr-black);color:#fff}
+
+/* Feature card (Digital UI System card styles) */
+.nr-feature-card{display:flex;flex-direction:column;background:var(--nr-white);border:1px solid rgba(16,17,18,.08);box-shadow:0 14px 30px rgba(0,0,0,.055);font-family:var(--font-sans)}
+.nr-feature-card__media{height:150px;overflow:hidden}
+.nr-feature-card__media img{width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.02)}
+.nr-feature-card__icon{width:64px;height:64px;display:grid;place-items:center;margin:26px auto 0;border:1px solid var(--nr-ink);border-radius:50%;color:var(--nr-ink)}
+.nr-feature-card__body{flex:1;display:flex;flex-direction:column;gap:8px;padding:18px 20px 20px}
+.nr-feature-card--icon .nr-feature-card__body{align-items:center;text-align:center}
+.nr-feature-card__title{margin:0;font-size:15px;font-weight:800;text-transform:uppercase;line-height:1.15;color:var(--nr-black)}
+.nr-feature-card__text{margin:0;font-size:12px;color:var(--nr-muted)}
+.nr-feature-card__body .nr-text-link{margin-top:auto;padding-top:8px}
+
+/* Result card (before/after) — verbatim from landing source */
+.nr-result-card{overflow:hidden;background:#fff;border:1px solid rgba(16,17,18,.08);box-shadow:0 14px 30px rgba(0,0,0,.055);font-family:var(--font-sans)}
+.nr-result-card--featured{display:grid;grid-template-rows:1fr auto}
+.nr-result-images{min-height:230px;display:grid;grid-template-columns:1fr 1fr}
+.nr-result-card--featured .nr-result-images{min-height:485px}
+.nr-result-images figure{position:relative;overflow:hidden;margin:0}
+.nr-result-images img{width:100%;height:100%;object-fit:cover}
+.nr-result-images figure+figure{border-left:2px solid var(--nr-bone)}
+.nr-result-images figcaption{position:absolute;left:10px;bottom:10px;padding:5px 8px;color:#fff;background:rgba(16,17,18,.84);font-size:8px;letter-spacing:.13em}
+.nr-result-copy{padding:18px 20px 20px}
+.nr-result-card--featured .nr-result-copy{padding:22px 24px 24px}
+.nr-result-eyebrow{margin:0 0 6px;color:var(--nr-wine);font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.nr-result-copy h3{margin:0;text-transform:uppercase;font-size:20px;line-height:1.08;font-weight:900;color:var(--nr-black)}
+.nr-result-time{margin:6px 0 8px;color:var(--nr-muted);font-size:11px;font-weight:700}
+.nr-result-note{margin:0;color:var(--nr-muted);font-size:12px}
+.nr-result-copy blockquote{margin:16px 0 0;padding-left:16px;border-left:2px solid var(--nr-gold);color:var(--nr-cocoa);font-size:13px;font-weight:600}
+
+/* FAQ accordion — verbatim from landing source (dark context) */
+.nr-faq-list{border-top:1px solid rgba(255,255,255,.18);font-family:var(--font-sans)}
+.nr-faq-item{border-bottom:1px solid rgba(255,255,255,.18)}
+.nr-faq-item button{width:100%;display:flex;justify-content:space-between;gap:24px;padding:23px 0;border:0;color:#fff;background:none;text-align:left;font-size:15px;font-weight:700;cursor:pointer}
+.nr-faq-plus{color:var(--nr-gold);font-size:24px;line-height:1;transition:transform .2s ease}
+.nr-faq-item.is-open .nr-faq-plus{transform:rotate(45deg)}
+.nr-faq-answer{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s ease}
+.nr-faq-answer>div{overflow:hidden}
+.nr-faq-answer p{margin:0;color:#bbb;font-size:13px}
+.nr-faq-item.is-open .nr-faq-answer{grid-template-rows:1fr}
+.nr-faq-item.is-open .nr-faq-answer p{padding:0 44px 23px 0}
+/* Light-context variant (addition; source only shows FAQ on black) */
+.nr-faq-list--light{border-top-color:var(--nr-line)}
+.nr-faq-list--light .nr-faq-item{border-bottom-color:var(--nr-line)}
+.nr-faq-list--light .nr-faq-item button{color:var(--nr-ink)}
+.nr-faq-list--light .nr-faq-answer p{color:var(--nr-muted)}

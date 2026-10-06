@@ -1,0 +1,174 @@
+{
+  "type": "condition",
+  "slug": "female-hair-loss",
+  "name": "Female Hair Loss",
+  "seoTitle": "Female Hair Loss: Why It Thins, What Helps | Nina Ross",
+  "description": "Female pattern hair loss explained: the widening part, thinner ponytail, and what is still reversible. Read at 200x. Serving all of Metro Atlanta.",
+  "h1": "Female Hair Loss: <em>Why It Is Thinning and What Reverses It</em>",
+  "subtitle": "The widening part and the thinner ponytail, explained honestly.",
+  "hero": {
+    "slot": "TRICHO-female-hair-loss-hero",
+    "src": "img/female-hair-loss-widened-part-200x-nina-ross-atlanta.png",
+    "width": 1536,
+    "height": 1024,
+    "alt": "200x view along a widening part",
+    "caption": "Along the part, at 200x."
+  },
+  "quickAnswer": "Female pattern hair loss thins the top of the scalp while keeping the hairline mostly intact. The earliest sign is usually the part looking wider in the mirror, or a ponytail that wraps more times than it used to. Underneath, follicles are producing progressively finer hairs rather than disappearing, which is why this is often reversible in part when it is caught early. The picture is frequently mixed: hormonal miniaturization sitting alongside a shedding episode, nutrient depletion or tension from styling. Sorting which is which is the entire job, because each one needs different work. We read your scalp at 200x at Nina Ross Atlanta in Sandy Springs. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "The part widens while the hairline stays mostly intact.",
+    "It is often more than one thing at once.",
+    "Caught early, it is often partly reversible."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "My part looks wider than it used to",
+        "us": "Widening midline part, Christmas tree pattern",
+        "why": "A widening part is commonly linked to follicles at the top of the scalp producing finer hair over successive cycles.",
+        "check": "We read the part at 200x for mixed hair thicknesses, which tells us whether this is pattern thinning, shedding or both."
+      },
+      {
+        "you": "My ponytail wraps an extra time",
+        "us": "Reduced bulk density",
+        "why": "An extra wrap usually means less overall bulk, from fewer hairs, finer hairs or both.",
+        "check": "We compare density at the top with the back of your head to measure the change."
+      },
+      {
+        "you": "The front feels see-through in the light",
+        "us": "Frontal accentuation of central thinning",
+        "why": "Thinning just behind the front of the part is a common feature of female pattern thinning, and light hitting the scalp makes it easier to notice.",
+        "check": "We map where the thinning is concentrated at 200x, which helps separate pattern thinning from other causes."
+      },
+      {
+        "you": "My hairline is still fine, it is the top",
+        "us": "Preserved frontal hairline",
+        "why": "Female pattern thinning usually keeps the hairline intact while the top thins. Traction, by contrast, starts at the edges.",
+        "check": "We read both the hairline and the top at 200x, so tension and pattern thinning are read as separate findings."
+      },
+      {
+        "you": "I shed handfuls in the shower",
+        "us": "Concurrent telogen shedding",
+        "why": "Heavy shedding on top of thinning is commonly linked to a shedding episode running alongside the pattern, often after a hormonal change, illness or nutrient dip.",
+        "check": "When both are present, we find the shedding driver first, because it is the part that moves fastest."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Androgen sensitivity",
+        "text": "Sensitive follicles at the top of the scalp shrink over successive cycles, producing hair that is finer and shorter each time."
+      },
+      {
+        "title": "Hormonal transitions",
+        "text": "Postpartum, perimenopause and menopause change how much support the growth phase gets, which frequently unmasks thinning that was already underway."
+      },
+      {
+        "title": "Nutrient status",
+        "text": "Iron stores, vitamin D and protein intake all affect what the follicle can build. These are checkable and correctable."
+      },
+      {
+        "title": "Tension and inflammation",
+        "text": "Styling tension and an irritated scalp add load on top of everything else. We read that as a separate finding before calling it the explanation."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Separating shedding from thinning <em>at 200x</em>",
+    "paras": [
+      "Shedding and thinning feel identical to you and look completely different to us."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-female-hair-loss-01",
+        "label": "Shedding",
+        "caption": "Full-thickness hairs, simply fewer of them.",
+        "src": "img/female-hair-loss-shed-regrowing-hairs-200x-nina-ross-atlanta.png",
+        "width": 1536,
+        "height": 1024,
+        "alt": "200x view of the scalp right after heavy shedding, follicle openings visible with mostly short regrowing hairs"
+      },
+      {
+        "slot": "TRICHO-female-hair-loss-02",
+        "src": "img/female-hair-loss-diffuse-thinning-200x-nina-ross-atlanta.png",
+        "width": 1536,
+        "height": 1024,
+        "label": "Pattern thinning",
+        "alt": "200x view of the scalp showing widely varying hair thickness across the same area",
+        "caption": "Widely varying thickness within the same square centimeter."
+      }
+    ],
+    "text": "When both are present, we treat the shedding driver first, because that is the part that moves fastest."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We separate the layers first: miniaturization, shedding, tension and inflammation each look different at 200x. Then we treat in order, usually calming the scalp, supporting the systems your labs flag, and using growth signal therapy and microneedling for follicles that are still producing.",
+    "steps": [
+      "Separate the layers at 200x",
+      "Calm the scalp and support the systems",
+      "Support follicles still producing"
+    ],
+    "treatments": [
+      {
+        "slug": "prp-therapy",
+        "text": "Growth signals placed into the scalp to wake follicles that are still viable."
+      },
+      {
+        "slug": "growth-factors-therapy"
+      },
+      {
+        "slug": "microneedling",
+        "text": "Controlled micro-channels that improve delivery of topicals into the scalp."
+      },
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      }
+    ],
+    "links": [
+      {
+        "href": "/hair-loss-treatment-atlanta",
+        "label": "Hair loss treatment in Atlanta"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Black women are routinely told the problem is their styling before anyone has looked at the scalp. We look first. Relaxers, braids, locs, weaves and heat are welcome history, never a verdict.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "hormonal-hair-loss",
+    "telogen-effluvium",
+    "excess-dht"
+  ],
+  "faq": [
+    {
+      "q": "Is female hair loss reversible?",
+      "a": "Partly, and it depends on the stage. Follicles that are producing fine hair can often be pushed back toward thicker hair. Follicles that stopped producing years ago are a much harder ask, and we will tell you which you have. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Why is my hairline fine but the top is thin?",
+      "a": "Follicles at the top of the scalp tend to be more sensitive to hormonal change, while the hairline is often spared in female pattern thinning. That pattern itself is useful information."
+    },
+    {
+      "q": "Could this just be stress?",
+      "a": "Stress can trigger shedding, and shedding often sits on top of pattern thinning. At 200x we can tell the two apart, which matters because each needs different work."
+    },
+    {
+      "q": "Do I have to cut my hair or change my style?",
+      "a": "No. We build around the hair you want to wear. If tension is adding load, we show you where and talk through options that fit your life."
+    },
+    {
+      "q": "How long before anything changes?",
+      "a": "Hair grows slowly, so change takes months. We photograph the same points each visit, so you can see progress against your own baseline."
+    }
+  ],
+  "results": true
+}

@@ -1,0 +1,173 @@
+{
+  "type": "condition",
+  "slug": "excess-dht",
+  "name": "Excess DHT",
+  "seoTitle": "Excess DHT and Hair Loss: Is It Yours? | Nina Ross",
+  "description": "DHT shrinks sensitive follicles at the crown and temples. How to tell if DHT is driving your thinning, and what we look for at 200x. Serving Metro Atlanta.",
+  "h1": "Excess DHT and Hair Loss: <em>How to Tell If It Is Yours</em>",
+  "subtitle": "The hormone behind pattern thinning, and how to tell if it is your driver.",
+  "hero": {
+    "slot": "TRICHO-excess-dht-hero",
+    "src": "img/excess-dht-200x-miniaturization-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x scalp view of androgenetic miniaturization with hairs of noticeably different diameters side by side, thinner and shorter where DHT activity is highest",
+    "caption": "Miniaturization before thinning shows, at 200x."
+  },
+  "quickAnswer": "DHT, or dihydrotestosterone, is made from testosterone by an enzyme called 5-alpha reductase. In follicles that are genetically sensitive to it, DHT shortens the growth phase a little more with every cycle. The hair those follicles produce gets finer, shorter and lighter until it stops surfacing. This is why DHT-driven loss follows a pattern at the crown, part and temples while the back and sides stay dense. Sensitivity matters more than the amount of hormone circulating, so normal lab values do not rule DHT out. The reliable read is what the follicles look like under magnification. We do that at 200x at Nina Ross Atlanta in Sandy Springs. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "Sensitivity matters more than the hormone level.",
+    "Normal labs do not rule DHT out.",
+    "Miniaturization shows at 200x before thinning does."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "The hair on top is finer than the back",
+        "us": "Regional miniaturization",
+        "why": "Finer hair on top with dense hair at the back is commonly linked to DHT-sensitive follicles, which sit at the crown, part and temples.",
+        "check": "We read both zones at 200x in the same session. The difference in hair thickness is the finding."
+      },
+      {
+        "you": "My temples are moving back",
+        "us": "Frontotemporal recession",
+        "why": "Recession at the temples is commonly linked to DHT shortening the growth phase of sensitive follicles there.",
+        "check": "We look for miniaturized hairs at the temples and compare them with the back of your head."
+      },
+      {
+        "you": "Hairs are shorter and will not grow long",
+        "us": "Shortened anagen phase",
+        "why": "When hair stops growing past a certain length, it is commonly because the growth phase has shortened. DHT shortens it a little more each cycle.",
+        "check": "We read hair length and thickness at 200x to see how far the cycle has shifted."
+      },
+      {
+        "you": "I can see scalp through the top in bright light",
+        "us": "Reduced density over the vertex",
+        "why": "Seeing scalp in bright light usually means fewer hairs per opening and finer hairs, both commonly linked to ongoing DHT pressure.",
+        "check": "We count hairs per follicular opening at 200x, which drops before thinning is obvious."
+      },
+      {
+        "you": "It runs in my family",
+        "us": "Inherited androgen sensitivity",
+        "why": "Follicle sensitivity to DHT is inherited, so family history is useful information about your pattern and pace.",
+        "check": "Tell us who in your family thinned and where. It helps us read your stage and set a baseline."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Inherited follicle sensitivity",
+        "text": "The receptor sensitivity of your follicles is inherited. Two people with identical hormone levels can have entirely different outcomes."
+      },
+      {
+        "title": "5-alpha reductase activity",
+        "text": "This enzyme converts testosterone to DHT locally in the scalp, so activity at the follicle matters more than the number on a blood panel."
+      },
+      {
+        "title": "Conditions that raise androgen activity",
+        "text": "<a href=\"/concerns/pcos-hair-loss\">PCOS</a> and insulin resistance increase androgen activity, which increases the DHT load reaching sensitive follicles."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Miniaturization is visible <em>before thinning is</em>",
+    "paras": [
+      "Long before you see scalp, the follicles are already producing thinner hairs. That change is measurable at 200x.",
+      "We look at how many hairs share a single follicular opening and how much their thicknesses vary within one small area. Both drop as DHT pressure continues."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-excess-dht-01",
+        "label": "Miniaturized",
+        "src": "img/excess-dht-miniaturized-follicle-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x close-up of a miniaturized hair follicle, the fine weakened hair next to its healthy full-diameter neighbor",
+        "caption": "The fine, weakened hair next to its healthy neighbor, at 200x."
+      },
+      {
+        "slot": "TRICHO-excess-dht-02",
+        "label": "Still healthy",
+        "src": "img/excess-dht-still-healthy-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x close-up of still healthy follicles, full-diameter well-anchored hairs with several hairs per opening",
+        "caption": "Several full-thickness hairs per opening."
+      }
+    ],
+    "text": "Catching that stage is the difference between holding density and trying to rebuild it."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We document miniaturization at 200x and compare the affected zone to the back of your head, which gives us your baseline. Care combines a restorative program with growth signal therapy for follicles that are still producing, plus attention to the systemic drivers that raise androgen activity.",
+    "steps": [
+      "Document miniaturization at 200x",
+      "Set your baseline",
+      "Support follicles still producing"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "prp-therapy",
+        "text": "Growth signals placed into the scalp to wake follicles that are still viable."
+      },
+      {
+        "slug": "growth-factors-therapy"
+      }
+    ],
+    "links": [
+      {
+        "href": "/blog/stop-hair-loss-with-dht-blockers",
+        "label": "DHT blockers, explained"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Pattern thinning under textured hair hides behind volume until it is advanced. We look at the scalp itself rather than judging by how full your hair looks styled.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "male-pattern-baldness",
+    "female-hair-loss",
+    "pcos-hair-loss"
+  ],
+  "faq": [
+    {
+      "q": "My testosterone came back normal. Can DHT still be my problem?",
+      "a": "Yes. Sensitivity at the follicle is the deciding factor, and that does not show up on a standard panel. The scalp read is what answers it."
+    },
+    {
+      "q": "Can miniaturized follicles come back?",
+      "a": "Follicles still producing fine hair can often be supported back toward thicker hair. Follicles that stopped producing a long time ago are a much harder ask, and we tell you which you have. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Is this the same thing as male pattern baldness?",
+      "a": "Male pattern baldness is DHT-driven miniaturization in men, following a predictable pattern. Excess DHT activity can drive thinning in women too, usually along the part and crown."
+    },
+    {
+      "q": "Will blocking DHT fix it?",
+      "a": "Only if DHT is actually your driver, and only for follicles that are still producing. That is why we read the follicles first."
+    },
+    {
+      "q": "How do you measure progress?",
+      "a": "We photograph the same zones at 200x each visit and compare them with the back of your head, so change is measured against your own baseline."
+    }
+  ],
+  "references": [
+    {
+      "text": "Androgenetic alopecia: an update. PubMed 32003879",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32003879/"
+    }
+  ],
+  "results": true
+}

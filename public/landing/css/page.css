@@ -1,0 +1,696 @@
+/* ============================================================================
+   NRHT Conversion Landing Page — page styles
+   Extracted from "NRHT Landing Mobile.dc.html" (Claude Design handoff).
+   Values are verbatim from the design; only repetition has been collapsed.
+   Design-system tokens + component classes come from ../ds/styles.css.
+   ========================================================================== */
+
+/* ---------- Page shell ---------------------------------------------------- */
+html{scroll-behavior:smooth}
+body{padding-bottom:96px}
+
+.nr-page{
+  max-width:520px;margin:0 auto;
+  background:var(--nr-bone);color:var(--nr-ink);
+  font-family:var(--font-sans);
+  overflow-x:clip;
+  box-shadow:0 0 60px rgba(0,0,0,.12);
+}
+
+.nr-section{padding:56px 20px}
+
+/* Hero fit tokens. Defaults suit tall modern phones (~844pt+); each height
+   query below trades image height and vertical rhythm for copy staying put. */
+:root{
+  --nr-header-h:52px;
+  --nr-hero-media:260px;      /* design height of the hero portrait */
+  --nr-hero-media-min:150px;  /* how far it may compress on short screens */
+  --nr-hero-arch:110px;
+  --nr-hero-gap-title:26px;
+  --nr-hero-lede:16px;
+}
+
+
+/* ---------- Motion -------------------------------------------------------- */
+@keyframes nrRise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.nr-rise{animation:nrRise .6s cubic-bezier(.2,.65,.25,1) both}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .nr-rise{animation:none}
+  .nr-faq-answer,.nr-faq-plus,#sticky-cta,.nr-btn{transition:none!important}
+}
+
+/* ---------- Focus --------------------------------------------------------- */
+:focus-visible{outline:2px solid var(--nr-champagne);outline-offset:3px}
+.nr-btn:focus-visible{outline-offset:4px}
+
+/* ---------- Images -------------------------------------------------------- */
+/* Replaces the design tool's <image-slot>. The frame clips; the image covers.
+   Slots the designer re-framed carry an inline transform (see .nr-img__pan). */
+.nr-img{position:relative;overflow:hidden}
+/* Dark backdrop only where the design specified one, so light cards don't flash. */
+.nr-hero__portrait,.nr-nina__frame{background:#1a1b1c}
+.nr-img>img{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;object-position:center;
+  filter:var(--photo-filter);
+}
+/* Design-tool pan/zoom → transform. translate() % resolves against the frame
+   box, scale() is centered, so this reproduces the slot's crop exactly. */
+.nr-img__pan{transform-origin:center}
+
+/* ---------- Typography ---------------------------------------------------- */
+.nr-h1{
+  font-size:clamp(38px,10.5vw,46px);line-height:.94;letter-spacing:-.035em;
+  font-weight:900;text-align:center;text-wrap:pretty;
+}
+.nr-h2{
+  font-size:clamp(30px,8.2vw,36px);line-height:.98;letter-spacing:-.03em;
+  text-align:center;text-wrap:pretty;
+}
+.nr-h2--lg{font-size:clamp(32px,9vw,40px)}
+.nr-h3-mid{
+  font-size:clamp(24px,6.7vw,28px);line-height:1.02;letter-spacing:-.02em;
+  font-weight:900;text-transform:uppercase;text-align:center;text-wrap:pretty;
+}
+.nr-accent{color:var(--nr-wine);font-style:normal}
+.nr-accent--gold{color:var(--nr-gold);font-style:normal}
+.nr-disclaimer{margin:12px 0 0;font-size:11.5px;line-height:1.5;color:var(--nr-disclaimer)}
+
+/* ---------- Buttons ------------------------------------------------------- */
+.nr-cta{
+  box-sizing:border-box;width:100%;justify-content:center;
+  gap:clamp(8px,2.6vw,14px);
+  font-size:clamp(10px,3.05vw,13px);
+  padding:19px clamp(14px,4vw,22px);
+}
+.nr-cta--lg{font-size:clamp(10.5px,3.15vw,13.5px);padding:20px clamp(14px,4vw,22px)}
+.nr-cta--sm{gap:clamp(8px,2.4vw,12px);font-size:clamp(10px,2.9vw,12px);padding:16px clamp(12px,3.4vw,18px)}
+
+
+/* ---------- Header -------------------------------------------------------- */
+.nr-header{
+  position:sticky;top:0;z-index:60;
+  background:var(--nr-black);box-shadow:var(--shadow-header);
+}
+.nr-header__inner{padding:13px 18px;display:flex;align-items:center;justify-content:center}
+.nr-header a{text-decoration:none;color:#fff}
+.nr-header a:hover{color:#fff}
+
+/* ---------- 1 · Hero ------------------------------------------------------ */
+.nr-hero{position:relative;color:#fff}
+.nr-hero__bg{position:absolute;inset:0;overflow:hidden;background:var(--grad-hero)}
+.nr-hero__bg::after{
+  content:"";position:absolute;inset:-40%;
+  background:repeating-linear-gradient(115deg,
+    rgba(207,176,120,.055) 0px,rgba(207,176,120,.055) 1px,
+    transparent 1px,transparent 90px);
+}
+/* The hero is sized to land inside one screen: portrait, headline, lede,
+   rating, stat row and CTA all above the fold on a phone.
+
+   svh (not vh) is the viewport with the browser's own chrome showing, which is
+   what the visitor actually sees at rest. The column is flex, the CTA block is
+   pushed to the bottom with margin-top:auto, and the portrait is the one
+   element allowed to give up height — everything else is fixed copy.
+   --nr-hero-media is its ceiling; the height queries below tighten it, along
+   with type and rhythm, as the screen gets shorter. */
+.nr-hero__inner{
+  position:relative;
+  display:flex;flex-direction:column;
+  /* min == max gives the column a definite height, which is what lets
+     flex-shrink act on the portrait. min alone would just grow to fit. */
+  min-height:calc(100svh - var(--nr-header-h));
+  max-height:calc(100svh - var(--nr-header-h));
+  padding:16px 20px 22px;
+}
+@supports not (height:100svh){
+  .nr-hero__inner{
+    min-height:calc(100vh - var(--nr-header-h));
+    max-height:calc(100vh - var(--nr-header-h));
+  }
+}
+/* Only the portrait may shrink; every line of copy keeps its size. */
+.nr-hero__inner > :not(.nr-hero__media){flex:none}
+/* The portrait is the shock absorber: flex-basis is its design height, it may
+   shrink to --nr-hero-media-min, and it never grows past the design. So the
+   copy below it keeps its size and the image gives up whatever the screen
+   cannot spare — no viewport-unit guesswork about browser chrome. */
+.nr-hero__media{
+  position:relative;
+  flex:none;
+  height:var(--nr-hero-media);
+  width:100%;
+  opacity:1;
+  transform:none;
+  animation:none;
+}
+.nr-hero__portrait{
+  border-radius:var(--nr-hero-arch) var(--nr-hero-arch) 22px 22px;
+  overflow:hidden;box-shadow:var(--shadow-float);height:100%;
+}
+.nr-hero__portrait>img{
+  position:static;
+  display:block;
+  width:100%;height:100%;
+  object-fit:cover;object-position:center;
+  opacity:1;visibility:visible;
+  filter:none;
+  transform:none;
+}
+.nr-hero__title{margin-top:var(--nr-hero-gap-title)}
+.nr-hero__rating-row{margin-top:14px;display:flex;justify-content:center}
+.nr-hero__cta{margin-top:auto}
+.nr-hero__scope{
+  position:absolute;right:-6px;bottom:-18px;width:96px;aspect-ratio:1;
+  border-radius:50%;border:1px solid var(--nr-gold);padding:5px;
+  background:var(--nr-black-deep);box-shadow:var(--shadow-float);
+}
+.nr-hero__scope>.nr-img{width:100%;height:100%;border-radius:50%}
+.nr-hero__scope-tag{
+  position:absolute;left:50%;bottom:-9px;transform:translateX(-50%);
+  white-space:nowrap;background:var(--grad-gold);color:#171717;
+  font-size:7.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+  padding:4px 9px;border-radius:999px;pointer-events:none;
+}
+.nr-hero__lede{
+  margin:12px auto 0;max-width:34ch;
+  font-size:var(--nr-hero-lede);line-height:1.45;
+  font-weight:600;color:var(--nr-on-dark-soft);text-align:center;text-wrap:pretty;
+}
+.nr-rating{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(245,241,233,.97);color:var(--nr-ink);
+  border-radius:999px;padding:9px 16px;box-shadow:var(--shadow-float);
+}
+.nr-rating__stars{color:var(--nr-champagne);font-size:13px;letter-spacing:2px}
+.nr-rating__score{font-size:12.5px;font-weight:800}
+.nr-rating__count{font-size:12px;font-weight:600;color:var(--nr-muted)}
+.nr-hero__stats{margin-top:16px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.nr-hstat{
+  background:rgba(255,255,255,.06);border:1px solid var(--line-on-dark);
+  padding:13px 8px;text-align:center;
+}
+.nr-hstat__num{
+  display:block;font-size:21px;font-weight:900;
+  color:var(--nr-gold);letter-spacing:-.02em;
+}
+.nr-hstat__label{
+  display:block;margin-top:4px;font-size:8.5px;font-weight:800;
+  letter-spacing:.11em;text-transform:uppercase;color:rgba(255,255,255,.85);
+  /* One line, always — a wrapping "Full Discovery" cost 29px of fold. */
+  white-space:nowrap;
+}
+@media (max-width:359px){.nr-hstat__label{letter-spacing:.06em;font-size:8px}}
+.nr-hero__note{
+  margin:12px 0 0;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--nr-on-dark-muted);text-align:center;
+}
+
+/* ---------- 2 & 7 · Before/after cases ------------------------------------ */
+.nr-result-images{position:relative;min-height:0}
+.nr-result-images figure{aspect-ratio:3/4}
+.nr-result-images figure>.nr-img{position:absolute;inset:0}
+.nr-result-note{font-size:14.5px;line-height:1.55}
+.nr-case-badge{
+  position:absolute;top:10px;left:50%;transform:translateX(-50%);
+  background:var(--grad-gold);color:#171717;
+  font-size:9px;font-weight:800;letter-spacing:.13em;
+  padding:6px 12px;border-radius:999px;pointer-events:none;
+}
+.nr-case-grid{margin-top:24px;display:grid;gap:16px}
+
+/* ---------- 3 · Is this you (slider) -------------------------------------- */
+.nr-swipe-hint{
+  margin:12px 0 0;font-size:12px;font-weight:800;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--nr-muted);text-align:center;
+}
+.nr-swipe-hint span{color:var(--nr-champagne)}
+.nr-slider{
+  margin:18px -20px 0;padding:6px 20px 10px;
+  display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;
+  scrollbar-width:none;-ms-overflow-style:none;
+}
+.nr-slider::-webkit-scrollbar{display:none}
+.nr-sym-card{
+  flex:0 0 80%;scroll-snap-align:center;
+  background:var(--nr-white);border:1px solid var(--border-subtle);
+  box-shadow:var(--shadow-card);
+}
+.nr-sym-card>.nr-img{aspect-ratio:4/3}
+.nr-sym-card__body{padding:16px;display:grid;gap:13px}
+.nr-sym-card__row{display:flex;gap:12px;align-items:center;min-height:44px}
+.nr-sym-check{
+  flex:none;width:28px;height:28px;border:1px solid var(--nr-gold);border-radius:50%;
+  display:grid;place-items:center;color:var(--nr-cocoa);font-size:12px;font-weight:900;
+}
+.nr-sym-label{font-size:16.5px;font-weight:700;line-height:1.3}
+.nr-dots{margin-top:12px;display:flex;justify-content:center;align-items:center;gap:7px}
+.nr-dots span{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--nr-line);transition:background .2s ease;
+}
+.nr-dots span.is-active{background:var(--nr-champagne)}
+
+/* ---------- 4 · Why it didn't work ---------------------------------------- */
+.nr-why__lede{margin:16px 0 0;font-size:16.5px;line-height:1.6;text-align:center}
+.nr-pullquote{
+  margin:20px 0 0;padding:0 0 0 18px;border-left:2px solid var(--nr-gold);
+  font-family:var(--font-serif-mark);font-style:italic;
+  font-size:21px;line-height:1.4;color:var(--nr-cocoa);
+}
+.nr-video{position:relative;margin-top:28px}
+.nr-video__frame{
+  position:relative;display:block;width:100%;padding:0;border:0;
+  border-radius:22px 110px 22px 22px;overflow:hidden;aspect-ratio:16/9;
+  background:var(--nr-black);box-shadow:var(--shadow-card);cursor:pointer;
+}
+.nr-video__play{
+  position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;
+}
+.nr-video__play i{
+  width:70px;height:70px;border-radius:50%;background:rgba(245,241,233,.96);
+  display:grid;place-items:center;box-shadow:var(--shadow-float);
+}
+.nr-video__play i::after{
+  content:"";width:0;height:0;
+  border-left:19px solid var(--nr-ink);
+  border-top:11px solid transparent;border-bottom:11px solid transparent;
+  margin-left:5px;
+}
+.nr-video__caption{
+  margin:10px 0 0;font-size:12px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--nr-muted);text-align:center;
+}
+.nr-cause-grid{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.nr-cause{
+  display:flex;align-items:center;gap:12px;
+  background:var(--nr-bone);border:1px solid var(--border-subtle);padding:14px;
+}
+.nr-cause__ring{
+  flex:none;display:grid;place-items:center;width:40px;height:40px;
+  border:1px solid var(--nr-gold);border-radius:50%;color:var(--nr-cocoa);
+}
+.nr-cause__ring .nr-icon{width:20px;height:20px}
+.nr-cause__label{font-size:13.5px;font-weight:700;line-height:1.25}
+.nr-why__kicker{margin:22px 0 0;font-size:17px;font-weight:800;line-height:1.5;text-align:center}
+
+/* ---------- 5 · The method ------------------------------------------------ */
+.nr-method{background:var(--nr-black);color:#fff;padding:56px 20px 72px}
+.nr-method__scope{position:relative;width:min(280px,78%);margin:26px auto 0}
+.nr-method__ring{aspect-ratio:1;border-radius:50%;border:1px solid var(--line-gold-soft);padding:10px}
+.nr-method__ring>.nr-img{
+  width:100%;height:100%;border-radius:50%;border:1px solid var(--nr-gold);
+}
+.nr-method__tag{
+  position:absolute;left:50%;bottom:4px;transform:translateX(-50%);
+  white-space:nowrap;background:var(--grad-gold);color:#171717;
+  font-size:8.5px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
+  padding:7px 12px;border-radius:999px;pointer-events:none;
+}
+.nr-method__lede{
+  margin:20px auto 0;max-width:36ch;text-align:center;
+  font-size:15px;line-height:1.6;color:var(--nr-on-dark-soft);
+}
+.nr-method__lede strong{color:#fff}
+.nr-steps{margin-top:28px;border-top:1px solid var(--line-on-dark)}
+.nr-step{position:relative;padding:20px 0 20px 78px;border-bottom:1px solid var(--line-on-dark)}
+.nr-step:last-child{border-bottom:0}
+.nr-step__num{
+  position:absolute;left:0;top:11px;
+  font-size:50px;font-weight:900;line-height:1;color:rgba(255,255,255,.15);
+}
+.nr-step h3{font-size:16.5px;letter-spacing:.02em}
+.nr-step p{margin:5px 0 0;font-size:14px;line-height:1.5;color:var(--nr-on-dark-soft)}
+
+/* ---------- 6 · The offer ------------------------------------------------- */
+.nr-offer{
+  background:var(--grad-wine);color:#fff;padding:56px 20px 0;scroll-margin-top:62px;
+}
+.nr-offer__lede{
+  margin:14px 0 0;font-size:16.5px;line-height:1.55;
+  color:var(--nr-on-wine);text-align:center;
+}
+.nr-offer__list{margin-top:22px;display:grid;gap:11px}
+.nr-offer-row{
+  display:flex;gap:15px;align-items:flex-start;
+  border:1px solid var(--line-gold-soft);background:rgba(8,9,9,.22);padding:20px 18px;
+}
+.nr-offer-row--feature{
+  position:relative;border:1.5px solid var(--nr-gold);
+  background:rgba(8,9,9,.4);padding:24px 18px 20px;
+}
+.nr-offer-row__check{
+  flex:none;width:34px;height:34px;border:1px solid var(--nr-gold);border-radius:50%;
+  display:grid;place-items:center;color:var(--nr-gold);font-size:15px;font-weight:900;
+}
+.nr-offer-row h3{font-size:17px;line-height:1.2;letter-spacing:.03em;color:var(--nr-gold)}
+.nr-offer-row p{margin:6px 0 0;font-size:15px;line-height:1.5;color:#fff}
+.nr-offer-ribbon{
+  position:absolute;top:-11px;left:14px;
+  background:var(--grad-gold);color:#171717;
+  font-size:8.5px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
+  padding:6px 11px;border-radius:999px;
+}
+.nr-chips{margin-top:16px;display:flex;flex-wrap:wrap;justify-content:center;gap:7px}
+.nr-chip{
+  border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:7px 12px;
+  font-size:10px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;
+}
+.nr-promise{margin-top:20px;border:1px solid var(--nr-gold);padding:18px;background:rgba(8,9,9,.28)}
+.nr-promise__label{
+  margin:0 0 7px;font-size:9.5px;font-weight:800;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--nr-gold);
+}
+.nr-promise p{margin:0;font-size:15px;line-height:1.55;color:#fff}
+.nr-promise p strong:first-of-type{color:var(--nr-gold)}
+
+.nr-bookwrap{position:relative;z-index:2;margin:26px 0 -64px}
+.nr-bookcard{
+  background:var(--nr-white);color:var(--nr-ink);
+  border:1px solid var(--border-subtle);box-shadow:var(--shadow-float);padding:24px 20px;
+}
+.nr-bookcard__head{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:12px;
+  border-bottom:1px solid var(--nr-line);padding-bottom:16px;
+}
+.nr-bookcard__eyebrow{
+  margin:0 0 6px;font-size:9.5px;font-weight:800;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--nr-wine);
+}
+.nr-bookcard__head h3{font-size:20px;line-height:1.08}
+.nr-bookcard__price{display:block;font-size:38px;font-weight:900;letter-spacing:-.03em;line-height:1}
+.nr-bookcard__meta{
+  display:block;font-size:8.5px;font-weight:800;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--nr-muted);
+}
+.nr-bookcard__body{padding-top:14px}
+.nr-bookcard__body iframe{
+  width:100%;height:780px;border:0;display:block;background:var(--nr-bone);
+}
+.nr-bookcard__note{
+  margin:10px 0 0;font-size:12px;line-height:1.5;color:var(--nr-muted);text-align:center;
+}
+.nr-bookwrap__sig{
+  margin:11px 0 0;text-align:center;font-size:9.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:rgba(255,255,255,.75);
+}
+
+/* ---------- 8 · Testimonials ---------------------------------------------- */
+.nr-stories{margin-top:24px;display:grid;gap:14px}
+.nr-story{
+  background:var(--nr-white);border:1px solid var(--border-subtle);
+  box-shadow:var(--shadow-card);padding:22px;
+  display:flex;flex-direction:column;gap:11px;
+}
+.nr-story h3{font-size:16px;line-height:1.3}
+.nr-story__quote{
+  margin:0;font-family:var(--font-serif-mark);font-style:italic;
+  font-size:15.5px;line-height:1.55;color:var(--nr-cocoa);
+}
+.nr-story__who{
+  margin:0;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+}
+
+/* ---------- 9 · Treatments ------------------------------------------------ */
+.nr-treatments__lede{
+  margin:14px 0 0;font-size:16px;line-height:1.55;color:var(--nr-muted);text-align:center;
+}
+.nr-tool-grid{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.nr-tool{background:var(--nr-bone);border:1px solid var(--border-subtle);box-shadow:var(--shadow-subtle)}
+.nr-tool>.nr-img{aspect-ratio:4/3}
+.nr-tool__body{padding:11px 12px 13px}
+.nr-tool__body h3{font-size:13px;letter-spacing:.03em}
+.nr-tool__body p{margin:4px 0 0;font-size:12px;line-height:1.45;color:var(--nr-muted)}
+
+/* ---------- 10 · Meet Dr. Nina -------------------------------------------- */
+.nr-nina{position:relative;margin:22px 4px 0}
+.nr-nina__frame{
+  border-radius:120px 24px 24px 24px;overflow:hidden;aspect-ratio:4/5;
+  box-shadow:var(--shadow-float);
+}
+.nr-nina__quote{
+  position:absolute;right:-6px;bottom:26px;max-width:220px;
+  background:rgba(245,241,233,.97);color:var(--nr-ink);
+  padding:14px 17px;box-shadow:var(--shadow-float);pointer-events:none;
+}
+.nr-nina__quote p{margin:0;font-family:var(--font-serif-mark);font-style:italic;font-size:14px;line-height:1.5}
+.nr-nina__quote cite{
+  display:block;margin:7px 0 0;font-style:normal;font-size:8.5px;font-weight:800;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--nr-wine);
+}
+.nr-nina__bio{margin:22px 0 0;font-size:16.5px;line-height:1.6;color:var(--nr-on-dark-soft)}
+.nr-nina__bio strong{color:#fff}
+.nr-nina__bio+p{margin:12px 0 0;font-size:15px;line-height:1.6;color:var(--nr-on-dark-soft)}
+.nr-nina__stats{
+  margin-top:22px;display:flex;flex-wrap:wrap;gap:22px 36px;
+  border-top:1px solid var(--line-on-dark);padding-top:20px;
+}
+.nr-nina__stats .nr-stat__value{color:var(--nr-gold);font-size:32px}
+
+/* ---------- 11 · Before you book ------------------------------------------ */
+.nr-qa-list{margin-top:24px;display:grid;gap:22px}
+.nr-qa h3{font-size:16.5px;line-height:1.35}
+.nr-qa p{margin:6px 0 0;font-size:15px;line-height:1.55;color:var(--nr-muted)}
+
+/* ---------- 12 · Your visit ----------------------------------------------- */
+.nr-visit-list{margin-top:20px;border-top:1px solid var(--nr-line)}
+.nr-visit-row{display:flex;gap:15px;padding:15px 0;border-bottom:1px solid var(--nr-line)}
+.nr-visit-row:last-child{border-bottom:0}
+.nr-visit-row__num{flex:none;font-size:12px;font-weight:900;color:var(--nr-wine);padding-top:3px}
+.nr-visit-row p{margin:0;font-size:15.5px;line-height:1.5}
+.nr-info-grid{margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.nr-info{background:var(--nr-bone);border:1px solid var(--border-subtle);padding:14px 15px}
+.nr-info__label{
+  margin:0 0 4px;font-size:9px;font-weight:800;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--nr-wine);
+}
+.nr-info__value{margin:0;font-size:14px;font-weight:600}
+.nr-map{position:relative;margin-top:14px;height:240px}
+.nr-map>.nr-img{
+  position:absolute;inset:0;
+  border-radius:22px 22px 22px 110px;
+  border:1px solid var(--border-subtle);box-shadow:var(--shadow-card);
+}
+.nr-map__tag{
+  position:absolute;left:18px;top:18px;
+  background:rgba(16,17,18,.84);color:#fff;
+  font-size:8.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  padding:7px 12px;pointer-events:none;
+}
+
+/* ---------- 14 · Final CTA ------------------------------------------------ */
+.nr-final{
+  background:var(--grad-wine-cta);color:#fff;padding:64px 20px;text-align:center;
+}
+.nr-final__inner{display:flex;flex-direction:column;align-items:center;gap:16px}
+.nr-final__lede{margin:0;font-size:16.5px;line-height:1.55;color:var(--nr-on-wine);max-width:36ch}
+.nr-final__note{
+  margin:0;font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(255,255,255,.75);
+}
+
+/* ---------- Footer -------------------------------------------------------- */
+.nr-footer{background:var(--nr-black-deep);color:var(--nr-on-dark-muted);padding:40px 20px 56px}
+.nr-footer__tagline{
+  margin:12px 0 0;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--nr-gold);
+}
+.nr-footer__address{margin:18px 0 0;font-size:13px;line-height:1.9;font-style:normal}
+.nr-footer__legal{margin:16px 0 0;font-size:11px;line-height:1.6;color:rgba(170,170,170,.85)}
+.nr-footer__copy{margin:10px 0 0;font-size:11px;color:rgba(170,170,170,.85)}
+
+/* ---------- Sample report modal ------------------------------------------- */
+.nr-modal{
+  position:fixed;inset:0;z-index:90;background:rgba(8,9,9,.82);
+  display:grid;place-items:center;padding:16px;
+}
+/* The class rule above outranks the UA sheet's [hidden]{display:none}. */
+.nr-modal[hidden]{display:none}
+.nr-modal__panel{
+  max-width:430px;width:100%;max-height:88vh;overflow-y:auto;
+  background:var(--nr-bone);box-shadow:var(--shadow-float);
+}
+.nr-modal__head{
+  position:sticky;top:0;z-index:2;background:var(--nr-black);color:#fff;
+  padding:16px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.nr-modal__eyebrow{
+  margin:0 0 5px;font-size:9px;font-weight:800;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--nr-gold);
+}
+.nr-modal__head h3{font-size:15px;line-height:1.15}
+.nr-modal__close{
+  flex:none;width:38px;height:38px;border:1px solid rgba(255,255,255,.4);border-radius:50%;
+  background:none;color:#fff;font-size:17px;line-height:1;cursor:pointer;
+}
+.nr-modal__body{padding:22px 20px 24px}
+.nr-modal__lead{
+  margin:0;font-family:var(--font-serif-mark);font-style:italic;
+  font-size:16.5px;line-height:1.55;color:var(--nr-cocoa);
+}
+.nr-report-block{margin-top:22px;border-top:1px solid var(--nr-line);padding-top:18px}
+.nr-report-block__label{
+  margin:0 0 12px;font-size:10px;font-weight:800;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--nr-wine);
+}
+.nr-signals{display:grid;gap:14px}
+.nr-signal__head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.nr-signal__name{font-size:15px;font-weight:800}
+.nr-signal__level{font-size:11px;font-weight:800;color:var(--nr-cocoa)}
+.nr-signal__track{margin-top:6px;height:6px;background:#E2DBD2}
+.nr-signal__bar{height:100%;background:var(--grad-gold)}
+.nr-report-block__note{margin:14px 0 0;font-size:14px;line-height:1.55;color:var(--nr-muted)}
+.nr-next{display:grid;gap:9px}
+.nr-next p{margin:0;font-size:14.5px;font-weight:600}
+.nr-next p::before{content:"→\00a0";color:var(--nr-champagne);font-weight:800}
+.nr-modal__quote{
+  margin:22px 0 0;padding:16px;border:1px solid var(--line-gold-soft);
+  font-family:var(--font-serif-mark);font-style:italic;
+  font-size:15px;line-height:1.5;color:var(--nr-cocoa);
+}
+.nr-modal__fine{margin:16px 0 0;font-size:11px;line-height:1.55;color:var(--nr-disclaimer)}
+
+/* ---------- Sticky CTA bar ------------------------------------------------ */
+#sticky-cta{
+  position:fixed;left:0;right:0;bottom:0;z-index:70;
+  max-width:520px;margin:0 auto;
+  background:rgba(8,9,9,.97);border-top:1px solid var(--line-gold-soft);
+  padding:9px 16px calc(9px + max(env(safe-area-inset-bottom),0px));
+  display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;
+  transition:transform .28s ease,opacity .28s ease;
+}
+#sticky-cta[data-hidden="true"]{transform:translateY(120%);opacity:0;pointer-events:none}
+.nr-sticky__price{flex:none;line-height:1.2}
+.nr-sticky__price b{display:block;font-size:16px;font-weight:900;color:#fff}
+.nr-sticky__price span{
+  display:block;font-size:7.5px;font-weight:800;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--nr-gold);
+}
+#sticky-cta .nr-btn{flex:1;min-width:0;justify-content:center;gap:clamp(8px,2.4vw,12px);font-size:clamp(10px,2.9vw,12.5px);padding:15px clamp(12px,3.4vw,18px)}
+.nr-sticky__area{
+  flex:1 0 100%;margin:0;text-align:center;
+  font-size:8px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--nr-gold);opacity:.85;
+}
+
+/* ---------- Utilities ----------------------------------------------------- */
+.nr-visually-hidden{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+}
+
+/* ---------- Hero fit: height tiers ---------------------------------------
+   Last in the sheet so these win over the base hero rules above. Each step
+   down trades image height and vertical rhythm to keep portrait, headline,
+   lede, rating, stats and CTA inside one screen. */
+@media (max-height:860px){
+  :root{--nr-hero-gap-title:20px}
+}
+@media (max-height:760px){
+  :root{--nr-hero-media-min:132px;--nr-hero-gap-title:16px;--nr-hero-lede:15px}
+  .nr-hero__media{height:180px}
+  .nr-hero__inner{padding:12px 20px 18px}
+  .nr-hero__rating-row{margin-top:11px}
+  .nr-hero__stats{margin-top:11px}
+  .nr-hero__stats .nr-hstat{padding:10px 6px}
+  .nr-hero__note{margin-top:9px}
+}
+@media (max-height:660px){
+  :root{--nr-hero-media-min:118px;--nr-hero-arch:72px;
+        --nr-hero-gap-title:12px;--nr-hero-lede:14px}
+  .nr-hero__media{height:150px}
+  .nr-hero__inner{padding:10px 20px 14px}
+  .nr-h1{font-size:clamp(30px,8.4vw,38px)}
+  .nr-hero__lede{margin-top:9px;max-width:44ch}
+  .nr-hero__rating-row{margin-top:9px}
+  .nr-hero__stats{margin-top:9px;gap:6px}
+  .nr-hero__stats .nr-hstat{padding:8px 5px}
+  .nr-hstat__num{font-size:18px}
+  .nr-cta--lg{font-size:clamp(10px,2.95vw,12.5px);padding:16px clamp(14px,3.6vw,20px)}
+  .nr-hero__note{margin-top:8px;font-size:9.5px}
+  /* Smaller scope inset so its badge doesn't crowd the headline. */
+  .nr-hero__scope{width:80px;bottom:-12px}
+}
+/* Shortest phones (an iPhone SE shows ~553px with Safari's chrome up). The
+   supporting lede is dropped so the portrait, headline, rating, stat row and
+   CTA — the things asked to be above the fold — all still clear it. The same
+   claim is repeated in full two sections down. */
+@media (max-height:600px){
+  :root{--nr-hero-media-min:112px;--nr-hero-arch:60px}
+  .nr-hero__media{height:125px}
+  .nr-hero__lede{display:none}
+  .nr-hero__inner{padding:8px 20px 12px}
+  .nr-hero__note{margin-top:7px}
+  .nr-hero__scope{width:72px;bottom:-10px}
+}
+/* Landscape phones and very short windows: one screen is not achievable at
+   this height, so drop the lock and let the hero flow normally — a scrolling
+   hero beats one that spills over the section beneath it. Full copy returns. */
+@media (max-height:460px){
+  :root{--nr-hero-media-min:0px}
+  .nr-hero__inner{min-height:0;max-height:none;padding:14px 20px 22px}
+  .nr-hero__media{flex:none;height:38svh;max-height:none}
+  .nr-hero__lede{display:block}
+  .nr-hero__cta{margin-top:14px}
+}
+
+/* CTA labels are `white-space:nowrap`, so their size is fluid (clamped vw)
+   rather than stepped at breakpoints — that keeps the same optical padding on
+   every phone width and in every browser chrome state. */
+
+/* ---------- Shell tightening ---------------------------------------------
+   The 96px sticky-CTA runway under the footer (and the gutters either side of
+   the 520px shell on wider screens) used to show the cream page surface as a
+   stray band. Paint those areas in the footer's ink so the shell reads edge to
+   edge. Layout and spacing are unchanged. */
+html,body{background:#080909}
+.nr-page{min-height:100dvh}
+
+/* Hero portrait uses <picture> for a JPEG fallback on browsers that reject the
+   extended-format WebP; keep the same cover geometry as a bare .nr-img > img. */
+.nr-img > picture > img{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;object-position:center;
+  filter:var(--photo-filter);
+}
+
+/* --- Booking lightbox ---------------------------------------------------- */
+.nr-booklb{
+  position:fixed; inset:0; z-index:2000;
+  background:rgba(8,9,9,.86);
+  display:flex; align-items:stretch; justify-content:center;
+}
+.nr-booklb__panel{
+  display:flex; flex-direction:column;
+  width:100%; height:100dvh; max-width:860px;
+  background:#fff; overflow:hidden;
+}
+@media (min-width:700px){
+  .nr-booklb{align-items:center; padding:24px}
+  .nr-booklb__panel{height:92vh; border-radius:10px}
+}
+.nr-booklb__head{
+  flex:0 0 auto; display:flex; align-items:center; justify-content:space-between;
+  gap:16px; padding:12px 16px; background:#101112;
+  font-size:10px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:#CFB078;
+}
+.nr-booklb__close{
+  background:none; border:0; color:#F5F1E9; font-size:26px; line-height:1;
+  padding:0 4px; cursor:pointer;
+}
+.nr-booklb__body{
+  flex:1 1 auto; min-height:0; overflow-y:auto; -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+}
+.nr-booklb__body iframe{
+  display:block; width:100%; height:100%; min-height:1100px; border:0;
+}
+.nr-booklb__foot{
+  flex:0 0 auto; padding:8px 16px; text-align:center;
+  border-top:1px solid rgba(16,17,18,.1);
+}
+.nr-booklb__foot a{font-size:11px; font-weight:700; color:#6b6257; text-decoration:underline}

@@ -1,0 +1,188 @@
+{
+  "type": "condition",
+  "slug": "lichen-planopilaris",
+  "name": "Lichen Planopilaris",
+  "alternateName": "LPP",
+  "seoTitle": "Lichen Planopilaris: Signs, Causes, Treatment | Nina Ross",
+  "description": "Lichen planopilaris often burns or stings before a patch shows. How we tell it from CCCA at 200x, and how we calm the active margin. Sandy Springs, GA.",
+  "h1": "Lichen Planopilaris: <em>Signs, Causes and Treatment</em>",
+  "subtitle": "An inflammatory scarring alopecia that often burns or stings before it shows.",
+  "lastReviewed": null,
+  "hero": {
+    "slot": "TRICHO-lichen-planopilaris-hero",
+    "src": "img/lichen-planopilaris-perifollicular-scale-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x view of perifollicular scale around individual hairs",
+    "caption": "Scale hugging the base of each hair, at 200x."
+  },
+  "quickAnswer": "Lichen planopilaris, or LPP, is an inflammatory condition that attacks the upper part of the hair follicle and replaces it with scar tissue. It often announces itself with burning, stinging or itching before there is any visible patch. On the scalp you may see redness and scale hugging the base of individual hairs, small irregular patches rather than one round area, and hairs that lift out easily at the edge of a patch. Like other scarring alopecias, follicles already lost to scar will not regrow, so the goal is stopping the active inflammation and protecting the hair around it. We read your scalp at 200x at Nina Ross Atlanta in Sandy Springs. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "It often burns before it shows.",
+    "Scarred follicles do not regrow.",
+    "Calming the active margin protects what's left."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "My scalp burns or stings",
+        "us": "Trichodynia, burning sensation",
+        "why": "In LPP, immune activity at the upper part of the follicle is commonly linked to burning, stinging or itching. It often starts before there is any visible patch, which is why so many people are told nothing looks wrong.",
+        "check": "We read the exact area that burns at 200x, looking for redness and scale at the base of individual hairs. That way we read the spot you feel, not only the spots you can see."
+      },
+      {
+        "you": "There is flaking wrapped around single hairs",
+        "us": "Perifollicular scale",
+        "why": "Scale that hugs the base of one hair at a time is commonly linked to inflammation at that follicle. It behaves differently from the loose, all-over flaking of a dry or oily scalp.",
+        "check": "Magnification shows whether scale is wrapped around individual hairs or spread across the surface. That difference points toward LPP or toward a surface condition like <a href=\"/concerns/seborrheic-dermatitis\">seborrheic dermatitis</a>."
+      },
+      {
+        "you": "Red rings around the hairs",
+        "us": "Perifollicular erythema",
+        "why": "A ring of redness around a hair is commonly linked to active inflammation at that follicle. Redness reads differently on deeper skin tones and is regularly missed.",
+        "check": "We read your scalp under magnification instead of judging by surface color, and mark the follicles where inflammation is still active."
+      },
+      {
+        "you": "Patches with odd shapes, not circles",
+        "us": "Irregular, coalescing patches",
+        "why": "LPP tends to make small irregular patches that can join together over time, rather than one round area. Smooth, round patches are more often linked to <a href=\"/concerns/alopecia-areata\">alopecia areata</a>.",
+        "check": "We map the borders at 200x and compare the pattern with <a href=\"/concerns/ccca\">CCCA</a>, which usually starts at the crown and spreads outward, before anyone names it."
+      },
+      {
+        "you": "Hairs come out with a slight tug",
+        "us": "Positive pull test at the active margin",
+        "why": "At the active edge of a patch, inflamed follicles can let go of hairs more easily. That edge is where the condition is still working.",
+        "check": "We find the active margin, photograph the same points, and re-check them at follow-ups so you can see whether the border has stopped moving."
+      }
+    ],
+    "lede": "Tap the one that sounds like you to see why it happens and how we figure it out."
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Immune activity at the follicle",
+        "text": "The immune system targets the stem cell region of the follicle. Once that region is lost, the follicle cannot rebuild itself."
+      },
+      {
+        "title": "Association with lichen planus",
+        "text": "Some people with LPP also have <a href=\"/concerns/lichen-planus\">lichen planus</a> on the skin, nails or inside the mouth. Tell us if you have noticed changes there."
+      },
+      {
+        "title": "Hormonal and systemic triggers",
+        "text": "A frontal pattern of LPP is described more often around and after menopause.{cite:1} Thyroid conditions are also reported alongside it.{cite:2}"
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "How we tell LPP from <a href=\"/concerns/ccca\">CCCA</a> <em>at 200x</em>",
+    "text": "At 200x the two conditions look different, and that distinction changes what we treat first, which is why we look before anyone names it.",
+    "figures": [
+      {
+        "slot": "TRICHO-ccca-compare-01",
+        "src": "img/ccca-white-halos-crown-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of white halos around follicles at the crown",
+        "label": "CCCA",
+        "caption": "White halos around the follicle at the crown, and a smooth center where the openings are gone."
+      },
+      {
+        "slot": "TRICHO-lichen-planopilaris-01",
+        "src": "img/lichen-planopilaris-scale-erythema-irregular-borders-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of scale at the base of individual hairs with redness and irregular borders",
+        "label": "LPP",
+        "caption": "Scale wrapped around the base of individual hairs, redness at the follicle, irregular borders."
+      }
+    ],
+    "table": {
+      "head": [
+        "At 200x",
+        "CCCA",
+        "Lichen planopilaris"
+      ],
+      "rows": [
+        [
+          "Where it shows",
+          "The crown, spreading outward",
+          "Anywhere on the scalp"
+        ],
+        [
+          "Around the follicle",
+          "White halos",
+          "Scale at the base of each hair, with redness"
+        ],
+        [
+          "Shape",
+          "A smooth center where openings are gone",
+          "Patches with irregular borders"
+        ]
+      ]
+    }
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "Our first job is finding the active margin and calming it. We use trichoscopy to mark where inflammation is still working, use light-based and restorative support to settle it, and re-photograph the same points so you can see whether the border has stopped moving.",
+    "steps": [
+      "Mark the active margin at 200x",
+      "Settle the inflammation",
+      "Re-photograph the same points"
+    ],
+    "treatments": [
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      },
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Redness reads differently on deeper skin tones and is regularly missed. We read your scalp under magnification instead of judging by surface color, and your styling history is welcome information, never a lecture.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "ccca",
+    "lichen-planus",
+    "folliculitis"
+  ],
+  "faq": [
+    {
+      "q": "Is lichen planopilaris the same as CCCA?",
+      "a": "No. Both scar, but they behave differently. CCCA usually starts at the crown and spreads outward in a circle. LPP tends to make irregular patches with scale and redness right at the base of the hairs, and it often burns."
+    },
+    {
+      "q": "Will the hair grow back?",
+      "a": "Follicles already lost to scar will not regrow. The goal is stopping the active inflammation and protecting the hair around it, which is why reading the active margin early matters."
+    },
+    {
+      "q": "Why does my scalp hurt when nothing looks wrong?",
+      "a": "LPP often announces itself with burning, stinging or itching before there is any visible patch. The inflammation is already working at the follicle, which is why a 200x read of the spot you feel matters."
+    },
+    {
+      "q": "Can I still get my hair done?",
+      "a": "Yes. Your styling history is welcome information here. We read which areas are active and talk through what is gentlest on them, so you can keep wearing the hair you love."
+    },
+    {
+      "q": "How do you track whether it is working?",
+      "a": "We re-photograph the same points at 200x at each visit, so you can see whether the border has stopped moving."
+    }
+  ],
+  "references": [
+    {
+      "claim": "frontal pattern of LPP described more often around and after menopause"
+    },
+    {
+      "claim": "thyroid conditions reported alongside LPP"
+    }
+  ]
+}

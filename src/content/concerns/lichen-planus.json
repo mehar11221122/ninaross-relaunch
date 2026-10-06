@@ -1,0 +1,156 @@
+{
+  "type": "condition",
+  "slug": "lichen-planus",
+  "name": "Lichen Planus",
+  "seoTitle": "Lichen Planus and Hair Loss: What to Know | Nina Ross",
+  "description": "Lichen planus explained and how it reaches the scalp. Signs on skin, nails and mouth, and what it means for your hair. Serving all of Metro Atlanta.",
+  "h1": "Lichen Planus: <em>What It Is and How It Affects Your Hair</em>",
+  "subtitle": "An immune condition of skin, nails and mouth that can reach the follicle.",
+  "hero": {
+    "slot": "TRICHO-lichen-planus-hero",
+    "src": "img/lichen-planus-redness-ringing-follicles-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x scalp view showing redness and scale ringing individual follicle openings during a lichen planus evaluation",
+    "caption": "Redness ringing the follicle, at 200x."
+  },
+  "quickAnswer": "Lichen planus is an inflammatory condition where the immune system targets the skin, and sometimes the nails and the lining of the mouth. On the skin it shows up as flat-topped, itchy bumps. When the same process reaches the hair follicle on the scalp it is called lichen planopilaris, and that form can scar. Not everyone with lichen planus develops scalp involvement, but scalp symptoms such as burning, tenderness or scale around individual hairs are worth reading under magnification promptly, because early inflammation is the part we can still influence. At Nina Ross Atlanta in Sandy Springs we look at the scalp at 200x and take into account what your skin, nails and mouth are already showing. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "Not everyone gets scalp involvement.",
+    "On the scalp it is called lichen planopilaris, and it can scar.",
+    "Early inflammation is the part we can still influence."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Itchy flat purple bumps on my skin",
+        "us": "Violaceous flat-topped papules",
+        "why": "Flat-topped, itchy bumps are the classic skin sign of lichen planus, from immune activity in the skin. On deeper skin tones they often look dark rather than purple.",
+        "check": "Tell us where they are. Skin involvement tells us to read your scalp closely for early follicular signs."
+      },
+      {
+        "you": "White lacy lines inside my mouth",
+        "us": "Wickham striae, oral lichen planus",
+        "why": "Lacy white lines inside the cheeks are commonly linked to oral lichen planus, the same immune process in the lining of the mouth.",
+        "check": "We note it as part of the full picture, alongside what your scalp shows at 200x."
+      },
+      {
+        "you": "My nails are ridged or splitting",
+        "us": "Longitudinal nail ridging or pterygium",
+        "why": "Ridging or splitting along the length of the nail is commonly linked to lichen planus reaching the nail.",
+        "check": "We note nail changes with your scalp read, because together they help explain what is happening."
+      },
+      {
+        "you": "My scalp burns in one spot",
+        "us": "Localized trichodynia",
+        "why": "Burning in one area is commonly linked to inflammation at the follicle, and it can come before any visible loss.",
+        "check": "We read that exact spot at 200x for redness around the follicle and scale climbing the hair shaft."
+      },
+      {
+        "you": "Scale right at the base of the hairs",
+        "us": "Perifollicular scale, follicular involvement",
+        "why": "Scale that grips the base of individual hairs is commonly linked to the follicle itself being involved, which behaves differently from loose, ordinary flaking.",
+        "check": "Magnification shows whether scale travels up the shaft or sits loose on the scalp. That difference points toward <a href=\"/concerns/lichen-planopilaris\">lichen planopilaris</a>."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Immune-mediated inflammation",
+        "text": "Immune cells target the basal layer of the skin. When the follicle is involved, the same process affects the region the follicle needs to rebuild itself."
+      },
+      {
+        "title": "Medication and infection associations",
+        "text": "Some medications and infections have been described alongside lichen planus reactions. Bring your full medication list, and never stop a prescription on your own."
+      },
+      {
+        "title": "Stress as an aggravator",
+        "text": "Flares are commonly reported during periods of high stress, which is part of why the systemic picture matters here."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Reading follicular involvement <em>before the patch appears</em>",
+    "paras": [
+      "The useful window with lichen planus on the scalp is the period when symptoms exist and visible loss does not."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-lichen-planus-01",
+        "src": "img/lichen-planus-ordinary-flaking-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view showing loose surface flaking around the hairs during a lichen planus evaluation",
+        "label": "Ordinary flaking",
+        "caption": "Loose flakes sitting on the scalp surface."
+      },
+      {
+        "slot": "TRICHO-lichen-planus-02",
+        "src": "img/lichen-planus-follicular-involvement-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view showing redness around follicle openings and scale traveling along hair shafts during a lichen planus evaluation",
+        "label": "Follicular involvement",
+        "caption": "Redness ringing the follicle, and scale traveling up the hair shaft."
+      }
+    ],
+    "text": "Finding that early is the difference between protecting follicles and documenting their loss."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "On the scalp our work is calming the inflammation and protecting follicles that are still open, using light-based therapy and a restorative program. We take into account what your skin, nails or mouth are showing, and we track the scalp with photographs.",
+    "steps": [
+      "Read the scalp at 200x",
+      "Calm the inflammation",
+      "Track the same points with photographs"
+    ],
+    "treatments": [
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      },
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "On deeper skin tones lichen planus often heals to dark marks rather than red ones, and that is regularly misread. We assess with magnification and we take seriously what you have been feeling.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "lichen-planopilaris",
+    "ccca",
+    "alopecia-areata"
+  ],
+  "faq": [
+    {
+      "q": "Does lichen planus always cause hair loss?",
+      "a": "No. Many people have skin, nail or mouth involvement and never develop scalp symptoms. It is the follicular form, lichen planopilaris, that affects hair."
+    },
+    {
+      "q": "How do I know if it has reached my scalp?",
+      "a": "Burning, tenderness or scale gripping the base of individual hairs are the signs to watch. At 200x we look for redness ringing the follicle, which can show up before any visible loss."
+    },
+    {
+      "q": "Can the hair come back?",
+      "a": "Where a follicle has scarred, that hair will not regrow. Where inflammation is caught early and the follicle is still open, protecting it is the goal, which is why early reading matters."
+    },
+    {
+      "q": "Should I stop a medication that might be linked?",
+      "a": "No. Never stop or change a prescription on your own. Medication decisions stay with your prescriber. Our role is reading the scalp and identifying the pattern."
+    },
+    {
+      "q": "Do you handle this in-house?",
+      "a": "Yes. Your scalp read, the look at the systems behind it and your scalp care all happen in-house at our Sandy Springs clinic."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+:root{
+/* 8px grid */
+--space-1:8px;--space-2:16px;--space-3:24px;--space-4:32px;--space-5:40px;--space-6:48px;--space-7:56px;--space-8:64px;
+/* Layout */
+--container-max:1200px;--container-gutter:40px;--section-pad:104px;--section-pad-sm:74px;--card-gap:18px;
+/* Radii — buttons are pills, cards are SQUARE (source code overrides brand-sheet 8/12px note) */
+--radius-pill:999px;--radius-card:0px;--radius-input:2px;--radius-soft:22px;--radius-arch:180px;--radius-arch-sm:150px;
+}

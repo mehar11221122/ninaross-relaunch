@@ -1,0 +1,11 @@
+:root{
+--font-sans:'Montserrat',Arial,sans-serif;--font-serif-mark:Georgia,'Times New Roman',serif;
+/* Display (always uppercase) */
+--text-h1:clamp(48px,5.55vw,82px);--text-h2:clamp(38px,4.45vw,62px);--text-h2-cta:clamp(36px,4vw,60px);--leading-h1:.92;--leading-h2:.96;--track-h1:-.045em;--track-h2:-.035em;
+/* Weights */
+--weight-black:900;--weight-extrabold:800;--weight-bold:700;--weight-semibold:600;--weight-medium:500;--weight-regular:400;
+/* Body & support */
+--text-lead:22px;--text-sublead:20px;--text-quote-lead:18px;--text-body:15px;--text-body-sm:13px;--text-small:12px;--text-caption:11px;--text-micro:10px;--text-tiny:9px;--leading-body:1.55;
+/* Eyebrows / labels */
+--text-eyebrow:12px;--track-eyebrow:.18em;--track-topbar:.24em;--track-label:.14em;--track-cta:.05em;--track-wordmark:.26em;--track-wordmark-sub:.42em;
+}

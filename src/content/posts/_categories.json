@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "hair-loss",
+    "name": "Hair Loss",
+    "seoTitle": "Hair Loss Articles",
+    "title": "Hair loss, read honestly",
+    "description": "Traction alopecia, CCCA, alopecia areata, DHT and shedding, explained by certified trichologists and clinically reviewed. Serving all of Metro Atlanta.",
+    "intro": "Traction, CCCA, round patches, DHT and shedding. What each pattern looks like, what it's commonly linked to, and what a 200x read shows that the mirror can't.",
+    "hero": {
+      "src": "img/hero-hair-loss-and-potassium-deficiency.webp", "width": 1448, "height": 1086,
+      "alt": "A woman parts her natural hair at the crown in a bathroom mirror, checking her scalp up close.",
+      "caption": "Where it thins says a lot about why."
+    },
+    "shortVersion": {
+      "text": "Hair loss has patterns, and the pattern is the first clue. Thinning at the edges, a crown that spreads outward, round smooth patches and all-over shedding each point somewhere different, which is why we look before anyone recommends a treatment.",
+      "takeaways": ["Where it thins says a lot about why.", "Early is when options are widest.", "Scarred follicles do not regrow, so protecting what's active comes first."]
+    },
+    "featured": "traction-alopecia-reversibility",
+    "links": [
+      { "kind": "Condition", "href": "/concerns/traction-alopecia", "title": "Traction alopecia", "text": "Tension on the hairline and edges." },
+      { "kind": "Condition", "href": "/concerns/ccca", "title": "CCCA", "text": "The crown pattern that spreads outward." },
+      { "kind": "Condition", "href": "/concerns/alopecia-areata", "title": "Alopecia areata", "text": "Round, smooth patches with an immune story." },
+      { "kind": "Our approach", "href": "/trichology", "title": "Trichology", "text": "How a 200x scalp read works." }
+    ]
+  },
+  {
+    "slug": "health-wellness",
+    "name": "Health & Wellness",
+    "seoTitle": "Nutrition, Hormones and Hair Articles",
+    "title": "Nutrition, hormones and hair",
+    "description": "How hormones, iron, thyroid, stress and nutrients affect shedding, explained by certified trichologists and clinically reviewed. Serving all of Metro Atlanta.",
+    "intro": "Hormones, iron, thyroid function, stress load and nutrient status can all drive shedding while the scalp still looks fine in the mirror.",
+    "hero": {},
+    "shortVersion": {
+      "text": "These articles explain the internal side of hair loss: what each system does, which signs point inward, and when lab context is worth having before you change anything. They organize what's already known, so you can stop guessing at the supplement aisle.",
+      "takeaways": ["Shedding today often started months ago.", "Signs can point inward while the scalp looks fine.", "Test before another bottle goes in the cart."]
+    },
+    "featured": "iron-deficiency-and-hair-loss",
+    "links": [
+      { "kind": "Our approach", "href": "/functional-medicine", "title": "Functional medicine", "text": "The hormone, thyroid and nutrient side of hair loss." },
+      { "kind": "Condition", "href": "/concerns/telogen-effluvium", "title": "Telogen effluvium", "text": "The diffuse, all-over shedding pattern." },
+      { "kind": "Condition", "href": "/concerns/hormonal-hair-loss", "title": "Hormonal hair loss", "text": "When the growth cycle follows your hormones." },
+      { "kind": "Treatment", "href": "/treatments/iv-nutrient-therapy", "title": "IV nutrient therapy", "text": "Targeted nutrient support used only when a person’s assessment shows it belongs in the plan." }
+    ]
+  },
+  {
+    "slug": "scalp-concerns",
+    "name": "Scalp Concerns",
+    "seoTitle": "Scalp Concerns Articles",
+    "title": "Your scalp, up close",
+    "description": "Oily scalp, itch, flaking and buildup, and how scalp health connects to hair growth. Written by certified trichologists. Serving all of Metro Atlanta.",
+    "intro": "Oil, itch, flaking and buildup. What's commonly going on at the surface, and how the health of your scalp shapes the hair growing out of it.",
+    "hero": {},
+    "shortVersion": {
+      "text": "Your scalp is skin, and the follicles live in it. When it's oily, itchy, flaking or irritated, that's a signal worth reading before you switch products again. At 200x we can see what the surface is actually doing around each follicle.",
+      "takeaways": ["Healthy hair starts with a healthy scalp.", "Itch and oil are signals worth reading.", "200x shows what the surface is doing."]
+    },
+    "links": [
+      { "kind": "Our approach", "href": "/trichology", "title": "Trichology", "text": "How a 200x scalp read works." },
+      { "kind": "Condition", "href": "/concerns/scalp-bumps", "title": "Bumps on the scalp", "text": "What they're commonly linked to." },
+      { "kind": "Treatments", "href": "/treatments", "title": "Scalp treatments", "text": "How we calm and reset the scalp." }
+    ],
+    "whileYouWait": []
+  },
+  {
+    "slug": "treatment-methods",
+    "name": "Treatment Methods",
+    "seoTitle": "Treatment Methods Articles",
+    "title": "How treatment works",
+    "description": "PRP, red light therapy and scalp treatments explained by certified trichologists. Serving all of Metro Atlanta.",
+    "intro": "PRP, red light, scalp treatments and nutrient support. What each one does, who it's for, and how we decide what belongs in a plan.",
+    "hero": {},
+    "shortVersion": {
+      "text": "No treatment is right for everyone, and the right one depends on what's driving your hair loss. These guides will walk through each method we use, how it works and who it tends to suit, so the plan makes sense before you start it.",
+      "takeaways": ["The cause decides the treatment.", "Every plan starts with a 200x read.", "You'll know what we're treating and why."]
+    },
+    "emptyNote": "Until they land, these explain how we decide what comes next for your scalp.",
+    "whileYouWait": ["choosing-a-trichologist-near-me", "stop-hair-loss-with-dht-blockers", "minoxidil-itchy-scalp"],
+    "links": [
+      { "kind": "Treatment", "href": "/treatments/prp-therapy", "title": "PRP therapy", "text": "Concentrated platelet support designed to work with active follicles after candidacy is confirmed." },
+      { "kind": "Treatment", "href": "/treatments/red-light-therapy", "title": "Red light therapy", "text": "Low-level light support used to encourage follicle activity as one part of a cause-led plan." },
+      { "kind": "Treatments", "href": "/treatments", "title": "All treatments", "text": "Everything we offer in one place." }
+    ]
+  },
+  {
+    "slug": "hair-care",
+    "name": "Hair Care",
+    "seoTitle": "Hair Care Articles",
+    "title": "Everyday care for textured hair",
+    "description": "Wash day, styling and protective care for textured hair, from certified trichologists. Serving all of Metro Atlanta.",
+    "intro": "Wash day, styling, protective styles and the small daily habits that keep your scalp and edges healthy between visits.",
+    "hero": {},
+    "shortVersion": {
+      "text": "The way you care for your hair day to day matters, and it's rarely about doing it wrong. These guides will cover wash day, styling and protective care for textured hair, written by trichologists who work with it every day.",
+      "takeaways": ["Gentle, consistent care beats more products.", "Tension is worth watching at the edges.", "Your scalp needs care too."]
+    },
+    "emptyNote": "Until they land, these are the closest reads we have on caring for textured hair.",
+    "whileYouWait": ["traction-alopecia-reversibility", "trichologist-for-black-hair", "oily-scalp-and-hair-loss"],
+    "links": [
+      { "kind": "Condition", "href": "/concerns/traction-alopecia", "title": "Traction alopecia", "text": "When styling tension affects the hairline." },
+      { "kind": "Our approach", "href": "/black-trichologist-atlanta", "title": "Textured-hair specialists", "text": "Care from people who know textured hair." }
+    ]
+  }
+]

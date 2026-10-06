@@ -1,0 +1,181 @@
+{
+  "type": "condition",
+  "slug": "hormonal-hair-loss",
+  "name": "Hormonal Hair Loss",
+  "seoTitle": "Which Hormone Controls Hair Growth? | Nina Ross",
+  "description": "Estrogen, thyroid hormone, DHT and cortisol matter most for hair growth. What each does, what happens when it shifts, and how we read it in Atlanta.",
+  "h1": "Which Hormones Control Hair Growth, <em>and What Happens When They Shift</em>",
+  "subtitle": "Four hormones do most of the work. When they move, your hair reports it.",
+  "hero": {
+    "slot": "TRICHO-hormonal-hair-loss-hero",
+    "src": "img/hormonal-hair-loss-mixed-thickness-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x view of hairs of mixed thickness at the crown",
+    "caption": "Mixed thickness side by side, at 200x."
+  },
+  "quickAnswer": "Four hormones do most of the work in hair growth: estrogen, thyroid hormone, DHT and cortisol. Estrogen holds hair in its growth phase, which is why hair often feels thickest in pregnancy and thinner after birth or through menopause. Thyroid hormone sets the pace of the growth cycle, so both an underactive and an overactive thyroid can cause shedding. DHT, a derivative of testosterone, shrinks sensitive follicles at the crown and temples over time. Cortisol, your stress hormone, pushes hairs out of growth and into shedding early. Hormonal hair loss usually looks like diffuse thinning through the top and a widening part rather than a bald patch. At Nina Ross Atlanta in Sandy Springs we read your scalp at 200x and look at the systems behind it. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "Estrogen, thyroid, DHT and cortisol do most of the work.",
+    "It usually looks like diffuse thinning through the top.",
+    "At 200x, mixed hair thickness is the signature."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "My part keeps getting wider",
+        "us": "Diffuse central thinning",
+        "why": "A widening part is commonly linked to hormonal shifts affecting follicles through the top of the scalp, especially DHT sensitivity or lower estrogen support.",
+        "check": "We read the part at 200x for hairs of different thicknesses side by side, the signature of hormonal thinning."
+      },
+      {
+        "you": "My ponytail is half the size it was",
+        "us": "Reduced overall density and hair caliber",
+        "why": "A smaller ponytail usually means both fewer hairs and finer hairs, which is commonly linked to hormonal change over time.",
+        "check": "We compare the crown with the back of your head, which is usually spared, to see how much has changed."
+      },
+      {
+        "you": "I shed for months after something changed",
+        "us": "Telogen shift following hormonal change",
+        "why": "Birth, perimenopause, a thyroid change or a stressful stretch can shift many follicles into shedding at once.",
+        "check": "We separate shedding from thinning at 200x, and look at the systems behind it in-house through our <a href=\"/functional-medicine\">functional medicine</a> work."
+      },
+      {
+        "you": "My hairline at the temples is receding",
+        "us": "Androgen-sensitive frontotemporal loss",
+        "why": "Recession at the temples is commonly linked to DHT sensitivity in the follicles there. Inherited sensitivity matters more than the amount of hormone alone.",
+        "check": "We look for miniaturized hairs at the temples at 200x and compare them with an unaffected area."
+      },
+      {
+        "you": "New hair on my chin or jaw",
+        "us": "Terminal facial hair with androgen excess",
+        "why": "New coarse hair on the chin or jaw is commonly linked to higher androgen activity, which can also thin the scalp. It is often discussed alongside <a href=\"/concerns/pcos-hair-loss\">PCOS</a>.",
+        "check": "Tell us about it at your visit. It helps us read your scalp pattern and decide which systems to look at."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Estrogen shifts",
+        "text": "Postpartum, perimenopause and menopause all lower estrogen support for the growth phase, so more hairs enter shedding at the same time."
+      },
+      {
+        "title": "Thyroid function",
+        "text": "Both underactive and overactive thyroid disrupt the growth cycle. Thyroid-related shedding is diffuse rather than patchy."
+      },
+      {
+        "title": "DHT sensitivity",
+        "text": "DHT miniaturizes sensitive follicles. Inherited sensitivity, more than the amount of hormone alone, determines who thins."
+      },
+      {
+        "title": "Cortisol and chronic stress",
+        "text": "Sustained cortisol pushes follicles out of growth early. It shows up as a shedding wave a few months after the stressful period.{cite:1}"
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Reading hormonal thinning <em>at 200x</em>",
+    "paras": [
+      "Hormonal thinning has a signature under magnification: hairs of noticeably different thicknesses sitting side by side in the same area, which is called variability in shaft caliber. That single finding separates hormonal miniaturization from a plain shedding episode, where the hairs that remain are all still full thickness."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-hormonal-hair-loss-01",
+        "label": "Hormone pattern",
+        "src": "img/hormonal-hair-loss-hormone-pattern-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of thinning along the part line and temples with full thickness behind",
+        "caption": "Thinning along the part line and temples, with full thickness behind it."
+      },
+      {
+        "slot": "TRICHO-hormonal-hair-loss-02",
+        "label": "Regrowth",
+        "src": "img/hormonal-hair-loss-regrowth-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of shorter, finer new hairs growing back from the same follicle openings",
+        "caption": "Shorter, finer new hairs coming back from the same openings, a sign the follicles are still active."
+      }
+    ],
+    "text": "Seeing shorter, finer new hairs return from the same openings tells us the follicles are still active."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We start by seeing which pattern your scalp actually shows at 200x, since diffuse thinning, miniaturization and shedding look different under magnification. From there care combines a restorative program, nutrient support where your labs point to it, and light-based therapy. Functional medicine work happens in-house alongside the scalp work.",
+    "steps": [
+      "Read the pattern at 200x",
+      "Look at the systems behind it",
+      "Support the follicle"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "iv-nutrient-therapy",
+        "text": "Targeted nutrient support when your labs show what the follicle is missing."
+      },
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      }
+    ],
+    "links": [
+      {
+        "href": "/functional-medicine",
+        "label": "See how our functional medicine work fits in"
+      },
+      {
+        "href": "/blog/hair-growth-hormones",
+        "label": "The four hormones that matter"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Black women are frequently told a widening part is a styling problem. It can be both. We read tension patterns and hormonal patterns as separate findings, and we tell you which one your scalp is actually showing.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "pcos-hair-loss",
+    "postpartum-hair-loss",
+    "excess-dht"
+  ],
+  "faq": [
+    {
+      "q": "Which hormone is most responsible for hair loss?",
+      "a": "There is no single one. For thinning at the crown and temples, DHT sensitivity leads. For sudden shedding, thyroid, estrogen and cortisol are the usual suspects. Which one is driving yours is what we are looking for."
+    },
+    {
+      "q": "Will it grow back if my hormones settle?",
+      "a": "Shedding usually settles once the trigger passes, and follicles producing finer hair can often be supported back toward thicker hair when the driver is addressed. How much returns depends on the stage we see at 200x. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Do I need labs?",
+      "a": "Sometimes. If your scalp read and history point to a hormonal or nutrient driver, testing helps confirm which one, and that work happens in-house."
+    },
+    {
+      "q": "Is hormonal thinning different in Black women?",
+      "a": "The hormones work the same way. What differs is how often a widening part gets blamed on styling. We read tension and hormonal patterns as separate findings and tell you which one your scalp is showing."
+    },
+    {
+      "q": "How long before I can tell anything is changing?",
+      "a": "Hair grows slowly, so change takes months to see. We photograph the same points each visit, so you compare against your own baseline instead of a memory."
+    }
+  ],
+  "references": [
+    {
+      "text": "Hormonal effects on hair follicles. PubMed 31608498",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31608498/"
+    }
+  ],
+  "results": true
+}

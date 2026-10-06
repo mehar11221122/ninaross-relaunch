@@ -1,0 +1,343 @@
+{
+  "conditions": {
+    "slug": "concerns",
+    "base": "/concerns",
+    "noun": "condition",
+    "nounPlural": "conditions",
+    "navLabel": "Concerns",
+    "seoTitle": "Hair Loss Conditions We Treat | Nina Ross",
+    "description": "Eighteen conditions, from CCCA and traction alopecia to telogen effluvium and scalp folliculitis. Find yours, then find out what's actually driving it.",
+    "crumb": "Conditions",
+    "h1": "Hair Loss Conditions <em>We Specialize In</em>",
+    "lede": "Find what matches what you have been seeing, then find out what is actually driving it. Serving all of Metro Atlanta.",
+    "hero": {
+      "src": "img/scalp-macro.webp",
+      "width": 1122,
+      "height": 1402,
+      "alt": "A scalp seen up close under magnification, showing follicles and fine flaking between hairs.",
+      "caption": "What the mirror misses, at 200x."
+    },
+    "short": {
+      "text": "We specialize in 18 hair loss conditions across six families: scarring, autoimmune, hormonal, inflammatory, traumatic and other systemic causes. The family matters because it changes what's possible. Scarring conditions need early action to protect follicles that are still alive. In others, including alopecia areata and anagen effluvium, the follicle usually survives. A 200x read of your scalp, alongside a look at the systems behind it, is how we tell which one you have.",
+      "takeaways": [
+        "The family changes what's possible.",
+        "Scarred follicles do not regrow, so early matters most there.",
+        "One visit tells us which family you're in."
+      ]
+    },
+    "pairLabel": "Treatments that may fit",
+    "families": [
+      {
+        "id": "scarring",
+        "name": "Scarring",
+        "title": "Scarring conditions",
+        "color": "#764D4B",
+        "dark": true,
+        "text": "Inflammation replaces the follicle with scar tissue. Early reading protects what is still alive.",
+        "callout": "Scarred follicles do not regrow. The goal of catching it early is protecting every follicle that is still active.",
+        "items": [
+          {
+            "slug": "ccca",
+            "name": "CCCA",
+            "text": "Central centrifugal cicatricial alopecia. Starts at the crown and spreads outward, quietly."
+          },
+          {
+            "slug": "lichen-planopilaris",
+            "name": "Lichen Planopilaris",
+            "text": "An inflammatory scarring alopecia that often burns or stings before it shows."
+          }
+        ]
+      },
+      {
+        "id": "autoimmune",
+        "name": "Autoimmune",
+        "title": "Autoimmune conditions",
+        "color": "#CFB078",
+        "text": "The immune system interrupts the follicle. The follicle itself often survives.",
+        "items": [
+          {
+            "slug": "alopecia-areata",
+            "name": "Alopecia Areata",
+            "text": "Smooth, round patches that appear quickly. The follicle usually survives."
+          },
+          {
+            "slug": "lichen-planus",
+            "name": "Lichen Planus",
+            "text": "An immune condition of skin, nails and mouth that can reach the follicle."
+          }
+        ]
+      },
+      {
+        "id": "hormonal",
+        "name": "Hormonal",
+        "title": "Hormonal conditions",
+        "color": "#A88B6A",
+        "text": "Estrogen, thyroid, DHT and cortisol shifts show up as thinning through the top.",
+        "items": [
+          {
+            "slug": "hormonal-hair-loss",
+            "name": "Hormonal Hair Loss",
+            "text": "Four hormones do most of the work. When they move, your hair reports it."
+          },
+          {
+            "slug": "pcos-hair-loss",
+            "name": "PCOS Hair Loss",
+            "text": "Higher androgens thin the crown and thicken hair where you did not ask for it."
+          },
+          {
+            "slug": "excess-dht",
+            "name": "Excess DHT",
+            "text": "The hormone behind pattern thinning, and how to tell if it is your driver."
+          },
+          {
+            "slug": "female-hair-loss",
+            "name": "Female Hair Loss",
+            "text": "The widening part and the thinner ponytail, explained honestly."
+          },
+          {
+            "slug": "male-pattern-baldness",
+            "name": "Male Pattern Baldness",
+            "text": "Predictable pattern, variable speed. The earlier you read it, the more you keep."
+          },
+          {
+            "slug": "postpartum-hair-loss",
+            "name": "Postpartum Hair Loss",
+            "text": "The shedding that starts around month three. It is real, and it does end."
+          }
+        ]
+      },
+      {
+        "id": "inflammatory",
+        "name": "Inflammatory",
+        "title": "Inflammatory conditions",
+        "color": "#666B57",
+        "text": "Bumps, scale and irritation that keep the scalp inflamed and the density falling.",
+        "items": [
+          {
+            "slug": "folliculitis",
+            "name": "Scalp Folliculitis",
+            "text": "Tender, sometimes pus-filled bumps sitting right on the follicle."
+          },
+          {
+            "slug": "seborrheic-dermatitis",
+            "name": "Seborrheic Dermatitis",
+            "text": "Greasy flaking and itch that keep the scalp inflamed."
+          },
+          {
+            "slug": "scalp-bumps",
+            "name": "Scalp Bumps",
+            "text": "Start here if you are feeling bumps and do not know what they are."
+          }
+        ]
+      },
+      {
+        "id": "traumatic",
+        "name": "Traumatic",
+        "title": "Traumatic conditions",
+        "color": "#5B463B",
+        "text": "Tension, pulling or treatment interrupts follicles that were otherwise healthy.",
+        "items": [
+          {
+            "slug": "traction-alopecia",
+            "name": "Traction Alopecia",
+            "text": "Tension-driven loss at the edges and part lines. Often reversible early."
+          },
+          {
+            "slug": "trichotillomania",
+            "name": "Trichotillomania",
+            "text": "We treat the scalp. No judgment, no behavioral advice."
+          },
+          {
+            "slug": "anagen-effluvium",
+            "name": "Anagen Effluvium",
+            "text": "Rapid loss during treatment. The follicles usually survive."
+          }
+        ]
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "title": "Other conditions",
+        "color": "#8E8983",
+        "text": "Systemic drivers that show up as shedding across the whole scalp.",
+        "items": [
+          {
+            "slug": "telogen-effluvium",
+            "name": "Telogen Effluvium",
+            "text": "Sudden diffuse shedding, usually about three months after a trigger."
+          },
+          {
+            "slug": "medication-hair-loss",
+            "name": "Medication Hair Loss",
+            "text": "Which medications are associated with shedding, and the right next step."
+          }
+        ]
+      }
+    ]
+  },
+  "treatments": {
+    "slug": "treatments",
+    "base": "/treatments",
+    "noun": "treatment",
+    "nounPlural": "treatments",
+    "navLabel": "Treatments",
+    "seoTitle": "Hair Loss Treatments | Nina Ross",
+    "description": "Eight treatments, from PRP and exosomes to red light and IV nutrients. Which one is right depends entirely on what your scalp and your systems show.",
+    "crumb": "Treatments",
+    "h1": "Advanced Hair Restoration <em>Treatments</em>",
+    "lede": "One rule: treatment selection follows diagnosis. Here's what each treatment does, and what it's often considered for. Serving all of Metro Atlanta.",
+    "hero": {
+      "src": "img/scope-healthy.webp",
+      "width": 800,
+      "height": 800,
+      "alt": "Follicles seen at 200x magnification during a scalp read.",
+      "caption": "Every plan starts with a 200x read."
+    },
+    "short": {
+      "text": "We offer eight treatments, from PRP and exosomes to red light and IV nutrients, and which one is right depends entirely on what your scalp and your systems show. That's why treatment selection follows diagnosis, and diagnosis starts with the $99 Hair &amp; Body Discovery. Every hands-on treatment is performed by a certified trichologist, with protocols overseen by Dr. Nina Ross, ND, as Clinical Director.",
+      "takeaways": [
+        "Diagnosis comes first, then the treatment.",
+        "Most plans combine more than one.",
+        "Every treatment is done in-house by certified trichologists."
+      ]
+    },
+    "pairLabel": "Often considered for",
+    "families": [
+      {
+        "id": "program",
+        "name": "The program",
+        "title": "The flagship program",
+        "color": "#764D4B",
+        "dark": true,
+        "text": "Ten visits that bring several treatments together, sequenced around what your scalp shows and adjusted as you progress.",
+        "items": [
+          {
+            "slug": "restorative-therapy",
+            "name": "Restorative Therapy",
+            "text": "Growth factors, microneedling, red and blue lasers, LED infrared and targeted supplementation across ten visits, built around what your scalp showed us."
+          }
+        ]
+      },
+      {
+        "id": "regenerative",
+        "name": "Regenerative",
+        "title": "Regenerative treatments",
+        "color": "#CFB078",
+        "text": "Treatments that work on follicles that are still viable, which is why we screen before we recommend any of them.",
+        "items": [
+          {
+            "slug": "prp-therapy",
+            "name": "PRP Therapy",
+            "text": "Platelet-rich plasma for follicles that are still viable. We screen candidates first."
+          },
+          {
+            "slug": "exosome-therapy",
+            "name": "Exosome Therapy",
+            "text": "Growth signals delivered straight to the follicle, and how we decide whether it fits your case."
+          },
+          {
+            "slug": "growth-factors-therapy",
+            "name": "Growth Factors Therapy",
+            "text": "Concentrated growth signals applied to the scalp to support follicles that are still active."
+          },
+          {
+            "slug": "microneedling",
+            "name": "Microneedling",
+            "text": "Controlled micro-injury that triggers repair and helps topicals absorb."
+          }
+        ]
+      },
+      {
+        "id": "nutrient",
+        "name": "Nutrient delivery",
+        "title": "Nutrient delivery",
+        "color": "#A88B6A",
+        "text": "For when the labs show a gap that oral supplements haven't closed.",
+        "items": [
+          {
+            "slug": "iv-nutrient-therapy",
+            "name": "IV Nutrient Therapy",
+            "text": "When absorption is the limiting factor and oral supplements stall."
+          },
+          {
+            "slug": "fusion-mesotherapy",
+            "name": "Fusion Mesotherapy",
+            "text": "Micro-injections that deliver nutrients into the scalp where follicles can use them."
+          }
+        ]
+      },
+      {
+        "id": "light",
+        "name": "Light therapy",
+        "title": "Light therapy",
+        "color": "#666B57",
+        "text": "Low-level light used on its own or inside a wider plan, to support the scalp while other care does its work.",
+        "items": [
+          {
+            "slug": "red-light-therapy",
+            "name": "Red Light Therapy",
+            "text": "Low-level light that supports follicle activity and calms inflammation."
+          }
+        ]
+      }
+    ],
+    "idealFor": {
+      "restorative-therapy": [
+        "telogen-effluvium",
+        "hormonal-hair-loss",
+        "pcos-hair-loss",
+        "female-hair-loss",
+        "ccca",
+        "postpartum-hair-loss",
+        "medication-hair-loss",
+        "anagen-effluvium",
+        "trichotillomania"
+      ],
+      "prp-therapy": [
+        "alopecia-areata",
+        "traction-alopecia",
+        "ccca",
+        "female-hair-loss",
+        "male-pattern-baldness",
+        "excess-dht"
+      ],
+      "exosome-therapy": [
+        "alopecia-areata",
+        "female-hair-loss",
+        "telogen-effluvium"
+      ],
+      "fusion-mesotherapy": [
+        "telogen-effluvium",
+        "female-hair-loss",
+        "hormonal-hair-loss"
+      ],
+      "red-light-therapy": [
+        "alopecia-areata",
+        "ccca",
+        "lichen-planopilaris",
+        "seborrheic-dermatitis",
+        "folliculitis",
+        "anagen-effluvium"
+      ],
+      "iv-nutrient-therapy": [
+        "telogen-effluvium",
+        "postpartum-hair-loss",
+        "medication-hair-loss",
+        "hormonal-hair-loss",
+        "pcos-hair-loss"
+      ],
+      "microneedling": [
+        "traction-alopecia",
+        "female-hair-loss",
+        "male-pattern-baldness",
+        "trichotillomania"
+      ],
+      "growth-factors-therapy": [
+        "male-pattern-baldness",
+        "female-hair-loss",
+        "excess-dht",
+        "alopecia-areata"
+      ]
+    }
+  }
+}

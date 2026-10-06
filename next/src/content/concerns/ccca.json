@@ -1,0 +1,192 @@
+{
+  "type": "condition",
+  "slug": "ccca",
+  "name": "CCCA",
+  "alternateName": "Central centrifugal cicatricial alopecia",
+  "seoTitle": "CCCA: Early Signs, Causes and What Can Be Saved | Nina Ross",
+  "description": "CCCA explained by Atlanta trichologists: early signs at the crown, what research says about causes, and how 200x trichoscopy shows which follicles are active.",
+  "h1": "CCCA: <em>Causes, Symptoms and Treatment</em>",
+  "subtitle": "Central centrifugal cicatricial alopecia. Starts at the crown and spreads outward, quietly.",
+  "hero": {
+    "slot": "TRICHO-ccca-hero",
+    "src": "img/ccca-200x-crown-scarred-and-active-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x scalp view of the crown in CCCA showing the smooth scarred center where follicle openings are lost beside follicles still producing hair",
+    "caption": "Where scarred meets still active, at 200x."
+  },
+  "quickAnswer": "Central centrifugal cicatricial alopecia, or CCCA, is a scarring hair loss that begins at the crown and moves outward in a circular pattern. In the early stage the scalp often looks shiny or feels tender, and the hair at the center breaks or thins before any bald patch appears. Because it is scarring, follicles that have already been replaced by scar tissue will not grow hair again. Follicles at the active border frequently can be saved when the inflammation is calmed early. At Nina Ross Atlanta in Sandy Springs, we read the crown at 200x magnification to separate scarred areas from areas that still have living follicles, then treat the active edge. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "It starts at the crown and spreads outward.",
+    "Scarred follicles do not regrow.",
+    "The active border can often be protected."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "My crown feels tender or itchy",
+        "us": "Scalp tenderness, pruritus, burning",
+        "why": "Tenderness, itch or burning at the crown is commonly linked to inflammation around the upper follicle, the process behind CCCA. It often shows up before thinning is obvious.",
+        "check": "We read the tender area at 200x for white halos and inflamed openings, so the spot you feel gets read even when it looks fine in the mirror."
+      },
+      {
+        "you": "The center of my part looks shiny",
+        "us": "Loss of follicular openings, atrophic shine",
+        "why": "Shine at the center is commonly linked to follicular openings being replaced by smoother tissue. The surface reflects light because the openings are gone.",
+        "check": "Magnification shows exactly where openings are still present. Where they are gone we tell you plainly, and we map the living follicles around them."
+      },
+      {
+        "you": "My crown keeps breaking off",
+        "us": "Hair shaft fragility over the vertex",
+        "why": "Breakage concentrated at the crown is commonly linked to early CCCA, when hairs at the center weaken before a patch appears. It can also be ordinary breakage.",
+        "check": "We read the hair shafts and the follicles underneath at 200x to tell breakage from early CCCA, because the two need different care."
+      },
+      {
+        "you": "The thin spot is getting wider",
+        "us": "Centrifugal spread from the vertex",
+        "why": "CCCA typically moves outward from the crown in a circle. A spot that keeps widening suggests the border is still active.",
+        "check": "We photograph the border at the same points every visit, so you can see whether it is still moving or has stopped."
+      },
+      {
+        "you": "My hair will not hold a style there",
+        "us": "Reduced density and caliber at the crown",
+        "why": "When a style will not hold at the crown, it is commonly because there are fewer hairs there and the ones left are finer.",
+        "check": "We compare density and hair thickness at the crown with an unaffected area, which shows how much is thinning and how much is scarring."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Inflammation around the follicle",
+        "text": "CCCA is driven by chronic inflammation at the upper follicle. Over time that inflammation replaces the follicular structure with fibrous tissue, which is why the surface starts to look smooth."
+      },
+      {
+        "title": "Genetic and familial factors",
+        "text": "CCCA is reported to run in families, and research has looked at gene variants involved in hair shaft formation. A family history at the crown is worth telling us about."
+      },
+      {
+        "title": "Grooming history",
+        "text": "Certain grooming practices have been associated with CCCA in some studies, although CCCA is multifactorial and these practices have not been established as the sole cause."
+      },
+      {
+        "title": "Metabolic and systemic factors",
+        "text": "Associations have been described with conditions such as type 2 diabetes and thyroid disease. This is one reason your visit looks at more than the scalp surface."
+      }
+    ]
+  },
+  "more": {
+    "kicker": "More detail",
+    "title": "Why CCCA disproportionately <em>affects Black women</em>",
+    "paras": [
+      "CCCA is reported far more often in Black women than in any other group. Research points to a mix of factors: inflammation at the upper follicle, familial patterns, gene variants involved in how the hair shaft forms, and associated metabolic conditions.{cite:1}",
+      "Certain grooming practices have been associated with CCCA in some studies, although CCCA is multifactorial and these practices have not been established as the sole cause.",
+      "What that means for you in practice: styling is one part of the conversation. We look at the scalp, the pattern and the systems behind it before anyone tells you what caused this."
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "How we diagnose CCCA: <em>trichoscopy and biopsy</em>",
+    "paras": [
+      "A biopsy tells you what the tissue looks like at one small point. Trichoscopy at 200x tells you what the whole crown is doing right now, and you watch it on screen with us.",
+      "What we look for: peripilar white halos around the follicle, loss of follicular openings in the center, and a border where openings are still present but inflamed. That border is the part of your scalp still worth fighting for."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-ccca-01",
+        "label": "Scarred center",
+        "caption": "Openings gone, surface smooth. This area will not regrow.",
+        "src": "img/ccca-scarred-center-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Close-up 200x scalp view of the CCCA scarred center showing smooth scarred skin with lost follicle openings on the crown"
+      },
+      {
+        "slot": "TRICHO-ccca-02",
+        "label": "Active border",
+        "caption": "Openings present but inflamed, with white halos. This is where care does the most good.",
+        "src": "img/ccca-active-border-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Close-up 200x scalp view of the active border of CCCA showing inflamed follicle openings with white halos and hairs still present before scarring"
+      }
+    ],
+    "text": "We photograph the same points every visit, so change is measured rather than guessed at."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We start by mapping the crown at 200x so you can see the difference between scarred zones and the active border. Care focuses on calming the inflammation at that border first, then supporting the follicles that are still producing. Where the center has scarred, we are honest with you: that area will not regrow, and the work is holding the line around it. Everything is handled in-house.",
+    "steps": [
+      "Map the crown at 200x",
+      "Calm the active border",
+      "Support what is still producing"
+    ],
+    "treatments": [
+      {
+        "slug": "prp-therapy",
+        "text": "Growth signals placed into the scalp to wake follicles that are still viable."
+      },
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      },
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      }
+    ],
+    "links": [
+      {
+        "href": "/ccca-treatment-atlanta",
+        "label": "CCCA treatment in Atlanta"
+      },
+      {
+        "href": "/black-trichologist-atlanta",
+        "label": "Black trichologist in Atlanta"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "CCCA is diagnosed most often in Black women, and too many people are told it is just a styling problem and sent away. Your hair history, relaxers, braids, locs, weaves and heat included, is clinical information here, never a verdict on you.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "lichen-planopilaris",
+    "traction-alopecia",
+    "folliculitis"
+  ],
+  "faq": [
+    {
+      "q": "Can CCCA be reversed?",
+      "a": "Scarred follicles do not regrow. That is the honest answer. What can change is the border, where follicles are inflamed but still alive. When we calm that inflammation early, we are protecting hair you still have and giving the compromised edge a chance to fill back in. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "How do you know it is CCCA and not something else?",
+      "a": "At 200x, CCCA shows white halos around the follicle and a smooth center where openings are gone, starting at the crown. Traction alopecia sits at the edges and part lines, and lichen planopilaris shows scale wrapped around individual hairs in irregular patches."
+    },
+    {
+      "q": "Do I need a biopsy?",
+      "a": "A biopsy shows the tissue at one small point. Trichoscopy at 200x shows what the whole crown is doing right now, on screen while you watch. We tell you plainly what the read shows and what it means for next steps."
+    },
+    {
+      "q": "Will my protective styles be a problem?",
+      "a": "Your styles are part of the conversation, never a verdict. Certain grooming practices have been associated with CCCA in some studies, although CCCA is multifactorial and these practices have not been established as the sole cause. We build around the hair you want to wear."
+    },
+    {
+      "q": "How soon should I come in?",
+      "a": "As soon as you notice tenderness, shine or a spot that keeps widening at the crown. Early is when the active border is widest, and that border is the part we can still protect."
+    }
+  ],
+  "references": [
+    {
+      "text": "Central centrifugal cicatricial alopecia: a review. PubMed 29222097",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29222097/"
+    }
+  ],
+  "results": true
+}

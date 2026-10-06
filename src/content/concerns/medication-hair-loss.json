@@ -1,0 +1,137 @@
+{
+  "type": "condition",
+  "slug": "medication-hair-loss",
+  "name": "Medication Hair Loss",
+  "seoTitle": "Medication and Hair Loss: Which Ones, What to Do | Nina Ross",
+  "description": "Medications linked to hair loss, how the timing works, and what to do next. Never stop a prescription on your own. Serving all of Metro Atlanta.",
+  "h1": "Medication and Hair Loss: <em>Which Ones, and What to Do</em>",
+  "subtitle": "Which medications are associated with shedding, and the right next step.",
+  "hero": {
+    "slot": "TRICHO-medication-hair-loss-hero",
+    "src": "img/medication-hair-loss-200x-diffuse-shedding-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x scalp view of medication related telogen effluvium with shortened narrower hair shafts across intact follicle openings",
+    "caption": "Your baseline, at 200x."
+  },
+  "quickAnswer": "Several widely used medications are associated with hair shedding, including some blood thinners, beta blockers, retinoids, certain antidepressants, hormonal contraceptives, thyroid medications, anticonvulsants and weight loss medications. The mechanism is usually telogen effluvium, where a group of follicles shifts into resting phase and releases about two to three months later. That delay is why people rarely connect a new prescription to the shedding that follows. The single most important thing to know: never stop or change a prescription on your own. Talk with the prescriber who knows your full picture. Meanwhile, a scalp read at 200x can confirm whether what you are seeing is shedding at all or something else running alongside it. Nina Ross Atlanta, Sandy Springs, serving all of Metro Atlanta.",
+  "takeaways": [
+    "Shedding usually shows two to three months after a new medication.",
+    "Never stop or change a prescription on your own.",
+    "A 200x baseline makes the conversation concrete."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "It started a couple months after a new prescription",
+        "us": "Latency consistent with telogen effluvium",
+        "why": "Shedding two to three months after starting a medication fits the timing of <a href=\"/concerns/telogen-effluvium\">telogen effluvium</a>, the usual way medications affect hair.",
+        "check": "We line up your prescription dates with when the shedding started, and confirm the pattern at 200x."
+      },
+      {
+        "you": "Shedding all over rather than a patch",
+        "us": "Diffuse non-patterned loss",
+        "why": "Medication-related shedding is usually diffuse across the whole scalp rather than in one area.",
+        "check": "We compare several areas at 200x to confirm it is diffuse shedding and check for pattern thinning alongside it."
+      },
+      {
+        "you": "More hair on the pillow and in the comb",
+        "us": "Increased daily shed count",
+        "why": "A rise in daily shedding is commonly linked to more follicles than usual releasing from the resting phase together.",
+        "check": "We look at shed hairs and the follicles still growing, which tells us whether this is shedding or breakage."
+      },
+      {
+        "you": "My hair feels thinner but looks normal at the roots",
+        "us": "Reduced density with intact follicles",
+        "why": "Thinner hair with healthy-looking roots is common in shedding, because the follicles themselves are intact.",
+        "check": "We record hair thickness and density at 200x, so any change is measurable against your baseline."
+      },
+      {
+        "you": "It settled after my dose changed",
+        "us": "Improvement following medication adjustment",
+        "why": "Shedding that eases after a prescriber adjusts a dose supports the link, though the condition being treated can also play a part.",
+        "check": "We photograph the same points over time, so the effect of any change your prescriber makes is visible."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Telogen effluvium from a medication",
+        "text": "The medication pushes follicles into resting phase. The shed appears two to three months later and usually settles once the driver is addressed."
+      },
+      {
+        "title": "The condition being treated",
+        "text": "Thyroid disease, autoimmune conditions and depression can all affect hair themselves, so the medication is not automatically the cause."
+      },
+      {
+        "title": "Nutrient effects",
+        "text": "Some medications affect absorption of iron, zinc or B vitamins, and that depletion can extend a shedding episode."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "A baseline makes the <em>prescriber conversation concrete</em>",
+    "paras": [
+      "Medication-related shedding is judged largely on timing, and timing is hard to argue from memory.",
+      "We photograph the same scalp points at 200x and record hair caliber and density, so if your prescriber adjusts something, the effect is measurable rather than anecdotal."
+    ],
+    "text": "That baseline is also what rules pattern thinning in or out, which changes what you should be asking about in the first place."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We confirm at 200x whether this is a shedding pattern, a pattern thinning, or both, then look at nutrient status in-house. Your report gives you something concrete to bring to your prescriber, which is far more useful in that conversation than a description of what you have been noticing. Nobody here will advise you to stop a medication.",
+    "steps": [
+      "Confirm the pattern at 200x",
+      "Check nutrient status in-house",
+      "Give you a baseline for your prescriber"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "iv-nutrient-therapy",
+        "text": "Targeted nutrient support when your labs show what the follicle is missing."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Being told hair loss is a normal side effect and left there happens often, and it happens more to Black patients. Your report is documentation you can take into that appointment.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "telogen-effluvium",
+    "hormonal-hair-loss",
+    "anagen-effluvium"
+  ],
+  "faq": [
+    {
+      "q": "Which medications cause hair loss?",
+      "a": "Associations have been described with some blood thinners, beta blockers, retinoids, certain antidepressants, hormonal contraceptives, thyroid medications, anticonvulsants and weight loss medications. Association is not certainty for your case."
+    },
+    {
+      "q": "Should I stop taking it?",
+      "a": "No. Never stop or change a prescription on your own. Medication decisions stay with your prescriber. Our role is identifying the pattern and giving you a clear baseline to bring to that conversation."
+    },
+    {
+      "q": "How long after stopping does hair come back?",
+      "a": "If a prescriber changes a medication, shedding from telogen effluvium usually settles over the following months. Your baseline photos show whether it is. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "How do I know it is the medication and not something else?",
+      "a": "Timing is the main clue, and the condition being treated or a nutrient gap can also play a part. The 200x read and your history help separate them."
+    },
+    {
+      "q": "What is worth doing in the meantime?",
+      "a": "Get a baseline, check nutrient status, and support the scalp while you and your prescriber decide on next steps."
+    }
+  ]
+}

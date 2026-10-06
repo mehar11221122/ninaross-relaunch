@@ -1,0 +1,7 @@
+body{margin:0;font-family:var(--font-sans);font-size:16px;line-height:var(--leading-body);color:var(--text-body);background:var(--surface-page);-webkit-font-smoothing:antialiased}
+*,*::before,*::after{box-sizing:border-box}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--text-link);text-decoration:none;transition:color var(--duration-brand) var(--ease-brand)}
+a:hover{color:var(--nr-cocoa)}
+button,input,textarea,select{font:inherit}
+h1,h2,h3,h4{margin:0;font-weight:var(--weight-black);text-transform:uppercase}

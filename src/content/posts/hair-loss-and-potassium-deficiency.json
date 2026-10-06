@@ -1,0 +1,406 @@
+{
+  "slug": "hair-loss-and-potassium-deficiency",
+  "title": "Is Low Potassium Causing Your Hair Loss?",
+  "seoTitle": "Is Low Potassium Causing Your Hair Loss?",
+  "shortTitle": "Is Low Potassium Causing Your Hair Loss?",
+  "description": "Low potassium can tip follicles into shedding. How the mineral links to telogen effluvium, signs to notice, and why testing beats bananas alone. Atlanta.",
+  "category": "Hair Loss",
+  "categorySlug": "hair-loss",
+  "subtitle": "You're eating well and taking a hair vitamin, and it's still thinning. Potassium is the mineral almost nobody talks about.",
+  "published": "2020-11-10",
+  "lastReviewed": null,
+  "readTime": 7,
+  "author": "nina",
+  "reviewer": "nina",
+  "hero": {
+    "src": "img/hero-hair-loss-and-potassium-deficiency.webp",
+    "width": 1448,
+    "height": 1086,
+    "alt": "A woman parts her natural hair at the crown in a bathroom mirror, checking her scalp up close.",
+    "caption": "Checking the part in the mirror is often the first place thinning shows up.",
+    "og": "https://www.ninaross.co/img/HERO-hair-loss-and-potassium-deficiency-1200x630.jpg"
+  },
+  "note": {
+    "text": "The women who surprise me most are the ones doing everything right. They eat well, they take their vitamins, and they're still finding hair in the brush. When I hear that, I stop asking what else to add and start asking what we haven't checked yet. Potassium is almost never on anyone's list, which is exactly why I want to test before another bottle goes in the cart.",
+    "video": {
+      "youtubeId": "",
+      "file": "",
+      "label": "30-second"
+    }
+  },
+  "shortAnswer": {
+    "text": "Low potassium can contribute to hair loss. When it runs low, sodium can build up around the follicles and block the uptake of nutrients like iron and zinc. That kind of stress is commonly linked to telogen effluvium, a diffuse shedding that can start three months or more after the deficiency began.{cite:1}",
+    "takeaways": [
+      "Shedding today often started months ago.",
+      "This type of loss is usually temporary with a consistent plan.",
+      "Test your mineral status instead of guessing."
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "id": "familiar",
+      "toc": "Doing everything right?",
+      "text": "What if you're already doing everything right?"
+    },
+    {
+      "type": "p",
+      "text": "You eat well. You take your vitamins. And you're still finding hair in the brush, in the shower and on your clothes."
+    },
+    {
+      "type": "p",
+      "text": "Iron and biotin get all the airtime in these conversations. Potassium almost never does, and for some women it's the missing link."
+    },
+    {
+      "type": "h2",
+      "id": "how",
+      "toc": "How a deficiency triggers shedding",
+      "text": "How does a potassium deficiency trigger shedding?"
+    },
+    {
+      "type": "p",
+      "text": "Follicles behave like plants. They need the right environment before anything you feed them can be used."
+    },
+    {
+      "type": "p",
+      "text": "When potassium runs low, sodium accumulates around the follicles. That buildup blocks the uptake of other nutrients, including iron and zinc, so the follicle ends up starving while surrounded by food.{cite:2}"
+    },
+    {
+      "type": "pullquote",
+      "text": "The follicle ends up starving while surrounded by food."
+    },
+    {
+      "type": "p",
+      "text": "A nutrient blockade is a stressor, and the body responds by moving hair out of its growing phase. That's <a class=\"a3-in\" href=\"/concerns/telogen-effluvium\">telogen effluvium</a>, the diffuse thinning across the whole scalp so many women describe.{cite:3}"
+    },
+    {
+      "type": "timeline",
+      "steps": [
+        {
+          "title": "Deficiency builds",
+          "text": "Potassium runs low; other nutrients get blocked."
+        },
+        {
+          "title": "Months pass",
+          "text": "Three months or more, often with no visible change."
+        },
+        {
+          "title": "Shedding starts",
+          "text": "Diffuse, all over. What you see today started well before today."
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "slot": "TRICHO-hair-loss-and-potassium-deficiency-01",
+      "src": "img/potassium-trichoscopy-telogen.jpg",
+      "width": 493,
+      "height": 405,
+      "alt": "200x trichoscopy view of a scalp showing diffuse, even thinning across the area",
+      "caption": "At 200x: an even, all-over reduction in density with healthy-looking skin, the kind of pattern commonly linked to telogen shedding."
+    },
+    {
+      "type": "h2",
+      "id": "signs",
+      "toc": "Signs of low potassium",
+      "text": "What are the signs of low potassium?"
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Unexplained fatigue",
+        "Muscle weakness or cramping",
+        "Trouble sleeping",
+        "Heart palpitations or a fluttering feeling",
+        "Tingling or numbness in the hands or feet"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "None of this is a diagnosis you can make from a list. It's a reason to look deeper, and functional medicine lab testing is how we check mineral status properly instead of assuming.{cite:4}"
+    },
+    {
+      "type": "h2",
+      "id": "fix",
+      "toc": "How to correct it",
+      "text": "How do you correct low potassium?"
+    },
+    {
+      "type": "h3",
+      "text": "Food as the foundation"
+    },
+    {
+      "type": "p",
+      "text": "Spread potassium-rich foods across your day rather than relying on one item."
+    },
+    {
+      "type": "foodgrid",
+      "groups": [
+        {
+          "title": "Fruit",
+          "items": [
+            "Melons",
+            "Bananas",
+            "Apricots",
+            "Peaches"
+          ]
+        },
+        {
+          "title": "Vegetables",
+          "items": [
+            "Spinach",
+            "Kale",
+            "Mushrooms",
+            "Broccoli",
+            "Sweet potatoes"
+          ]
+        },
+        {
+          "title": "Proteins and beans",
+          "items": [
+            "Salmon",
+            "Turkey",
+            "Chicken",
+            "Lima beans",
+            "Black beans"
+          ]
+        },
+        {
+          "title": "Grains and dried fruit",
+          "items": [
+            "Brown rice",
+            "Figs",
+            "Raisins"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Supplementing, once testing shows a real deficit"
+    },
+    {
+      "type": "p",
+      "text": "Once a real deficit has built, diet alone often falls short, because absorption sets its own limit on what you actually take in.{cite:5} In our plans, potassium and magnesium are paired in capsule form, because magnesium helps the body use potassium, and they're supported with D3 for follicle health.{cite:6}"
+    },
+    {
+      "type": "callout",
+      "tone": "attention",
+      "title": "Safety first.",
+      "text": "Talk to your doctor before supplementing potassium if you have kidney issues or take blood-pressure medication."
+    },
+    {
+      "type": "video",
+      "title": "Is my shedding normal?",
+      "length": "0:45",
+      "duration": "PT0M45S",
+      "slot": "VIDEO-@ninarossatl-shedding-poster",
+      "youtubeId": "",
+      "file": "",
+      "poster": "",
+      "related": {
+        "href": "/blog/iron-deficiency-and-hair-loss",
+        "title": "Iron deficiency and hair loss: signs your shedding is internal"
+      }
+    },
+    {
+      "type": "h2",
+      "id": "time",
+      "toc": "How long it takes",
+      "text": "How long does it take to see a change?"
+    },
+    {
+      "type": "p",
+      "text": "It took months to deplete, so it takes months to replenish and let the hair cycle reset. That's biology, not a lack of effort on your part."
+    },
+    {
+      "type": "callout",
+      "tone": "calm",
+      "text": "This type of shedding is usually temporary with a consistent plan. Most women can expect their hair to return toward its normal rhythm within about six months.{cite:7}",
+      "resultsDisclaimer": true
+    },
+    {
+      "type": "p",
+      "text": "The real question is whether potassium is the whole story for you, or whether hormones, other nutrients or inflammation are also in play. That's what testing is for."
+    },
+    {
+      "type": "h2",
+      "id": "what-not-to-conclude-from-symptoms",
+      "toc": "What not to conclude from symptoms",
+      "text": "What not to conclude from symptoms"
+    },
+    {
+      "type": "p",
+      "text": "Fatigue, cramping, sleep changes, palpitations, tingling, and shedding can each have more than one explanation. Seeing several together makes the potassium question worth asking. It does not make the answer automatic."
+    },
+    {
+      "type": "p",
+      "text": "That distinction protects you from correcting the wrong thing. The history, scalp pattern, and focused testing have to agree before potassium belongs at the center of the plan."
+    },
+    {
+      "type": "callout",
+      "tone": "attention",
+      "text": "Use symptoms to form a better question, not to choose your own dose.",
+      "title": "Test the question."
+    },
+    {
+      "type": "booking",
+      "lead": "Not sure this is you?",
+      "text": "See your scalp at 200x."
+    },
+    {
+      "type": "h2",
+      "id": "decide",
+      "toc": "How we decide",
+      "text": "How do we decide whether potassium belongs in your plan?"
+    },
+    {
+      "type": "h3",
+      "text": "We start with your history"
+    },
+    {
+      "type": "p",
+      "text": "Before a mineral goes into a plan, we go through how the shedding started, what changed three to six months before it, what you eat and what you already take. That conversation usually tells us whether potassium is even the right question."
+    },
+    {
+      "type": "h3",
+      "text": "Then we read the scalp at 200x"
+    },
+    {
+      "type": "p",
+      "text": "On screen, while you watch, we look at which of two pictures you have. They call for very different plans."
+    },
+    {
+      "type": "table",
+      "head": [
+        "What we see at 200x",
+        "Diffuse thinning",
+        "Concentrated thinning"
+      ],
+      "rows": [
+        [
+          "Where",
+          "Across the whole scalp",
+          "One area"
+        ],
+        [
+          "Pattern",
+          "Telogen pattern",
+          "With surface change"
+        ],
+        [
+          "Where we look next",
+          "If history agrees: mineral status and absorption",
+          "A very different plan"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Labs only when they're warranted"
+    },
+    {
+      "type": "p",
+      "text": "If the history and the read point inward, mineral status and absorption are worth testing properly, alongside hormones and inflammatory markers. If they don't, more supplements aren't the answer, and we'll say so."
+    },
+    {
+      "type": "h3",
+      "text": "Correction, not just more bananas"
+    },
+    {
+      "type": "p",
+      "text": "Food is the foundation, and it's often too slow on its own once a real deficit has built. When correction is needed, we tell you what we're correcting and why."
+    },
+    {
+      "type": "links",
+      "title": "Go deeper",
+      "items": [
+        {
+          "kind": "Condition",
+          "href": "/concerns/telogen-effluvium",
+          "title": "Telogen effluvium",
+          "text": "The diffuse, all-over shedding pattern."
+        },
+        {
+          "kind": "Our approach",
+          "href": "/functional-medicine",
+          "title": "Functional medicine",
+          "text": "How we test mineral status and absorption."
+        },
+        {
+          "kind": "Treatment",
+          "href": "/treatments/iv-nutrient-therapy",
+          "title": "IV nutrient therapy",
+          "text": "Nutrient support delivered directly, when testing shows a need."
+        },
+        {
+          "kind": "Article",
+          "href": "/blog/iron-deficiency-and-hair-loss",
+          "title": "Iron deficiency and hair loss",
+          "text": "Signs your shedding is internal."
+        },
+        {
+          "kind": "Article",
+          "href": "/blog/magnesium-for-hair-growth",
+          "title": "Magnesium and hair growth",
+          "text": "The partner mineral in potassium plans."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can low potassium cause hair loss?",
+      "a": "It can contribute. When potassium runs low, sodium can build up around the follicles and block the uptake of nutrients like iron and zinc. That stress is commonly linked to telogen effluvium, a diffuse, all-over shedding."
+    },
+    {
+      "q": "How long does it take for hair to grow back after fixing a potassium deficiency?",
+      "a": "It took months to deplete, so it takes months to replenish and let the hair cycle reset. With a consistent approach, most women can expect their hair to return toward its normal rhythm within about six months. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "What are the signs of low potassium?",
+      "a": "Unexplained fatigue, muscle weakness or cramping, trouble sleeping, heart palpitations, and tingling or numbness in the hands or feet. None of these is a diagnosis on its own. They are a reason to test."
+    },
+    {
+      "q": "Should I take potassium supplements for hair loss?",
+      "a": "Only once testing shows a real deficit. Food is the foundation, but a significant deficiency often needs targeted correction. Talk to your doctor before supplementing potassium if you have kidney issues or take blood-pressure medication."
+    },
+    {
+      "q": "What foods are highest in potassium?",
+      "a": "Melons, bananas, apricots, peaches, spinach, kale, mushrooms, broccoli, sweet potatoes, salmon, turkey, chicken, lima beans, black beans, brown rice, figs and raisins. Spread them across the day rather than relying on one item."
+    },
+    {
+      "q": "Is potassium or biotin better for hair growth?",
+      "a": "Iron and biotin get most of the airtime, and potassium almost never does. For some women it is the missing link, which is why we test mineral status rather than guess."
+    }
+  ],
+  "references": [
+    {
+      "claim": "low potassium linked to telogen effluvium and a 3+ month lag before shedding"
+    },
+    {
+      "claim": "low potassium, sodium accumulation and blocked iron/zinc uptake at the follicle"
+    },
+    {
+      "claim": "physiological stress moving hair into telogen"
+    },
+    {
+      "claim": "symptoms of low potassium"
+    },
+    {
+      "claim": "absorption limits of dietary potassium correction"
+    },
+    {
+      "claim": "magnesium supporting potassium use"
+    },
+    {
+      "claim": "recovery timeline of telogen effluvium, about six months"
+    }
+  ],
+  "upNext": "iron-deficiency-and-hair-loss",
+  "related": [
+    "magnesium-for-hair-growth",
+    "stop-hair-loss-with-dht-blockers",
+    "minoxidil-itchy-scalp"
+  ]
+}

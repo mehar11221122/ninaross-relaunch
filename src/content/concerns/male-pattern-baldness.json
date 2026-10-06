@@ -1,0 +1,166 @@
+{
+  "type": "condition",
+  "slug": "male-pattern-baldness",
+  "name": "Male Pattern Baldness",
+  "seoTitle": "Male Pattern Baldness: How Fast, What Slows It | Nina Ross",
+  "description": "Male pattern baldness explained: the timeline, why the back is spared, and what slows it. Read at 200x in Sandy Springs. Serving all of Metro Atlanta.",
+  "h1": "Male Pattern Baldness: <em>How Fast, and What Slows It</em>",
+  "subtitle": "Predictable pattern, variable speed. The earlier you read it, the more you keep.",
+  "hero": {
+    "slot": "TRICHO-male-pattern-baldness-hero",
+    "src": "img/male-pattern-baldness-crown-thinning-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x view of the crown in male pattern thinning",
+    "caption": "The crown against your control zone, at 200x."
+  },
+  "quickAnswer": "Male pattern baldness is DHT-driven miniaturization following a predictable distribution: the temples recede, the crown thins, and the back and sides stay dense because those follicles are not androgen-sensitive. Speed varies widely. Some men lose noticeable density in two or three years, others hold a stable pattern for a decade. What determines your pace is inherited follicle sensitivity, which is why family history is useful information. The practical point is that follicles producing fine hair can still be supported, while follicles that stopped producing years ago cannot be argued back. Reading your crown at 200x tells us which stage you are in. Nina Ross Atlanta is in Sandy Springs, serving all of Metro Atlanta.",
+  "takeaways": [
+    "The back and sides are usually spared.",
+    "Your pace is inherited, and it varies widely.",
+    "Follicles still producing fine hair can be supported."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "My hairline is going back at the corners",
+        "us": "Frontotemporal recession",
+        "why": "Recession at the corners is commonly linked to DHT-sensitive follicles at the temples producing finer hair each cycle.",
+        "check": "We read the corners at 200x and compare them with the back of your head to measure how far it has moved."
+      },
+      {
+        "you": "There is a thin spot at my crown",
+        "us": "Vertex miniaturization",
+        "why": "A thin spot at the crown is commonly linked to miniaturization, where follicles keep producing finer, shorter hair.",
+        "check": "We photograph the crown at 200x and set a baseline you can measure against at every visit."
+      },
+      {
+        "you": "The back is still thick",
+        "us": "Androgen-insensitive occipital donor zone",
+        "why": "The follicles at the back and sides are not sensitive to DHT, which is why they stay dense while the top thins.",
+        "check": "We use the back as your personal control zone. Comparing it with the crown shows exactly how far the pattern has moved."
+      },
+      {
+        "you": "My hair will not grow past a certain length up top",
+        "us": "Shortened anagen phase",
+        "why": "When hair on top stops growing past a certain length, it is commonly because DHT has shortened the growth phase.",
+        "check": "We read length and thickness at 200x to see how much the cycle has shifted."
+      },
+      {
+        "you": "My line is patchy when I get a fade",
+        "us": "Reduced density visible at short lengths",
+        "why": "Short cuts make lower density easier to see, so a patchy line is often the first sign your barber notices.",
+        "check": "We read the hairline at 200x to tell pattern thinning from other causes, like tension or scalp irritation."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Inherited DHT sensitivity",
+        "text": "The follicles you inherited determine which zones respond to DHT and how quickly they shrink.{cite:1}"
+      },
+      {
+        "title": "Age and cumulative exposure",
+        "text": "Each growth cycle under DHT pressure produces a slightly finer hair, so the pattern deepens over years rather than months."
+      },
+      {
+        "title": "Metabolic and stress load",
+        "text": "Insulin resistance, poor sleep and sustained stress do not cause the pattern, and they can speed up how fast it shows."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Your donor zone <em>is the control group</em>",
+    "paras": [
+      "We photograph the back of your head at 200x alongside the crown at every visit. The back is not androgen-sensitive, so it works as your personal control."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-male-pattern-baldness-01",
+        "label": "Crown",
+        "src": "img/male-pattern-baldness-crown-miniaturization-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of the crown in male pattern thinning, with hairs of clearly different thicknesses",
+        "caption": "Finer hairs, fewer per opening."
+      },
+      {
+        "slot": "TRICHO-male-pattern-baldness-02",
+        "label": "Donor zone",
+        "src": "img/male-pattern-baldness-donor-zone-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of the occipital donor zone in male pattern thinning, with dense full-thickness hairs evenly packed",
+        "caption": "Full thickness at the back of the head."
+      }
+    ],
+    "text": "Comparing the two quantifies how far the pattern has moved, and tells us when a treatment is holding ground."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We map the crown and hairline at 200x and set a baseline you can measure against. Care combines growth signal therapy and microneedling where follicles are still producing. Where a zone is no longer producing, we tell you plainly what that area can and cannot do.",
+    "steps": [
+      "Map the crown and hairline at 200x",
+      "Set your baseline",
+      "Support follicles still producing"
+    ],
+    "treatments": [
+      {
+        "slug": "prp-therapy",
+        "text": "Growth signals placed into the scalp to wake follicles that are still viable."
+      },
+      {
+        "slug": "growth-factors-therapy"
+      },
+      {
+        "slug": "microneedling",
+        "text": "Controlled micro-channels that improve delivery of topicals into the scalp."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "For Black men the first sign is often an uneven line at the fade or thinning at the crown that the barber notices first. Family pattern matters, and being told nothing can be done is different from nothing being possible. We look, then we tell you the truth.",
+      "Fades, waves, locs, twists and durags. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "excess-dht",
+    "seborrheic-dermatitis",
+    "telogen-effluvium"
+  ],
+  "faq": [
+    {
+      "q": "How fast will I lose it?",
+      "a": "Nobody can tell you a date. What we can do is measure your current stage at 200x and re-measure it, so your actual pace becomes visible instead of theoretical."
+    },
+    {
+      "q": "Is it too late for me?",
+      "a": "That depends on how many follicles are still producing hair, even fine hair. Those can be supported. Areas that stopped producing years ago are a different conversation, and we tell you which you have. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Why does the back never go?",
+      "a": "The follicles at the back and sides are not sensitive to DHT, so they keep producing full-thickness hair while the top thins."
+    },
+    {
+      "q": "Does wearing a cap or a durag cause this?",
+      "a": "Male pattern baldness is driven by inherited DHT sensitivity. Tension or friction from anything worn tight is a separate finding, and we read it separately."
+    },
+    {
+      "q": "Do you work with Black men specifically?",
+      "a": "Yes. We read textured hair every day, including fades, waves and locs, and we know how pattern thinning shows up at short lengths."
+    }
+  ],
+  "references": [
+    {
+      "text": "Androgenetic alopecia: an update. PubMed 32003879",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32003879/"
+    }
+  ],
+  "results": true
+}

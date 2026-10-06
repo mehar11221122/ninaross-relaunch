@@ -1,0 +1,182 @@
+{
+  "type": "condition",
+  "slug": "scalp-bumps",
+  "name": "Scalp Bumps",
+  "seoTitle": "Bumps on the Scalp: Causes and When to Worry | Nina Ross",
+  "description": "Scalp bumps: folliculitis, seborrheic dermatitis, acne keloidalis, ingrown hairs and cysts. How to tell them apart and when they signal hair loss.",
+  "h1": "Bumps on Your Scalp: <em>What They Are and When They Matter</em>",
+  "subtitle": "Start here if you are feeling bumps and do not know what they are.",
+  "hero": {
+    "slot": "TRICHO-scalp-bumps-hero",
+    "src": "img/scalp-bumps-raised-bump-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x close-up of the scalp showing a raised red bump with hairs still coming out of the follicle opening at its center",
+    "caption": "A raised bump with hairs still coming out of its center. At 200x."
+  },
+  "quickAnswer": "Bumps on the scalp are a symptom, and the five common explanations behave very differently. Small tender bumps centered on a hair are usually folliculitis. Greasy flaking with irritated skin points to seborrheic dermatitis. Firm bumps at the nape that harden over time suggest acne keloidalis nuchae. Bumps after a cut or a fade are frequently ingrown hairs. A soft, smooth, movable lump under the skin is most often a cyst. What matters for your hair is whether the same follicles are inflamed month after month, because sustained inflammation is what costs density. Start by identifying which one you have. We read scalp bumps at 200x at Nina Ross Atlanta in Sandy Springs, serving all of Metro Atlanta.",
+  "takeaways": [
+    "Bumps are a symptom with five common causes.",
+    "Months of inflammation is what costs density.",
+    "Identify the type first."
+  ],
+  "triage": {
+    "title": "Which bump <em>is it?</em>",
+    "items": [
+      {
+        "name": "Folliculitis",
+        "href": "/concerns/folliculitis",
+        "text": "Small tender bumps, sometimes with a white head, each centered on a hair. Often clusters where a style sits tight."
+      },
+      {
+        "name": "Seborrheic dermatitis",
+        "href": "/concerns/seborrheic-dermatitis",
+        "text": "Bumps sitting in greasy flaking with itch. The scale is the giveaway."
+      },
+      {
+        "name": "Acne keloidalis nuchae",
+        "href": "/concerns/folliculitis",
+        "text": "Firm bumps at the nape and back hairline that harden and can join together. This one costs hair if it runs unchecked."
+      },
+      {
+        "name": "Ingrown hairs",
+        "href": "/concerns/folliculitis",
+        "text": "Bumps appearing after a cut, fade or razor, where curved hair re-enters the skin."
+      },
+      {
+        "name": "Cysts",
+        "text": "Soft, smooth, movable lumps under the skin rather than at the follicle opening. Usually not tender unless irritated."
+      }
+    ]
+  },
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Little sore bumps with a hair in them",
+        "us": "Follicular pustules",
+        "why": "A sore bump centered on a hair is the classic sign of <a href=\"/concerns/folliculitis\">folliculitis</a>, commonly linked to bacteria, yeast or buildup at the follicle opening.",
+        "check": "We read the bump at 200x to see whether it looks bacterial or yeast-driven, since each needs different care."
+      },
+      {
+        "you": "Flaky patches with bumps",
+        "us": "Inflammatory scale with papules",
+        "why": "Bumps sitting in greasy flaking are commonly linked to <a href=\"/concerns/seborrheic-dermatitis\">seborrheic dermatitis</a>.",
+        "check": "We clear the scale and read the same area again, so we can see what the follicles underneath are doing."
+      },
+      {
+        "you": "Hard bumps at the back of my neck",
+        "us": "Firm papules at the occipital hairline",
+        "why": "Firm bumps at the nape that harden over time are commonly linked to acne keloidalis nuchae, especially with close cuts and fades.",
+        "check": "We read the nape at 200x and count follicular openings, because this type can cost hair if it runs unchecked."
+      },
+      {
+        "you": "Bumps right after a haircut",
+        "us": "Post-grooming ingrown hairs",
+        "why": "Bumps right after a cut are frequently ingrown hairs, where curved hair re-enters the skin.",
+        "check": "We look at the hair and follicle at 200x to confirm it is ingrown hair and look at what in the cut is triggering it."
+      },
+      {
+        "you": "A soft lump under the skin that moves",
+        "us": "Epidermoid cyst",
+        "why": "A soft, smooth, movable lump under the skin is most often a cyst, sitting below the follicle opening rather than at it.",
+        "check": "We confirm it is separate from the follicles and read the surrounding scalp for anything else going on."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Inflammation at the follicle",
+        "text": "Bacteria, yeast, friction or an ingrown hair all set off the same follicular inflammation, which is why the bumps look similar to you."
+      },
+      {
+        "title": "Occlusion and buildup",
+        "text": "Product, sweat and covered hair create conditions the follicle reacts to, especially at the nape and hairline."
+      },
+      {
+        "title": "Grooming trauma",
+        "text": "Close cuts, razors and repeated tension irritate the follicle opening. This is mechanical, and it is fixable."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "When scalp bumps <em>signal hair loss</em>",
+    "paras": [
+      "What matters is whether the follicle opening is still there.",
+      "At 200x we count follicular openings in the affected area and compare them to an unaffected area on the same scalp. When openings are missing where bumps have been recurring, inflammation has already cost you follicles."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-scalp-bumps-01",
+        "label": "Openings intact",
+        "caption": "Several inflamed bumps, and every follicle opening still holding hair.",
+        "src": "img/scalp-bumps-openings-intact-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Several inflamed red scalp bumps at 200x with every follicle opening still visible and holding hair"
+      },
+      {
+        "slot": "TRICHO-scalp-bumps-02",
+        "label": "Openings lost",
+        "caption": "Smooth, shiny skin where bumps kept returning, beside openings still holding hair.",
+        "src": "img/scalp-bumps-openings-lost-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Smooth shiny scalp patch with no follicle openings at 200x beside normal openings holding hair"
+      }
+    ],
+    "text": "That finding changes the plan from comfort to preservation, and it is the reason recurring bumps get read rather than waited out."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "Identification comes first, because folliculitis, seborrheic dermatitis and keloidal bumps need different care. We read the bumps at 200x, clear buildup with deep scalp cleansing where it is contributing, settle the inflammation with light-based therapy, and re-check the same area. If the bumps have already cost you density, we say so and show you.",
+    "steps": [
+      "Identify the type at 200x",
+      "Clear buildup and settle inflammation",
+      "Re-check the same area"
+    ],
+    "treatments": [
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Bumps along the nape and fade line are extremely common with textured hair and get dismissed as razor bumps or a hygiene issue. Neither is a diagnosis, and neither is true.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "folliculitis",
+    "seborrheic-dermatitis",
+    "ccca"
+  ],
+  "faq": [
+    {
+      "q": "Are scalp bumps serious?",
+      "a": "Most are treatable and not dangerous. What matters is how long they have been active, because months of inflammation around the same follicles is what puts hair at risk."
+    },
+    {
+      "q": "How do I tell folliculitis from ingrown hairs?",
+      "a": "Folliculitis bumps are centered on a hair coming out of the follicle. Ingrown hairs show up after a cut or razor, where a curved hair has turned back into the skin. At 200x the difference is clear."
+    },
+    {
+      "q": "Why do I get bumps only at my nape?",
+      "a": "The nape takes close cuts, friction from collars and sweat, and tension from styles pulled back. Those are common triggers for folliculitis, ingrown hairs and keloidal bumps there."
+    },
+    {
+      "q": "Can I pop them or use a scrub?",
+      "a": "It is better not to. Popping and scrubbing can spread irritation to nearby follicles and leave marks, especially on deeper skin tones."
+    },
+    {
+      "q": "When should I come in?",
+      "a": "If bumps keep returning in the same spots, have lasted more than a few weeks, or are hardening at the nape. Those are the signs worth reading early."
+    }
+  ]
+}

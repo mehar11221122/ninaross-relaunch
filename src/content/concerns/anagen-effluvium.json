@@ -1,0 +1,138 @@
+{
+  "type": "condition",
+  "slug": "anagen-effluvium",
+  "name": "Anagen Effluvium",
+  "offerLate": true,
+  "seoTitle": "Anagen Effluvium: Sudden Hair Loss Explained | Nina Ross",
+  "description": "Anagen effluvium is rapid hair loss during chemotherapy or similar treatment. What to expect, when regrowth starts, and gentle scalp support in Atlanta.",
+  "h1": "Anagen Effluvium: <em>Sudden Hair Loss During Treatment</em>",
+  "subtitle": "Rapid loss during treatment. The follicles usually survive.",
+  "hero": {
+    "slot": "TRICHO-anagen-effluvium-hero",
+    "src": "img/anagen-effluvium-200x-broken-hair-shafts-nina-ross-atlanta.png",
+    "width": 1448,
+    "height": 1086,
+    "alt": "200x scalp view of anagen effluvium with broken, tapering hair shafts at different lengths across open follicle openings",
+    "caption": "Anagen shedding, at 200x."
+  },
+  "quickAnswer": "Anagen effluvium is hair loss that happens while follicles are actively growing, most often during chemotherapy or after certain other treatments and exposures. Because the majority of your scalp hair is in the growth phase at any moment, the loss is rapid and widespread, usually beginning within one to three weeks of treatment starting. The follicle itself is generally not destroyed. Regrowth commonly begins within a few weeks to a few months after treatment ends, and the first hair back is often a different texture or color before settling closer to your own. If you would like your scalp looked after during or after this, we are here, gently and at your pace. Nina Ross Atlanta, Sandy Springs, serving all of Metro Atlanta.",
+  "takeaways": [
+    "The follicle is generally not destroyed.",
+    "Regrowth often arrives in a new texture first.",
+    "We move at your pace."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "It came out fast, everywhere",
+        "us": "Rapid diffuse loss of anagen hairs",
+        "why": "Most scalp hair is in its growth phase at any moment, so when treatment interrupts growth, the loss is fast and widespread.",
+        "check": "When you are ready, a 200x read shows whether the follicles are open and preparing to regrow."
+      },
+      {
+        "you": "It started right after treatment began",
+        "us": "Onset within one to three weeks",
+        "why": "Loss that begins within one to three weeks of treatment is typical of anagen effluvium.",
+        "check": "We note the timing with your treatment dates. It helps us know what stage your scalp is in."
+      },
+      {
+        "you": "My scalp is tender or sensitive",
+        "us": "Scalp sensitivity during treatment",
+        "why": "Tenderness during treatment is common. The scalp is going through a lot alongside the rest of you.",
+        "check": "We keep everything gentle and add nothing that irritates, starting with a comfortable scalp routine."
+      },
+      {
+        "you": "Eyebrows and lashes went too",
+        "us": "Loss across other anagen-dominant sites",
+        "why": "Brows and lashes also have many hairs in their growth phase, so they are often affected at the same time.",
+        "check": "Tell us what you have noticed. We take the whole picture into account at your pace."
+      },
+      {
+        "you": "It grew back curly when it was straight",
+        "us": "Post-treatment texture change",
+        "why": "New hair after treatment often arrives with a different texture or color before settling closer to your own.",
+        "check": "We read the new growth at 200x and help you care for textured regrowth, whatever form it takes."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Interruption of rapidly dividing cells",
+        "text": "Treatments that target fast-dividing cells also reach the cells building your hair shaft, so growing hairs break at the scalp."
+      },
+      {
+        "title": "Radiation to the scalp area",
+        "text": "Localized radiation affects follicles in the treated field, and recovery there depends on the dose and field."
+      },
+      {
+        "title": "Certain toxic exposures",
+        "text": "Some exposures produce the same rapid interruption of the growth phase, though this is far less common."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Spotting regrowth <em>before the mirror does</em>",
+    "paras": [
+      "At 200x, the earliest regrowth appears as fine, evenly spaced new hairs emerging from open follicles across the whole scalp rather than in patches. Seeing that pattern confirms the follicles are working again, often weeks before there is anything visible to you."
+    ],
+    "text": "For a lot of people, that confirmation is the useful thing, and it takes one visit."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "During treatment the priority is comfort and protection: a gentle scalp routine and nothing that adds irritation. Afterward, when your oncology team says it is appropriate, a restorative program and light-based therapy can support the scalp while regrowth establishes. We move at whatever pace suits you and there is no pressure here.",
+    "steps": [
+      "Comfort and protection during treatment",
+      "Support the scalp afterward",
+      "Move at your pace"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "red-light-therapy",
+        "text": "Low level light used to calm scalp inflammation and support the growth phase."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Regrowth after treatment often arrives with a different curl pattern, and finding someone who knows how to care for textured regrowth should not be difficult. It is not difficult here.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "telogen-effluvium",
+    "medication-hair-loss",
+    "alopecia-areata"
+  ],
+  "faq": [
+    {
+      "q": "Will my hair grow back after chemotherapy?",
+      "a": "In most cases the follicle is not destroyed and regrowth begins within a few weeks to a few months after treatment ends. Your oncology team knows the specifics of your regimen. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Why did it come back a different texture?",
+      "a": "New hair after treatment often arrives with a different texture or color, and it commonly settles closer to your own over time."
+    },
+    {
+      "q": "Can I do anything while I am still in treatment?",
+      "a": "Comfort comes first. A gentle scalp routine and avoiding anything that irritates is the focus while you are in treatment."
+    },
+    {
+      "q": "When should I come see you?",
+      "a": "Whenever you are ready. Some people come for reassurance that regrowth has started, others once treatment ends. There is no wrong time."
+    },
+    {
+      "q": "Should I change anything about my treatment?",
+      "a": "No. Your treatment decisions stay with your oncology team. Our role is looking after your scalp."
+    }
+  ],
+  "results": true
+}

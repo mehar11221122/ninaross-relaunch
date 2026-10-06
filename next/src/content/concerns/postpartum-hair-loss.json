@@ -1,0 +1,167 @@
+{
+  "type": "condition",
+  "slug": "postpartum-hair-loss",
+  "name": "Postpartum Hair Loss",
+  "seoTitle": "Postpartum Hair Loss: When It Stops, What Helps | Nina Ross",
+  "description": "Postpartum shedding explained: why it starts around three months, when it settles, and what helps. Sandy Springs trichology, serving all of Metro Atlanta.",
+  "h1": "Postpartum Hair Loss: <em>When It Stops and What Helps</em>",
+  "subtitle": "The shedding that starts around month three. It is real, and it does end.",
+  "hero": {
+    "slot": "TRICHO-postpartum-hair-loss-hero",
+    "src": "img/postpartum-hair-loss-shedding-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x close-up of the scalp during postpartum shedding, with many short regrowing hairs among the openings",
+    "caption": "The shed and the regrowth, side by side, at 200x."
+  },
+  "quickAnswer": "During pregnancy, higher estrogen keeps more hairs than usual in their growth phase, so shedding slows and hair feels thicker. After birth, estrogen drops and all of those held hairs move into shedding together. That is why the loss typically begins around two to four months postpartum and can feel alarming. For most people it settles within six to twelve months, and the hairline regrows a fringe of short new hairs on the way back. What can keep it going longer is low iron, thyroid changes after birth, breastfeeding demands, or very little sleep. Those are checkable. We read your scalp at 200x at Nina Ross Atlanta in Sandy Springs and look at the systems behind it. Serving all of Metro Atlanta.",
+  "takeaways": [
+    "It usually starts two to four months after birth.",
+    "Most people see it settle within six to twelve months.",
+    "If it runs longer, iron and thyroid are worth checking."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Handfuls come out in the shower",
+        "us": "Acute telogen shedding",
+        "why": "After birth, the hairs pregnancy held in growth shift into shedding together. It feels like a lot because it is, and it is commonly temporary.",
+        "check": "We confirm the pattern at 200x and check whether new growth has already started along your hairline."
+      },
+      {
+        "you": "It started a few months after I gave birth",
+        "us": "Delayed onset, two to four months postpartum",
+        "why": "The shed arrives two to four months after delivery because that is how long the resting phase lasts before hairs release.",
+        "check": "We match the timing to your delivery date, which usually confirms postpartum shedding."
+      },
+      {
+        "you": "Short baby hairs all along my hairline",
+        "us": "Regrowth fringe of new anagen hairs",
+        "why": "A band of short new hairs along the hairline is a good sign. It usually means the follicles have already restarted.",
+        "check": "We read the fringe at 200x and photograph it, so you can see regrowth before it is obvious in the mirror."
+      },
+      {
+        "you": "My part looks thinner overall",
+        "us": "Diffuse reduction in density",
+        "why": "Postpartum shedding is diffuse, so the part can look wider while hair is released all over the scalp.",
+        "check": "We compare several areas at 200x to confirm it is diffuse shedding and check for any pattern thinning underneath."
+      },
+      {
+        "you": "It has been more than a year",
+        "us": "Chronic telogen effluvium, needs investigation",
+        "why": "Shedding past a year is commonly linked to a second driver, such as low iron, a thyroid change or very little sleep.",
+        "check": "We look at iron, thyroid and nutrient status in-house to find what is still keeping it going."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Estrogen drop after delivery",
+        "text": "The hairs pregnancy held in growth all shift into shedding at once. This is the main driver and it is self-limiting."
+      },
+      {
+        "title": "Iron and nutrient depletion",
+        "text": "Pregnancy, blood loss at delivery and breastfeeding all draw down iron stores, and low ferritin keeps shedding going after the hormonal wave passes."
+      },
+      {
+        "title": "Postpartum thyroid changes",
+        "text": "Thyroid function shifts after birth for some people. It is easy to test and worth ruling in or out when shedding runs long."
+      },
+      {
+        "title": "Sleep and stress load",
+        "text": "Sustained cortisol from broken sleep keeps follicles cycling out early, which stretches the recovery."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "The regrowth fringe <em>is the signal to look for</em>",
+    "paras": [
+      "At 200x along the hairline we look for a band of short, tapered, fully pigmented hairs, all roughly the same length. That fringe means the follicles have already restarted, even while you are still finding hair in the shower drain."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-postpartum-hair-loss-01",
+        "label": "Shedding",
+        "src": "img/postpartum-hair-loss-shedding-part-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of the scalp along a widened part line, with empty openings, newly released hairs and short regrowing hairs replacing them",
+        "caption": "Openings exposed as hairs let go, with shorter new hairs already coming in."
+      },
+      {
+        "slot": "TRICHO-postpartum-hair-loss-02",
+        "label": "Recovery",
+        "src": "img/postpartum-hair-loss-recovery-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x view of the part line filling back in, with new hairs of uneven lengths growing from the same openings",
+        "caption": "The part line filling back in with new hairs of uneven lengths."
+      }
+    ],
+    "text": "If that fringe is missing after a year, that is when we start looking at iron and thyroid rather than reassuring you."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "If you are inside the normal window and your labs are clean, we will tell you that and save you money. When the shedding is running long, we look at iron, thyroid and nutrient status in-house, support the follicle with a restorative program, and photograph your hairline so the regrowth fringe is visible to you before it is obvious in the mirror.",
+    "steps": [
+      "Read the hairline at 200x",
+      "Check iron, thyroid and nutrients when it runs long",
+      "Photograph the regrowth fringe"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "iv-nutrient-therapy",
+        "text": "Targeted nutrient support when your labs show what the follicle is missing."
+      }
+    ],
+    "links": [
+      {
+        "href": "/blog/iron-deficiency-and-hair-loss",
+        "label": "Iron deficiency and hair loss"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "New Black mothers are often handed advice to just stop styling. That is not care. We look at your scalp, we work with the styles that make your life manageable, and we tell you what your labs say.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "telogen-effluvium",
+    "hormonal-hair-loss",
+    "traction-alopecia"
+  ],
+  "faq": [
+    {
+      "q": "When does postpartum shedding stop?",
+      "a": "Most people see it settle between six and twelve months after birth. If you are past a year and still shedding heavily, that is worth investigating rather than waiting out."
+    },
+    {
+      "q": "Will my hair come back the same?",
+      "a": "For most people density returns as the regrowth fringe fills in. If something else is going on, such as low iron or pattern thinning underneath, we tell you. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Should I take a hair vitamin?",
+      "a": "Test before another bottle goes in the cart. If your labs show a real gap, we correct that specifically. If they are clean, a vitamin is unlikely to change the timeline."
+    },
+    {
+      "q": "Is it safe to come in while breastfeeding?",
+      "a": "Yes. The scalp read is non-invasive, and we take breastfeeding into account in anything we recommend."
+    },
+    {
+      "q": "Can I wear braids or a protective style through it?",
+      "a": "Yes. We look at your scalp and work with the styles that make your life manageable, keeping tension at the hairline in mind while it recovers."
+    }
+  ],
+  "results": true
+}

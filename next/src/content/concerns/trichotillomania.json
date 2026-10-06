@@ -1,0 +1,157 @@
+{
+  "type": "condition",
+  "slug": "trichotillomania",
+  "name": "Trichotillomania",
+  "seoTitle": "Trichotillomania: Hair Pulling and Regrowth | Nina Ross",
+  "description": "Trichotillomania and the scalp: what pulling does to the follicle, what regrowth looks like, and how we support the scalp without judgment in Atlanta.",
+  "h1": "Trichotillomania: <em>Hair Pulling, Regrowth and Scalp Support</em>",
+  "subtitle": "We treat the scalp. No judgment, no behavioral advice.",
+  "hero": {
+    "slot": "TRICHO-trichotillomania-hero",
+    "src": "img/trichotillomania-broken-hairs-varied-lengths-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x scalp view of hairs broken at varied lengths with follicular openings still present during a trichotillomania evaluation",
+    "caption": "Follicle status, at 200x."
+  },
+  "quickAnswer": "Trichotillomania is a body-focused repetitive behavior involving pulling hair from the scalp, brows or lashes. On the scalp it creates areas with hairs at many different lengths, irregular borders, and skin that usually looks otherwise healthy. Follicles are often intact and capable of regrowing, particularly when the area has had time without pulling, though long-standing pulling in one spot can cause lasting damage. Our role here is limited and clear: we assess the scalp, document follicle status at 200x, and support recovery of the areas that can recover. Behavioral support is its own field, and we stay in ours. You will not be judged in this room. Nina Ross Atlanta is in Sandy Springs, serving all of Metro Atlanta.",
+  "takeaways": [
+    "Follicles are often intact and able to regrow.",
+    "We read the scalp, never you.",
+    "No judgment and no behavioral advice."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Hairs at all different lengths in one area",
+        "us": "Varied hair shaft lengths within a patch",
+        "why": "Hairs at many lengths in one area are commonly linked to hairs being removed at different times, with regrowth at different stages.",
+        "check": "We read the area at 200x for open follicles and new hairs emerging, which shows how much can recover."
+      },
+      {
+        "you": "The patch has an odd shape",
+        "us": "Irregular, geometric patch borders",
+        "why": "Irregular borders help separate this pattern from the smooth, round patches of <a href=\"/concerns/alopecia-areata\">alopecia areata</a>.",
+        "check": "We map the area at 200x so you have a clear, photographed picture of your scalp."
+      },
+      {
+        "you": "Broken hairs rather than smooth bald skin",
+        "us": "Fractured shafts at varied heights",
+        "why": "Hairs broken at different heights, rather than smooth skin, are commonly linked to repeated mechanical stress on the shaft.",
+        "check": "We check whether shafts are fracturing at the surface and whether the follicles underneath are intact."
+      },
+      {
+        "you": "One side more than the other",
+        "us": "Asymmetric distribution, often dominant hand side",
+        "why": "An uneven pattern, often heavier on one side, is common with this condition.",
+        "check": "We photograph both sides at the same points, so any recovery is measured rather than guessed."
+      },
+      {
+        "you": "The skin itself looks fine",
+        "us": "Absence of scale, erythema or scarring",
+        "why": "Healthy-looking skin is a good sign. It usually means the follicles themselves have not been scarred.",
+        "check": "We confirm at 200x that openings are present, which is what recovery depends on."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "A body-focused repetitive behavior",
+        "text": "This is a recognized behavior pattern, never a character flaw or a hygiene issue. It commonly begins in adolescence and comes and goes over time."
+      },
+      {
+        "title": "Mechanical damage to the follicle",
+        "text": "Repeated pulling injures the follicle. Occasional pulling usually allows recovery. Years of pulling in one spot can leave lasting change."
+      },
+      {
+        "title": "Secondary scalp irritation",
+        "text": "Broken hairs and repeated trauma can leave the area irritated or prone to bumps, and that part we can treat directly."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Reading follicle status <em>without reading you</em>",
+    "paras": [
+      "At 200x we document three things: whether follicular openings remain, whether new hairs are emerging, and whether shafts are fracturing at the surface. Those findings tell us how much recovery potential an area has, without any need to discuss the behavior itself."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-trichotillomania-01",
+        "src": "img/trichotillomania-recovering-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view showing open follicular openings with new hairs emerging, roots still alive and growing back during trichotillomania recovery",
+        "label": "Recovering",
+        "caption": "Open follicles with new hairs emerging."
+      },
+      {
+        "slot": "TRICHO-trichotillomania-02",
+        "src": "img/trichotillomania-fewer-openings-long-standing-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view showing fewer follicular openings and thinner sparser hair where pulling has been long-standing",
+        "label": "Changed",
+        "caption": "Fewer openings where pulling has been long-standing."
+      }
+    ],
+    "text": "You get a clear picture of your scalp, photographed and repeatable, and that is the whole scope of what we do here."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "We assess follicle status at 200x so you know which areas are intact and which have been changed. From there we support the scalp with a restorative program and, where appropriate, microneedling to encourage recovery in areas that have had rest. We do not offer behavioral guidance, and we will never ask you to explain yourself.",
+    "steps": [
+      "Assess follicle status at 200x",
+      "Support the scalp",
+      "Photograph the same points"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "microneedling",
+        "text": "Controlled micro-channels that improve delivery of topicals into the scalp."
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Pulling is rarely talked about, and it is even less often talked about in Black communities where hair carries so much weight. There is no judgment in this room and no lecture waiting for you.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "alopecia-areata",
+    "traction-alopecia",
+    "anagen-effluvium"
+  ],
+  "faq": [
+    {
+      "q": "Will my hair grow back?",
+      "a": "Where follicles are intact, regrowth is common once an area has rest. Long-standing pulling in one spot can cause lasting change, and the scalp read tells us which you have. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Will you ask me about my pulling?",
+      "a": "No. We read the scalp and the follicles, and you share only what you want to share. You will never be asked to explain yourself."
+    },
+    {
+      "q": "How is this different from alopecia areata?",
+      "a": "Alopecia areata usually makes smooth, round patches with normal-looking skin. Trichotillomania tends to leave irregular areas with hairs at many different lengths. At 200x the difference is clear."
+    },
+    {
+      "q": "Should I be seeing someone else too?",
+      "a": "That is your call. Behavioral support is its own specialty, and many people find it helpful. Our part is the scalp, and we do that part fully."
+    },
+    {
+      "q": "Can I come in even if I am still pulling?",
+      "a": "Yes. You are welcome here exactly as you are. We read the scalp as it is today and support what can recover."
+    }
+  ],
+  "results": true
+}

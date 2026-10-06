@@ -1,0 +1,177 @@
+{
+  "type": "condition",
+  "slug": "traction-alopecia",
+  "name": "Traction Alopecia",
+  "seoTitle": "Traction Alopecia: Can It Be Reversed? | Nina Ross",
+  "description": "Traction alopecia is often reversible when caught early. How 200x trichoscopy tells reversible from scarred, with no blame for protective styling.",
+  "h1": "Traction Alopecia: <em>Can It Be Reversed, and How We Tell</em>",
+  "subtitle": "Tension-driven loss at the edges and part lines. Often reversible early.",
+  "hero": {
+    "slot": "TRICHO-traction-alopecia-hero",
+    "src": "img/traction-alopecia-hairline-200x-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x scalp view of the hairline showing follicular openings and fine retained fringe hairs during a traction alopecia evaluation",
+    "caption": "Counting openings along the edge, at 200x."
+  },
+  "quickAnswer": "Yes, traction alopecia is frequently reversible when it is caught early. Tension from styling pulls repeatedly on the same follicles, and in the early stage those follicles are irritated but intact, so relieving the tension and supporting the scalp can bring the hair back. The picture changes once scarring sets in. When follicular openings are gone, that hair will not fully return, although the area around it can often be protected and improved. The way we tell the difference is trichoscopy at 200x, where we count whether the openings are still present along the hairline and part. This is not about blaming protective styling. We look at your scalp at Nina Ross Atlanta in Sandy Springs, serving all of Metro Atlanta.",
+  "takeaways": [
+    "Early traction is often reversible.",
+    "Where openings are gone, that hair will not fully return.",
+    "Counting openings at 200x answers it."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "My edges are thinning",
+        "us": "Marginal alopecia along the frontotemporal hairline",
+        "why": "Thinning at the edges is commonly linked to repeated tension on the same follicles along the hairline, the area that carries the most pull in many styles.",
+        "check": "We count follicular openings along your edges at 200x and compare them with an unaffected area, which tells us how much can come back."
+      },
+      {
+        "you": "Little bumps after I get my hair done",
+        "us": "Tension-related follicular papules",
+        "why": "Small bumps after a fresh install are commonly linked to follicles irritated by tension. They are an early warning sign.",
+        "check": "We read the bumps at 200x to tell tension irritation from something like <a href=\"/concerns/folliculitis\">folliculitis</a>."
+      },
+      {
+        "you": "My hairline moved back",
+        "us": "Recession with retained fringe hairs",
+        "why": "Fine hairs left at the very front with loss behind them is characteristic of traction, and it helps separate it from other patterns.",
+        "check": "We look for that fringe sign at 200x and map where openings are still present."
+      },
+      {
+        "you": "It is sore for days after braids",
+        "us": "Post-styling scalp tenderness",
+        "why": "Soreness that lasts for days is commonly linked to more tension than the follicles can comfortably carry.",
+        "check": "We read the sore areas for irritation at the follicle, and talk through weight, tightness and how long styles stay in."
+      },
+      {
+        "you": "Thin lines where the parts were",
+        "us": "Linear loss along part lines",
+        "why": "Thinning along part lines is commonly linked to tension concentrated where the hair is sectioned.",
+        "check": "We read the part lines at 200x to see whether follicles there are irritated but intact, or lost."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Sustained tension",
+        "text": "Repeated pulling on the same follicles, from braids, weaves, extensions, tight ponytails or locs, irritates the follicle and eventually damages it."
+      },
+      {
+        "title": "Weight and duration",
+        "text": "How heavy the style is and how long it stays in matter as much as how tight it feels on day one."
+      },
+      {
+        "title": "Chemical and heat load",
+        "text": "A follicle already stressed by relaxers or heat is less able to tolerate tension. The combination does more than either alone."
+      },
+      {
+        "title": "The fringe sign",
+        "text": "Retained fine hairs at the very front edge with loss behind them is characteristic of traction, and it helps separate it from other patterns.{cite:1}"
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Counting follicular openings <em>is how we answer reversibility</em>",
+    "paras": [
+      "Reversibility comes down to a count. At 200x we count how many follicular openings remain in the affected hairline and compare them to an unaffected area of your scalp."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-traction-alopecia-01",
+        "src": "img/traction-alopecia-openings-present-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view of the hairline showing follicular openings still present with fine regrowth hairs emerging from living follicles",
+        "label": "Openings present",
+        "caption": "Living follicles along the hairline, with real regrowth potential."
+      },
+      {
+        "slot": "TRICHO-traction-alopecia-02",
+        "src": "img/traction-alopecia-openings-absent-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view of the hairline showing smooth shiny skin where follicular openings are gone, scarring from traction alopecia",
+        "label": "Openings absent",
+        "caption": "Scarring in that zone. We say so plainly."
+      }
+    ],
+    "text": "We map the boundary between the two, because that boundary is where treatment does the most good."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "First we determine reversibility by counting follicular openings at 200x along the hairline. Where openings remain, we relieve tension and use growth signal therapy and microneedling to support regrowth. Where openings are gone, we protect the surrounding area and tell you honestly what that zone can and cannot do. We work with your styling life and build around the hair you want to wear.",
+    "steps": [
+      "Count openings at 200x",
+      "Relieve tension and support regrowth",
+      "Protect the surrounding area"
+    ],
+    "treatments": [
+      {
+        "slug": "prp-therapy",
+        "text": "Growth signals placed into the scalp to wake follicles that are still viable."
+      },
+      {
+        "slug": "microneedling",
+        "text": "Controlled micro-channels that improve delivery of topicals into the scalp."
+      }
+    ],
+    "links": [
+      {
+        "href": "/traction-alopecia-treatment-atlanta",
+        "label": "Traction alopecia treatment in Atlanta"
+      },
+      {
+        "href": "/blog/traction-alopecia-reversibility",
+        "label": "Is it too late? Read the full guide"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "Protective styles exist for good reasons, and being told to stop is not care. Your styling history is clinical information here. We read tension patterns, tell you what we see, and build around the hair you want to wear.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "ccca",
+    "folliculitis",
+    "female-hair-loss"
+  ],
+  "faq": [
+    {
+      "q": "Can traction alopecia grow back?",
+      "a": "Early, very often yes. Once follicular openings are lost to scarring, that hair does not fully return, although the surrounding area can usually be protected. Trichoscopy at 200x is how we tell which stage you are in. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Do I have to stop wearing braids?",
+      "a": "No one here will tell you to give up the styles you love. We read the tension pattern, tell you what we see, and build around the hair you want to wear, which often means adjusting weight, tightness or how long a style stays in."
+    },
+    {
+      "q": "How long does regrowth take?",
+      "a": "It depends on how many openings remain and how long the tension has been there. We photograph the same points each visit, so you can see the change rather than guess at it."
+    },
+    {
+      "q": "Why does it hurt after a style?",
+      "a": "Soreness after a style is commonly linked to tension pulling on the follicles. Pain that lasts for days is a sign they are carrying more load than they can comfortably handle."
+    },
+    {
+      "q": "Is this my fault?",
+      "a": "You weren't doing it wrong. Protective styles exist for good reasons, and traction builds quietly over time. What matters now is reading where your hairline is today."
+    }
+  ],
+  "references": [
+    {
+      "text": "Traction alopecia: the root of the problem. PubMed 30312484",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30312484/"
+    }
+  ],
+  "results": true
+}

@@ -1,0 +1,181 @@
+{
+  "type": "condition",
+  "slug": "telogen-effluvium",
+  "name": "Telogen Effluvium",
+  "seoTitle": "Telogen Effluvium: Why You Shed, When It Stops | Nina Ross",
+  "description": "Telogen effluvium explained: the three month delay, the usual triggers, and when shedding should stop. Read at 200x. Serving all of Metro Atlanta.",
+  "h1": "Telogen Effluvium: <em>Why You Are Shedding, and When It Stops</em>",
+  "subtitle": "Sudden diffuse shedding, usually about three months after a trigger.",
+  "hero": {
+    "slot": "TRICHO-telogen-effluvium-hero",
+    "src": "img/telogen-effluvium-200x-diffuse-shedding-nina-ross-atlanta.png",
+    "width": 1254,
+    "height": 1254,
+    "alt": "200x scalp view of telogen effluvium with diffuse shedding, resting hairs and newly empty follicle openings spread evenly across the scalp",
+    "caption": "Uniform hairs, simply fewer, at 200x."
+  },
+  "quickAnswer": "Telogen effluvium is a shedding episode where an unusual number of follicles shift out of growth and into their resting phase at the same time. Those hairs release together roughly two to three months later, which is why the shedding rarely lines up with the event that caused it. Common triggers include illness or fever, surgery, rapid weight loss, low iron, thyroid changes, a new medication and periods of high stress. The shedding is diffuse across the whole scalp rather than patchy, and the follicles are not damaged. Most episodes settle within three to six months once the trigger is resolved. When shedding runs longer than six months, something is still active and worth finding. We read your scalp at 200x in Sandy Springs, serving all of Metro Atlanta.",
+  "takeaways": [
+    "The shed shows up two to three months after the trigger.",
+    "The follicles are not damaged.",
+    "Past six months, something is still driving it."
+  ],
+  "symptoms": {
+    "title": "Symptoms in your words, <em>and ours</em>",
+    "items": [
+      {
+        "you": "Hair everywhere, in the shower and on my pillow",
+        "us": "Increased daily telogen shedding",
+        "why": "Heavy daily shedding is commonly linked to a large group of follicles entering the resting phase at the same time, then releasing together.",
+        "check": "We confirm the shedding is diffuse at 200x and look at what happened two to three months before it started."
+      },
+      {
+        "you": "It is thinner all over, not in one spot",
+        "us": "Diffuse loss without patches",
+        "why": "All-over thinning without patches points toward a trigger inside the body rather than something happening in one area of the scalp.",
+        "check": "We compare several areas of your scalp at 200x to confirm the pattern is diffuse."
+      },
+      {
+        "you": "The hairs have a little white bulb",
+        "us": "Club-shaped telogen root",
+        "why": "A small pale bulb at the end means the hair shed from its resting phase. It came out at the root, which is typical for this kind of shedding.",
+        "check": "We look at shed hairs to tell a resting-phase shed from breakage, which has a blunt or frayed tip and no bulb."
+      },
+      {
+        "you": "Something big happened a few months ago",
+        "us": "Two to three month latency after trigger",
+        "why": "Illness, surgery, rapid weight loss or a stressful stretch can push follicles into rest. The shed arrives two to three months later, which is why it rarely lines up with the event.",
+        "check": "We walk back through the months before the shedding started, and check iron, thyroid and nutrient status in-house."
+      },
+      {
+        "you": "It has been shedding for over six months",
+        "us": "Chronic telogen effluvium",
+        "why": "When shedding runs past six months, something is usually still active, such as low iron, a thyroid change or an ongoing stressor.",
+        "check": "We look for what is still driving it, and check whether pattern thinning is present alongside the shedding."
+      }
+    ]
+  },
+  "causes": {
+    "title": "What is <em>actually driving it</em>",
+    "items": [
+      {
+        "title": "Illness, fever or surgery",
+        "text": "A significant physical stress pushes a large group of follicles into resting phase at once. The shed arrives months later."
+      },
+      {
+        "title": "Iron and nutrient depletion",
+        "text": "Low ferritin is one of the most common findings behind shedding that will not stop, and it is straightforward to test."
+      },
+      {
+        "title": "Thyroid changes",
+        "text": "Both underactive and overactive thyroid disturb the cycle and produce diffuse shedding."
+      },
+      {
+        "title": "Rapid weight loss or restriction",
+        "text": "Sharp calorie or protein restriction tells the body to deprioritize hair. The shed follows a couple of months behind."
+      },
+      {
+        "title": "New medications",
+        "text": "Several common medications can trigger a shedding episode. Bring your list, and never stop a prescription on your own."
+      }
+    ]
+  },
+  "insight": {
+    "kicker": "What we see that others miss",
+    "title": "Even shedding, <em>and follicles that are not damaged</em>",
+    "paras": [
+      "Even, all-over shedding points to a trigger inside the body rather than damage in one area. And because the follicles themselves are healthy, regrowth returns the same way it left: evenly."
+    ],
+    "figures": [
+      {
+        "slot": "TRICHO-telogen-effluvium-01",
+        "label": "Even shedding",
+        "src": "img/telogen-effluvium-even-shedding-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view of even telogen effluvium shedding, resting hairs and empty follicle openings scattered uniformly across the scalp",
+        "caption": "Resting hairs and empty openings, scattered evenly, at 200x."
+      },
+      {
+        "slot": "TRICHO-telogen-effluvium-02",
+        "label": "Recovering",
+        "caption": "Short, fine new hairs of even thickness coming back in.",
+        "src": "img/telogen-effluvium-recovering-regrowth-200x-nina-ross-atlanta.png",
+        "width": 1254,
+        "height": 1254,
+        "alt": "200x scalp view of telogen effluvium recovery with short, fine new hairs of even thickness emerging across the scalp"
+      }
+    ],
+    "text": "We also check whether the hairs remaining on your scalp are uniform in thickness. Uniform means shedding. Mixed means pattern thinning is present too."
+  },
+  "care": {
+    "title": "What care <em>looks like here</em>",
+    "text": "The work is finding the trigger, because the follicles themselves are healthy. We confirm the diffuse pattern at 200x, look at iron, thyroid and nutrient status in-house, and support the follicle with a restorative program while your body catches up. If the pattern shows something other than shedding, you will know that in the same visit.",
+    "steps": [
+      "Confirm the pattern at 200x",
+      "Find the trigger",
+      "Support the follicle while your body catches up"
+    ],
+    "treatments": [
+      {
+        "slug": "restorative-therapy",
+        "text": "A structured in-house program that treats the scalp and the systems behind it."
+      },
+      {
+        "slug": "iv-nutrient-therapy",
+        "text": "Targeted nutrient support when your labs show what the follicle is missing."
+      }
+    ],
+    "links": [
+      {
+        "href": "/functional-medicine",
+        "label": "The whole-body side"
+      },
+      {
+        "href": "/blog/iron-deficiency-and-hair-loss",
+        "label": "Iron deficiency and hair loss"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "We are well-versed <em>in us.</em>",
+    "paras": [
+      "With textured hair, shed hair collects in the style and arrives all at once on wash day, which makes a normal amount look alarming and real shedding look ordinary. We account for wash frequency instead of counting hairs in a sink.",
+      "Relaxers, braids, locs, weaves and heat. Share your full hair history. It is welcomed, never judged."
+    ]
+  },
+  "related": [
+    "postpartum-hair-loss",
+    "medication-hair-loss",
+    "hormonal-hair-loss"
+  ],
+  "faq": [
+    {
+      "q": "How long does telogen effluvium last?",
+      "a": "Most episodes settle within three to six months after the trigger resolves. Past six months of active shedding, something is still driving it and that is worth investigating."
+    },
+    {
+      "q": "Why is it shedding now when nothing is wrong?",
+      "a": "The trigger usually happened two to three months earlier. By the time the hair releases, the illness, stress or change that caused it has often passed, which is why it feels random."
+    },
+    {
+      "q": "Will my density come back?",
+      "a": "The follicles are not damaged in telogen effluvium, so once the trigger is resolved most episodes settle and density can return. Results not typical. Individual results will vary."
+    },
+    {
+      "q": "Is losing 100 hairs a day normal?",
+      "a": "Daily counts are hard to read with textured hair, because shed hair collects in the style and arrives all at once on wash day. We account for how often you wash rather than counting hairs in a sink."
+    },
+    {
+      "q": "Could this be pattern thinning instead?",
+      "a": "It can be both. At 200x, shedding leaves the remaining hairs uniform in thickness, while pattern thinning shows mixed thicknesses side by side. We check for both in the same visit."
+    }
+  ],
+  "references": [
+    {
+      "text": "Telogen effluvium: a review. PubMed 33278891",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33278891/"
+    }
+  ],
+  "results": true
+}
