@@ -96,4 +96,4 @@ Constraints: one page at a time · section-by-section · exact HTML fidelity · 
 - [x] `/policies` — on Next; TanStack redirects
 - [x] `/landing` — redirects to Next `/`
 - [x] `/landing-2` — on Next (noindex); TanStack redirects; source HTML kept in `public/landing-2`
-- [ ] `/auth` — stays on TanStack (Supabase admin); not part of public conversion
+- [x] `/auth` — on Next (noindex); admin sign-in + image override dashboard; TanStack redirects
