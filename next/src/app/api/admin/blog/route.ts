@@ -34,6 +34,8 @@ export async function POST(request: Request) {
     title?: string;
     slug?: string;
     status?: "draft" | "published";
+    category?: string;
+    categorySlug?: string;
   };
   try {
     body = (await request.json()) as typeof body;
@@ -47,23 +49,23 @@ export async function POST(request: Request) {
     return Response.json({ error: "templateSlug and title are required" }, { status: 400 });
   }
 
-  const template = getStaticAsDocument(templateSlug);
+  let template = getStaticAsDocument(templateSlug);
   if (!template) {
-    // Allow CMS-only templates: load from DB
     const { fetchCmsDocument } = await import("@/lib/blog-cms");
     const row = await fetchCmsDocument(templateSlug);
     if (!row?.document) {
       return Response.json({ error: "Template not found" }, { status: 404 });
     }
-    return saveNew(
-      token,
-      userId,
-      createFromTemplate(row.document, { title, slug: body.slug }),
-      body.status,
-    );
+    template = row.document;
   }
 
-  return saveNew(token, userId, createFromTemplate(template, { title, slug: body.slug }), body.status);
+  const document = createFromTemplate(template, {
+    title,
+    slug: body.slug,
+    category: body.category,
+    categorySlug: body.categorySlug,
+  });
+  return saveNew(token, userId, document, body.status);
 }
 
 async function saveNew(
@@ -72,13 +74,17 @@ async function saveNew(
   document: BlogDocument,
   status: "draft" | "published" = "draft",
 ) {
+  if (getStaticAsDocument(document.slug)) {
+    return Response.json({ error: `Slug already exists: ${document.slug}` }, { status: 409 });
+  }
+
   const supabase = createAuthedSupabase(token);
   const { data: existing } = await supabase
     .from("blog_articles")
     .select("slug")
     .eq("slug", document.slug)
     .maybeSingle();
-  if (existing || getStaticAsDocument(document.slug)) {
+  if (existing) {
     return Response.json({ error: `Slug already exists: ${document.slug}` }, { status: 409 });
   }
 

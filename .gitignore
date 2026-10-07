@@ -43,3 +43,7 @@ page-images/
 # Next / Vercel
 .next/
 .vercel/
+
+# Local CMS test data (hardcoded local admin)
+next/.local-cms/
+next/public/local-uploads/

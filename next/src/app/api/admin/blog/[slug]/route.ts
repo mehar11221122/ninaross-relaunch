@@ -68,7 +68,6 @@ export async function PUT(
     slug,
   };
 
-  // Guard: same body length + block types (no section reordering / add / remove).
   if (nextDoc.body.length !== baseline.body.length) {
     return Response.json(
       { error: "Cannot add or remove body sections — edit content only." },

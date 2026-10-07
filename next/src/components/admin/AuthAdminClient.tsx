@@ -127,11 +127,23 @@ export function AuthAdminClient() {
             <h1 className="nr-auth__title">Checking session…</h1>
           ) : user && isAdmin ? (
             <>
-              <h1 className="nr-auth__title">Site admin.</h1>
-              <p className="nr-auth__lead">
-                Signed in as <strong>{user.email}</strong>. Manage blogs (create from template /
-                edit in place) and image overrides.
-              </p>
+              <div className="nr-auth__top">
+                <div>
+                  <p className="nr-auth__eyebrow">CMS</p>
+                  <h1 className="nr-auth__title">Blog editor.</h1>
+                  <p className="nr-auth__lead nr-auth__lead--tight">
+                    <strong>{user.email}</strong>
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  className="nr-auth__btn nr-auth__btn--dark nr-auth__btn--sm"
+                  disabled={busy}
+                  onClick={() => void handleSignOut()}
+                >
+                  Sign out
+                </button>
+              </div>
               <div className="nr-auth__tabs">
                 <button
                   type="button"
@@ -148,14 +160,6 @@ export function AuthAdminClient() {
                   Images
                 </button>
               </div>
-              <button
-                type="button"
-                className="nr-auth__btn nr-auth__btn--dark"
-                disabled={busy}
-                onClick={() => void handleSignOut()}
-              >
-                Sign out
-              </button>
 
               {tab === "blogs" ? <BlogAdminClient /> : null}
 
@@ -284,25 +288,28 @@ export function AuthAdminClient() {
 }
 
 const AUTH_CSS = `
-.nr-auth{min-height:100vh;background:#101112;color:#F5F1E9;font-family:Montserrat,system-ui,sans-serif;padding:4rem 1.25rem}
-.nr-auth__wrap{max-width:56rem;margin:0 auto}
-.nr-auth__back{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:rgba(245,241,233,.7);text-decoration:none;margin-bottom:1.5rem}
+.nr-auth{min-height:100vh;background:#101112;color:#F5F1E9;font-family:Montserrat,system-ui,sans-serif;padding:2.5rem 1.25rem 4rem}
+.nr-auth__wrap{max-width:68rem;margin:0 auto}
+.nr-auth__back{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:rgba(245,241,233,.7);text-decoration:none;margin-bottom:1.25rem}
 .nr-auth__back:hover{color:#CFB078}
-.nr-auth__card{background:#F5F1E9;color:#101112;padding:2rem;box-shadow:0 25px 50px rgba(0,0,0,.35)}
-@media(min-width:640px){.nr-auth__card{padding:2.5rem}}
-.nr-auth__tabs{display:flex;gap:.5rem;margin:1.25rem 0 .5rem}
-.nr-auth__tabs button{border:1px solid #101112;background:transparent;padding:.55rem .9rem;font:800 10px/1 Montserrat,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;cursor:pointer}
+.nr-auth__card{background:#F5F1E9;color:#101112;padding:1.5rem;box-shadow:0 25px 50px rgba(0,0,0,.35)}
+@media(min-width:640px){.nr-auth__card{padding:2rem}}
+.nr-auth__top{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:1rem;margin-top:.5rem}
+.nr-auth__tabs{display:flex;gap:.4rem;margin:1.25rem 0 0;padding:.25rem;background:rgba(16,17,18,.06);width:fit-content}
+.nr-auth__tabs button{border:0;background:transparent;padding:.6rem 1rem;font:800 10px/1 Montserrat,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;color:#6d6658}
 .nr-auth__tabs button.is-on{background:#101112;color:#F5F1E9}
 .nr-auth__eyebrow{font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#7A2E2E;margin:0}
-.nr-auth__title{font-family:Georgia,"Times New Roman",serif;font-size:2rem;margin:.75rem 0 0;line-height:1.15}
+.nr-auth__title{font-family:Georgia,"Times New Roman",serif;font-size:1.75rem;margin:.35rem 0 0;line-height:1.15}
 .nr-auth__lead,.nr-auth__note{font-size:14px;line-height:1.6;color:#6d6658;margin:1rem 0 0}
+.nr-auth__lead--tight{margin:.4rem 0 0;font-size:13px}
 .nr-auth__note{font-size:12px;border-left:2px solid #CFB078;padding-left:12px}
 .nr-auth__form{display:grid;gap:1rem;margin-top:2rem}
 .nr-auth__form label{display:grid;gap:.4rem}
 .nr-auth__form span{font-size:10px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
 .nr-auth__form input{border:1px solid rgba(16,17,18,.15);background:#fff;padding:.85rem 1rem;font:inherit}
 .nr-auth__form input:focus{outline:none;border-color:#CFB078}
-.nr-auth__btn{display:inline-flex;align-items:center;justify-content:center;width:100%;padding:.9rem 1rem;border:0;cursor:pointer;font:800 11px/1 Montserrat,system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;margin-top:1rem}
+.nr-auth__btn{display:inline-flex;align-items:center;justify-content:center;width:100%;padding:.9rem 1rem;border:0;cursor:pointer;font:800 11px/1 Montserrat,system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;margin-top:1rem;text-decoration:none;box-sizing:border-box}
+.nr-auth__btn--sm{width:auto;margin-top:0;padding:.65rem 1rem;flex:none}
 .nr-auth__btn:disabled{opacity:.55;cursor:not-allowed}
 .nr-auth__btn--gold{background:#CFB078;color:#101112}
 .nr-auth__btn--dark{background:#101112;color:#F5F1E9}

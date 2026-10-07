@@ -13,6 +13,14 @@ function expectedPath(slug: string): string {
  * Streams only the MP3 bound to this slug (audio/{slug}.mp3).
  * Never accepts a path query — slug is the sole selector.
  */
+export async function HEAD(
+  request: Request,
+  context: { params: Promise<{ slug: string }> },
+) {
+  const res = await GET(request, context);
+  return new Response(null, { status: res.status, headers: res.headers });
+}
+
 export async function GET(
   _request: Request,
   context: { params: Promise<{ slug: string }> },
@@ -44,7 +52,6 @@ export async function GET(
       .download(want);
 
     if (dlErr || !file) {
-      // Signed fetch fallback (service-role environments).
       const { data: signed } = await supabase.storage
         .from("article-audio")
         .createSignedUrl(want, 120);

@@ -31,15 +31,28 @@ async function toWebp(file: File): Promise<{ blob: Blob; contentType: string; ex
   }
 }
 
-/** Upload a blog image; returns a public site-image proxy URL. */
+async function measureBlob(blob: Blob): Promise<{ width: number; height: number }> {
+  try {
+    const bmp = await createImageBitmap(blob);
+    const size = { width: bmp.width, height: bmp.height };
+    bmp.close();
+    return size;
+  } catch {
+    return { width: 1200, height: 900 };
+  }
+}
+
+/** Upload a blog image to site-images; returns site-image proxy URL. */
 export async function uploadBlogImage(
   slug: string,
   kind: string,
   file: File,
 ): Promise<{ url: string; width: number; height: number }> {
   if (!file.type.startsWith("image/")) throw new Error("Choose an image file.");
-  const supabase = getSupabaseBrowser();
   const { blob, contentType, ext } = await toWebp(file);
+  const { width, height } = await measureBlob(blob);
+
+  const supabase = getSupabaseBrowser();
   const path = `blog/${slug}/${kind}-${crypto.randomUUID()}.${ext}`;
   const { error } = await supabase.storage.from(IMAGE_BUCKET).upload(path, blob, {
     contentType,
@@ -47,23 +60,12 @@ export async function uploadBlogImage(
   });
   if (error) throw new Error(error.message);
 
-  let width = 1200;
-  let height = 900;
-  try {
-    const bmp = await createImageBitmap(blob);
-    width = bmp.width;
-    height = bmp.height;
-    bmp.close();
-  } catch {
-    /* keep defaults */
-  }
-
   const url =
     SITE_IMAGE_SERVE_PREFIX + path.split("/").map(encodeURIComponent).join("/");
   return { url, width, height };
 }
 
-/** Upload an MP3 for this article slug into article-audio storage + DB row. */
+/** Upload an MP3 into article-audio storage + article_audio row. */
 export async function uploadBlogAudio(slug: string, file: File): Promise<void> {
   const okType =
     file.type === "audio/mpeg" ||
