@@ -12,8 +12,10 @@ import {
   subscribeImageOverrides,
   getOverrideVersion,
 } from "@/lib/image-overrides";
+import { BlogAdminClient } from "@/components/admin/BlogAdminClient";
 
 type Mode = "signin" | "signup";
+type AdminTab = "blogs" | "images";
 
 export function AuthAdminClient() {
   const { user, isAdmin, loading } = useAdmin();
@@ -26,6 +28,7 @@ export function AuthAdminClient() {
   const [error, setError] = useState<string | null>(null);
   const [overrideTick, setOverrideTick] = useState(0);
   const [savingSlot, setSavingSlot] = useState<string | null>(null);
+  const [tab, setTab] = useState<AdminTab>("blogs");
 
   useEffect(() => {
     return subscribeImageOverrides(() => setOverrideTick(getOverrideVersion()));
@@ -124,17 +127,27 @@ export function AuthAdminClient() {
             <h1 className="nr-auth__title">Checking session…</h1>
           ) : user && isAdmin ? (
             <>
-              <h1 className="nr-auth__title">Image overrides.</h1>
+              <h1 className="nr-auth__title">Site admin.</h1>
               <p className="nr-auth__lead">
-                Signed in as <strong>{user.email}</strong>. Upload a new image for any slot —
-                RLS allows admin writes only. Visitors load swaps via{" "}
-                <code>/api/public/site-image/…</code>.
+                Signed in as <strong>{user.email}</strong>. Manage blogs (create from template /
+                edit in place) and image overrides.
               </p>
-              <p className="nr-auth__note">
-                Note: the live Next pages use cut-over HTML/Cloudinary assets. These slots match
-                the former React landing; swaps apply where those default URLs still appear, and
-                stay available in Supabase for future wiring.
-              </p>
+              <div className="nr-auth__tabs">
+                <button
+                  type="button"
+                  className={tab === "blogs" ? "is-on" : undefined}
+                  onClick={() => setTab("blogs")}
+                >
+                  Blogs
+                </button>
+                <button
+                  type="button"
+                  className={tab === "images" ? "is-on" : undefined}
+                  onClick={() => setTab("images")}
+                >
+                  Images
+                </button>
+              </div>
               <button
                 type="button"
                 className="nr-auth__btn nr-auth__btn--dark"
@@ -144,30 +157,40 @@ export function AuthAdminClient() {
                 Sign out
               </button>
 
-              <ul className="nr-auth__slots">
-                {slots.map((s) => (
-                  <li key={s.id} className="nr-auth__slot">
-                    <div className="nr-auth__slot-meta">
-                      <strong>{s.label}</strong>
-                      <span>{s.id}</span>
-                      {s.hasOverride ? <em>override live</em> : <em>default</em>}
-                    </div>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={s.liveUrl} alt="" width={160} height={120} />
-                    <label className="nr-auth__file">
-                      <input
-                        type="file"
-                        accept="image/*"
-                        disabled={savingSlot === s.id}
-                        onChange={(e) =>
-                          void handleUpload(s.id, e.target.files?.[0] ?? undefined)
-                        }
-                      />
-                      {savingSlot === s.id ? "Saving…" : "Replace"}
-                    </label>
-                  </li>
-                ))}
-              </ul>
+              {tab === "blogs" ? <BlogAdminClient /> : null}
+
+              {tab === "images" ? (
+                <>
+                  <p className="nr-auth__note">
+                    Landing image slots. Visitors load swaps via{" "}
+                    <code>/api/public/site-image/…</code>.
+                  </p>
+                  <ul className="nr-auth__slots">
+                    {slots.map((s) => (
+                      <li key={s.id} className="nr-auth__slot">
+                        <div className="nr-auth__slot-meta">
+                          <strong>{s.label}</strong>
+                          <span>{s.id}</span>
+                          {s.hasOverride ? <em>override live</em> : <em>default</em>}
+                        </div>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={s.liveUrl} alt="" width={160} height={120} />
+                        <label className="nr-auth__file">
+                          <input
+                            type="file"
+                            accept="image/*"
+                            disabled={savingSlot === s.id}
+                            onChange={(e) =>
+                              void handleUpload(s.id, e.target.files?.[0] ?? undefined)
+                            }
+                          />
+                          {savingSlot === s.id ? "Saving…" : "Replace"}
+                        </label>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
             </>
           ) : user && !isAdmin ? (
             <>
@@ -262,11 +285,14 @@ export function AuthAdminClient() {
 
 const AUTH_CSS = `
 .nr-auth{min-height:100vh;background:#101112;color:#F5F1E9;font-family:Montserrat,system-ui,sans-serif;padding:4rem 1.25rem}
-.nr-auth__wrap{max-width:42rem;margin:0 auto}
+.nr-auth__wrap{max-width:56rem;margin:0 auto}
 .nr-auth__back{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:rgba(245,241,233,.7);text-decoration:none;margin-bottom:1.5rem}
 .nr-auth__back:hover{color:#CFB078}
 .nr-auth__card{background:#F5F1E9;color:#101112;padding:2rem;box-shadow:0 25px 50px rgba(0,0,0,.35)}
 @media(min-width:640px){.nr-auth__card{padding:2.5rem}}
+.nr-auth__tabs{display:flex;gap:.5rem;margin:1.25rem 0 .5rem}
+.nr-auth__tabs button{border:1px solid #101112;background:transparent;padding:.55rem .9rem;font:800 10px/1 Montserrat,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;cursor:pointer}
+.nr-auth__tabs button.is-on{background:#101112;color:#F5F1E9}
 .nr-auth__eyebrow{font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#7A2E2E;margin:0}
 .nr-auth__title{font-family:Georgia,"Times New Roman",serif;font-size:2rem;margin:.75rem 0 0;line-height:1.15}
 .nr-auth__lead,.nr-auth__note{font-size:14px;line-height:1.6;color:#6d6658;margin:1rem 0 0}

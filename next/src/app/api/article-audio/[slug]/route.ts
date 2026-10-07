@@ -1,4 +1,4 @@
-import { articleSlugs, getArticle } from "@/content/posts";
+import { resolveArticle } from "@/lib/blog-cms";
 import { getSupabaseServer } from "@/lib/supabase-server";
 
 export const dynamic = "force-dynamic";
@@ -21,8 +21,8 @@ export async function GET(
     return Response.json({ error: "Invalid slug" }, { status: 400 });
   }
 
-  // Only known article slugs — never categories or arbitrary paths.
-  if (!articleSlugs.includes(slug) || !getArticle(slug)) {
+  // Static or CMS article only — never categories or arbitrary paths.
+  if (!(await resolveArticle(slug))) {
     return Response.json({ error: "Not an article", slug }, { status: 404 });
   }
 

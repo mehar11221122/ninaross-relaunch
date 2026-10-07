@@ -22,8 +22,12 @@ export function categoryPosts(slug: string) {
   return catalog.filter((post) => post.categorySlug === slug);
 }
 
-export function renderCategoryParts(category: CategoryEntry) {
-  let html: string = renderCategory(category, categories, withBlogHeroes(catalog));
+export function renderCategoryParts(
+  category: CategoryEntry,
+  catalogOverride?: typeof catalog,
+) {
+  const cat = catalogOverride ?? catalog;
+  let html: string = renderCategory(category, categories, withBlogHeroes(cat));
   for (const [from, to] of Object.entries(ASSETS)) html = html.split(from).join(to);
   const schema = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1] ?? "";
   const bodyStart = html.indexOf(">", html.indexOf("<body")) + 1;

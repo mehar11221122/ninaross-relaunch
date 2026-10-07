@@ -1,4 +1,5 @@
-import { getArticle, articleSlugs } from "@/content/posts";
+import { articleSlugs } from "@/content/posts";
+import { resolveArticle, resolveCatalog } from "@/lib/blog-cms";
 import { buildKitDocument } from "@/lib/kit-document";
 import { renderArticleParts } from "@/lib/nr-article";
 import {
@@ -22,7 +23,8 @@ export async function GET(
   const { segment } = await context.params;
   const category = getArticleCategory(segment);
   if (category) {
-    const parts = renderCategoryParts(category);
+    const catalog = await resolveCatalog();
+    const parts = renderCategoryParts(category, catalog);
     const html = buildKitDocument({
       title: `${category.seoTitle || category.name} | Nina Ross`,
       description: category.description,
@@ -43,7 +45,7 @@ export async function GET(
     });
   }
 
-  const article = getArticle(segment);
+  const article = await resolveArticle(segment);
   if (!article) {
     return new Response("Not found", { status: 404 });
   }

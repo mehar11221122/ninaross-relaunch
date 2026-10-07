@@ -1,4 +1,4 @@
-import { articleSlugs, getArticle } from "@/content/posts";
+import { resolveArticle } from "@/lib/blog-cms";
 import { getSupabaseServer } from "@/lib/supabase-server";
 
 export const dynamic = "force-dynamic";
@@ -20,7 +20,7 @@ export async function GET(
   const { slug: raw } = await context.params;
   const slug = raw?.trim().toLowerCase() ?? "";
 
-  if (!SLUG_RE.test(slug) || !articleSlugs.includes(slug) || !getArticle(slug)) {
+  if (!SLUG_RE.test(slug) || !(await resolveArticle(slug))) {
     return new Response("Not found", { status: 404 });
   }
 
