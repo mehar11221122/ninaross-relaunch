@@ -62,10 +62,7 @@ export async function GET(
         }
       }
       console.error("[article-audio/file]", slug, dlErr?.message);
-      return new Response(
-        "Audio unavailable. Ensure SUPABASE_SERVICE_ROLE_KEY is set for private storage.",
-        { status: 502 },
-      );
+      return new Response("Audio unavailable", { status: 502 });
     }
 
     const bytes = await file.arrayBuffer();

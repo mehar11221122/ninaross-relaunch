@@ -20,13 +20,13 @@ function createSupabaseFetch(supabaseKey: string): typeof fetch {
   };
 }
 
-/** Prefer service role for signed URLs; fall back to publishable for read + sign if policies allow. */
+/** Server client: publishable key is enough for public-read storage + article_audio. */
 export function getSupabaseServer(): SupabaseClient {
   const url = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
   const key =
-    process.env.SUPABASE_SERVICE_ROLE_KEY ||
     process.env.SUPABASE_PUBLISHABLE_KEY ||
-    process.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+    process.env.VITE_SUPABASE_PUBLISHABLE_KEY ||
+    process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !key) {
     throw new Error(
       "Missing SUPABASE_URL and a key (SUPABASE_SERVICE_ROLE_KEY or SUPABASE_PUBLISHABLE_KEY).",
