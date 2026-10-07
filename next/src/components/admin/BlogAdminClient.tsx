@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import type { ArticleBlock } from "@/content/posts";
 import type { BlogDocument } from "@/lib/blog-cms";
+import { uploadBlogAudio, uploadBlogImage } from "@/lib/blog-media-upload";
 import { getSupabaseBrowser } from "@/lib/supabase-browser";
 
 type Summary = {
@@ -45,13 +46,118 @@ function Field({
   );
 }
 
+function ImageFileField({
+  label,
+  slug,
+  kind,
+  src,
+  onUploaded,
+}: {
+  label: string;
+  slug: string;
+  kind: string;
+  src: string;
+  onUploaded: (result: { url: string; width: number; height: number }) => void;
+}) {
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+
+  const onPick = async (file: File | undefined) => {
+    if (!file) return;
+    setBusy(true);
+    setErr(null);
+    try {
+      const result = await uploadBlogImage(slug, kind, file);
+      onUploaded(result);
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : "Upload failed");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div className="ba-media">
+      <span className="ba-media__label">{label}</span>
+      {src ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={src} alt="" width={200} height={140} className="ba-media__thumb" />
+      ) : (
+        <p className="ba-media__empty">No image yet</p>
+      )}
+      <label className="ba-file">
+        <input
+          type="file"
+          accept="image/*"
+          disabled={busy}
+          onChange={(e) => {
+            const f = e.target.files?.[0];
+            e.target.value = "";
+            void onPick(f);
+          }}
+        />
+        {busy ? "Uploading…" : src ? "Replace image" : "Upload image"}
+      </label>
+      {err ? <p className="ba-media__err">{err}</p> : null}
+    </div>
+  );
+}
+
+function AudioFileField({ slug }: { slug: string }) {
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  const [ok, setOk] = useState<string | null>(null);
+
+  const onPick = async (file: File | undefined) => {
+    if (!file) return;
+    setBusy(true);
+    setErr(null);
+    setOk(null);
+    try {
+      await uploadBlogAudio(slug, file);
+      setOk(`Uploaded audio/${slug}.mp3`);
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : "Upload failed");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div className="ba-media">
+      <span className="ba-media__label">Listen audio (MP3)</span>
+      <p className="ba-media__hint">
+        Stored as <code>audio/{slug}.mp3</code> in Supabase. Replacing updates the live Listen
+        player after save/refresh.
+      </p>
+      <label className="ba-file">
+        <input
+          type="file"
+          accept="audio/mpeg,audio/mp3,.mp3"
+          disabled={busy}
+          onChange={(e) => {
+            const f = e.target.files?.[0];
+            e.target.value = "";
+            void onPick(f);
+          }}
+        />
+        {busy ? "Uploading…" : "Upload MP3"}
+      </label>
+      {ok ? <p className="ba-media__ok">{ok}</p> : null}
+      {err ? <p className="ba-media__err">{err}</p> : null}
+    </div>
+  );
+}
+
 function BlockEditor({
   block,
   index,
+  slug,
   onChange,
 }: {
   block: ArticleBlock;
   index: number;
+  slug: string;
   onChange: (b: ArticleBlock) => void;
 }) {
   const set = (patch: Partial<ArticleBlock> & { type: ArticleBlock["type"] }) =>
@@ -82,10 +188,12 @@ function BlockEditor({
       ) : null}
       {block.type === "figure" ? (
         <>
-          <Field
-            label="Image URL"
-            value={block.src || ""}
-            onChange={(src) => set({ type: "figure", src })}
+          <ImageFileField
+            label="Figure image"
+            slug={slug}
+            kind={`figure-${index}`}
+            src={block.src || ""}
+            onUploaded={({ url }) => set({ type: "figure", src: url })}
           />
           <Field label="Alt" value={block.alt} onChange={(alt) => set({ type: "figure", alt })} />
           <Field
@@ -351,9 +459,9 @@ export function BlogAdminClient() {
         to Supabase <code>blog_articles</code> and override static JSON when published.
       </p>
       <p className="ba-note">
-        One-time setup: run <code>drizzle/migrations/0001_blog_articles.sql</code> in the Supabase
-        SQL editor if you see a missing-table error. Audio for new posts still needs generation on
-        Lovable (or a future generate API).
+        One-time setup: run <code>drizzle/migrations/0001_blog_articles.sql</code> and{" "}
+        <code>0002_article_audio_storage_admin.sql</code> in the Supabase SQL editor if uploads or
+        saves fail.
       </p>
 
       <section className="ba-panel">
@@ -471,10 +579,19 @@ export function BlogAdminClient() {
 
           <h3>Hero</h3>
           <div className="ba-grid">
-            <Field
-              label="Hero image URL"
-              value={doc.hero.src}
-              onChange={(src) => patchDoc({ hero: { ...doc.hero, src } })}
+            <ImageFileField
+              label="Hero image"
+              slug={doc.slug}
+              kind="hero"
+              src={doc.hero.src}
+              onUploaded={({ url }) => patchDoc({ hero: { ...doc.hero, src: url } })}
+            />
+            <ImageFileField
+              label="OG image"
+              slug={doc.slug}
+              kind="og"
+              src={doc.hero.og || ""}
+              onUploaded={({ url }) => patchDoc({ hero: { ...doc.hero, og: url } })}
             />
             <Field
               label="Hero alt"
@@ -487,12 +604,10 @@ export function BlogAdminClient() {
               value={doc.hero.caption}
               onChange={(caption) => patchDoc({ hero: { ...doc.hero, caption } })}
             />
-            <Field
-              label="OG image URL"
-              value={doc.hero.og || ""}
-              onChange={(og) => patchDoc({ hero: { ...doc.hero, og } })}
-            />
           </div>
+
+          <h3>Listen audio</h3>
+          <AudioFileField slug={doc.slug} />
 
           <h3>Author note</h3>
           <Field
@@ -527,15 +642,17 @@ export function BlogAdminClient() {
 
           <h3>Lead image (after short answer)</h3>
           <div className="ba-grid">
-            <Field
-              label="URL"
-              value={doc.leadFigure?.src || ""}
-              onChange={(src) =>
+            <ImageFileField
+              label="Lead image"
+              slug={doc.slug}
+              kind="lead"
+              src={doc.leadFigure?.src || ""}
+              onUploaded={({ url, width, height }) =>
                 patchDoc({
                   leadFigure: {
-                    src,
-                    width: doc.leadFigure?.width || 1200,
-                    height: doc.leadFigure?.height || 900,
+                    src: url,
+                    width,
+                    height,
                     alt: doc.leadFigure?.alt || "",
                     caption: doc.leadFigure?.caption || "",
                   },
@@ -576,15 +693,17 @@ export function BlogAdminClient() {
 
           <h3>Mid-article image</h3>
           <div className="ba-grid">
-            <Field
-              label="URL"
-              value={doc.midFigure?.src || ""}
-              onChange={(src) =>
+            <ImageFileField
+              label="Mid image"
+              slug={doc.slug}
+              kind="mid"
+              src={doc.midFigure?.src || ""}
+              onUploaded={({ url, width, height }) =>
                 patchDoc({
                   midFigure: {
-                    src,
-                    width: doc.midFigure?.width || 1200,
-                    height: doc.midFigure?.height || 900,
+                    src: url,
+                    width,
+                    height,
                     alt: doc.midFigure?.alt || "",
                     caption: doc.midFigure?.caption || "",
                   },
@@ -628,6 +747,7 @@ export function BlogAdminClient() {
             <BlockEditor
               key={`${block.type}-${i}`}
               index={i}
+              slug={doc.slug}
               block={block}
               onChange={(next) => {
                 const body = [...doc.body];
@@ -686,11 +806,6 @@ export function BlogAdminClient() {
             </div>
           ))}
 
-          <p className="ba-audio">
-            Listen audio: stored separately as <code>audio/{doc.slug}.mp3</code>. After major copy
-            changes, regenerate audio on Lovable until a Next generate API is wired.
-          </p>
-
           <button type="button" className="ba-btn" disabled={busy} onClick={() => void save()}>
             Save changes
           </button>
@@ -729,7 +844,15 @@ const BA_CSS = `
 .ba-block{border:1px dashed rgba(16,17,18,.2);padding:.75rem;margin:.75rem 0;background:#F5F1E9}
 .ba-block header{display:flex;justify-content:space-between;margin-bottom:.5rem;font-size:12px}
 .ba-block em{color:#6d6658;font-style:normal}
-.ba-audio{font-size:12px;color:#6d6658}
 .ba-error{color:#7A2E2E;margin-top:1rem;font-size:13px}
 .ba-ok{color:#2f5d3a;margin-top:1rem;font-size:13px}
+.ba-media{display:grid;gap:.5rem;margin-bottom:.75rem}
+.ba-media__label{font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.ba-media__thumb{max-width:220px;height:auto;object-fit:cover;border:1px solid rgba(16,17,18,.1);background:#eee}
+.ba-media__empty,.ba-media__hint{margin:0;font-size:12px;color:#6d6658}
+.ba-media__err{margin:0;font-size:12px;color:#7A2E2E}
+.ba-media__ok{margin:0;font-size:12px;color:#2f5d3a}
+.ba-file{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;border:0;background:#101112;color:#F5F1E9;padding:.65rem 1rem;font:800 10px/1 Montserrat,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;width:fit-content}
+.ba-file input{display:none}
+.ba-file:has(input:disabled){opacity:.5;cursor:not-allowed}
 `;

@@ -221,8 +221,8 @@ export function AuthAdminClient() {
                 {mode === "signin" ? "Sign in." : "Create account."}
               </h1>
               <p className="nr-auth__lead">
-                Sign in to manage site image overrides. This page is noindex and not linked in the
-                public nav.
+                Sign in to manage blogs and image overrides. This page is noindex and not linked in
+                the public nav.
               </p>
 
               <form onSubmit={(e) => void handleSubmit(e)} className="nr-auth__form">

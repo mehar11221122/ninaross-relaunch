@@ -2,7 +2,6 @@ import { blogCategories } from "@/data/blog-categories";
 import { blogPosts } from "@/data/blog-posts";
 import { credentials, ctas, nap, offer, trust } from "@/data/trust";
 import { getBlogHero } from "@/lib/blog-hero";
-import { applySiteChrome } from "@/lib/site-chrome";
 
 const ninaPortrait =
   "https://res.cloudinary.com/bgjkk0du/image/upload/v1791291388/ninaross/lovable/about-kit/dr-nina-ross-nd-portrait-white-coat-nina-ross-atlanta.webp";
@@ -65,7 +64,8 @@ export function renderBlogIndexBody(): string {
   const pills = offer.pills.map((p) => `<span>${esc(p)}</span>`).join("");
   const includes = offer.includes.map((item) => `<li><span>✓</span><span>${esc(item)}</span></li>`).join("");
 
-  return applySiteChrome(`
+  // Body only — buildKitDocument applies global header/footer once.
+  return `
 <main>
   <section class="blog-hero"><div class="blog-wrap">
     <p class="blog-breadcrumb"><a href="/">Home</a> / Blog</p>
@@ -94,5 +94,5 @@ export function renderBlogIndexBody(): string {
   </div></div></section>
 </main>
 <div class="blog-sticky-cta"><span><b>$99</b><small>Pick your time</small></span><a class="blog-gold-button" href="${trust.bookingUrl}" target="_blank" rel="noopener">Book My $99 Discovery →</a></div>
-`);
+`;
 }

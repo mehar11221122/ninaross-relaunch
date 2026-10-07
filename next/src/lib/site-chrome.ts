@@ -75,20 +75,27 @@ const FOOTER_PATTERNS = [/<footer class="(?:ft|nr-footer)"[\s\S]*?<\/footer>/, /
  *  If none exist (text pages / plain bodies), inject global chrome. */
 export function applySiteChrome(html: string) {
   let out = html;
-  let swappedHeader = false;
-  for (const re of HEADER_PATTERNS) {
-    if (re.test(out)) {
-      out = out.replace(re, () => globalHeaderHtml());
-      swappedHeader = true;
-      break;
+  // Already has global chrome (e.g. prior apply) — don't inject a second copy.
+  const hasGlobalHeader = /<header class="gc-hd"/.test(out);
+  const hasGlobalFooter = /<footer class="gc-ft"/.test(out);
+  let swappedHeader = hasGlobalHeader;
+  if (!hasGlobalHeader) {
+    for (const re of HEADER_PATTERNS) {
+      if (re.test(out)) {
+        out = out.replace(re, () => globalHeaderHtml());
+        swappedHeader = true;
+        break;
+      }
     }
   }
-  let swappedFooter = false;
-  for (const re of FOOTER_PATTERNS) {
-    if (re.test(out)) {
-      out = out.replace(re, () => globalFooterHtml());
-      swappedFooter = true;
-      break;
+  let swappedFooter = hasGlobalFooter;
+  if (!hasGlobalFooter) {
+    for (const re of FOOTER_PATTERNS) {
+      if (re.test(out)) {
+        out = out.replace(re, () => globalFooterHtml());
+        swappedFooter = true;
+        break;
+      }
     }
   }
   if (!swappedHeader) out = `${globalHeaderHtml()}${out}`;
