@@ -30,7 +30,10 @@ const contactFaq = [
 ];
 
 export function renderContactBody(): string {
-  const mapQuery = encodeURIComponent(`${nap.name}, ${nap.full}`);
+  // Google Business pin is "Nina Ross Atlanta"; !6i18 = street-level clinic view
+  // (Dunwoody Pl + storefronts; Atlanta Trichology stays off-frame).
+  const mapEmbedSrc =
+    "https://www.google.com/maps/embed?pb=!1m3!2m1!1sNina+Ross+Atlanta,+8735+Dunwoody+Place,+Sandy+Springs,+GA!6i18";
   const includes = offer.includes
     .map(
       (item) =>
@@ -62,7 +65,7 @@ ${tpSection(
 ${tpSection(
   "bone",
   `${tpEyebrow("The Map")}${tpH2("On Dunwoody Place, Just Off GA-400")}
-  <div class="tp-map"><iframe title="Map showing ${esc(nap.name)} at ${esc(nap.full)}" src="https://www.google.com/maps?q=${mapQuery}&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  <div class="tp-map"><iframe title="Map showing Nina Ross Atlanta at ${esc(nap.full)}" src="${mapEmbedSrc}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
   <p style="margin-top:1rem;font-size:14px;font-weight:600;color:var(--tp-body)">${esc(nap.full)}. ${esc(nap.building)}</p>`,
 )}
 

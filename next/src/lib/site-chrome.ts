@@ -7,7 +7,7 @@ import { ctas, nap } from "@/data/trust";
 import { absolutizeImageUrls } from "@/lib/cdn";
 
 export const BOOKING_URL = "https://ninaross.as.me/hairlossevaluations";
-export const SITE_CHROME_CSS = "/shared/site-chrome.css?v=1";
+export const SITE_CHROME_CSS = "/shared/site-chrome.css?v=2";
 export const SITE_CHROME_JS = "/shared/site-chrome.js?v=1";
 export const SITE_FAVICON = "/favicon.svg?v=2";
 

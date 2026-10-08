@@ -236,8 +236,8 @@ main h2,main h3,.feat__title,.t-card,.art-hd h1{text-transform:none}
 .hd a{text-decoration:none}
 .hd .nr-logo{font-size:14px;color:#fff}
 .hd__nav{display:none}
-.hd__right{display:flex;align-items:center;gap:10px}
-.hd__cta{padding:11px 14px;font-size:10px;gap:8px}
+.hd__right{display:flex;align-items:center;justify-content:flex-end;gap:10px}
+.hd__cta{display:none}
 .hd__menu{display:grid;place-items:center;width:44px;height:44px;border:0;background:none;color:#fff;cursor:pointer}
 .hd__menu span{display:block;width:22px;height:2px;background:#fff;box-shadow:0 7px 0 #fff,0 -7px 0 #fff}
 .mnav{display:none;flex-direction:column;padding:6px 20px 18px;background:var(--nr-black);border-top:1px solid rgba(255,255,255,.1)}
@@ -251,7 +251,7 @@ main h2,main h3,.feat__title,.t-card,.art-hd h1{text-transform:none}
   .hd__nav a{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#E9E6E1}
   .hd__nav a:hover,.hd__nav a[aria-current]{color:var(--nr-gold)}
   .hd__menu,.mnav{display:none!important}
-  .hd__cta{padding:13px 18px;font-size:11px}
+  .hd__cta{display:inline-flex;padding:13px 18px;font-size:11px;gap:8px}
 }
 
 /* Hero */

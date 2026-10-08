@@ -12,26 +12,26 @@
 .gc-hd__nav{display:none;margin-left:auto;align-items:center;gap:clamp(16px,2vw,28px)}
 .gc-hd__nav a{color:#E9E6E1;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;transition:color .2s ease}
 .gc-hd__nav a:hover,.gc-hd__nav a[aria-current="page"]{color:#CFB078}
-.gc-hd__right{margin-left:auto;display:flex;align-items:center;gap:8px;min-width:0}
+.gc-hd__right{margin-left:auto;display:flex;align-items:center;justify-content:flex-end;gap:8px;min-width:0}
 .gc-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;background:linear-gradient(135deg,#E2C995,#CFB078 55%,#B8955A);color:#171717!important;font-family:inherit;font-weight:800;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
-.gc-hd__cta{padding:10px 14px;font-size:9px;max-width:210px;white-space:normal;text-align:center;line-height:1.2}
-.gc-hd__cta span:last-child{display:none}
-.gc-hd__menu{flex:none;width:40px;height:40px;border:0;background:none;cursor:pointer;position:relative;padding:0}
-.gc-hd__menu span,.gc-hd__menu span::before,.gc-hd__menu span::after{position:absolute;left:9px;width:22px;height:2px;background:#fff;content:"";transition:transform .2s ease}
-.gc-hd__menu span{top:19px}.gc-hd__menu span::before{left:0;top:-7px}.gc-hd__menu span::after{left:0;top:7px}
+/* Mobile: hide header CTA so the menu button stays visible (booking lives in sticky/page CTAs). */
+.gc-hd__cta{display:none}
+.gc-hd__menu{flex:none;width:44px;height:44px;border:0;background:none;cursor:pointer;position:relative;padding:0;margin-right:-6px}
+.gc-hd__menu span,.gc-hd__menu span::before,.gc-hd__menu span::after{position:absolute;left:11px;width:22px;height:2px;background:#fff;content:"";transition:transform .2s ease}
+.gc-hd__menu span{top:21px}.gc-hd__menu span::before{left:0;top:-7px}.gc-hd__menu span::after{left:0;top:7px}
 .gc-hd.is-open .gc-hd__menu span{background:transparent}
 .gc-hd.is-open .gc-hd__menu span::before{transform:translateY(7px) rotate(45deg)}
 .gc-hd.is-open .gc-hd__menu span::after{transform:translateY(-7px) rotate(-45deg)}
 .gc-mnav{display:none;flex-direction:column;padding:6px 16px 18px;border-top:1px solid #222}
 .gc-hd.is-open .gc-mnav{display:flex}
 .gc-mnav a{padding:14px 4px;border-bottom:1px solid #1d1e20;color:#fff;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
-@media(min-width:420px){.gc-logo__main{font-size:17px}.gc-hd__cta{font-size:10px;max-width:none;white-space:nowrap}}
+@media(min-width:420px){.gc-logo__main{font-size:17px}}
 @media(min-width:1000px){
   .gc-hd__in{min-height:76px;gap:28px}
   .gc-logo__main{font-size:18px}.gc-logo__sub{font-size:8px}
   .gc-hd__nav{display:flex}
   .gc-hd__right{margin-left:0}
-  .gc-hd__cta{padding:13px 20px;font-size:11px}
+  .gc-hd__cta{display:inline-flex;padding:13px 20px;font-size:11px;max-width:none;white-space:nowrap;text-align:center;line-height:1.2}
   .gc-hd__cta span:last-child{display:inline}
   .gc-hd__menu,.gc-mnav,.gc-hd.is-open .gc-mnav{display:none}
 }
