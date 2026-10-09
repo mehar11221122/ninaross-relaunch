@@ -748,7 +748,13 @@ body.is-article{background:#FBF8F3}
 .a3-side .toc a.is-on{border-left-color:var(--nr-wine)}
 .a3-side .toc a.is-on::before{color:var(--nr-wine)}
 @media(min-width:1000px){.a3-side .toc ol{padding:10px 0 0 0;border-left:1px solid var(--nr-line)}}
-@media(max-width:999px){.a3-side .toc ol{padding:4px 16px 12px}.a3-side .toc a{padding-left:0;border-left:0}}
+@media(max-width:999px){
+  .a3-side .toc ol{padding:4px 16px 12px}.a3-side .toc a{padding-left:0;border-left:0}
+  /* Tables/images can inflate grid min-content past the wrap; keep columns fluid below desktop. */
+  .a3-body{grid-template-columns:minmax(0,1fr)}
+  .a3-prose,.a3-side{min-width:0;max-width:100%}
+  body.is-article{overflow-x:clip}
+}
 
 /* Cover hero: image full-bleed at top, title overlaid */
 .a3-cover{position:relative;margin:0;min-height:min(88svh,620px);display:flex;align-items:flex-end;background:#101112;color:#fff;overflow:hidden}
@@ -794,8 +800,9 @@ body.is-article{background:#FBF8F3}
 @media(min-width:1000px){.a3-cover__fc{margin-top:32px}}
 
 .a3-cover__fc{position:absolute;right:20px;bottom:14px;z-index:2;margin:0;max-width:min(34ch,calc(100% - 40px));text-align:right;font-size:11.5px}
-.a3-cover__in{padding-bottom:52px}
-@media(min-width:1000px){.a3-cover__fc{right:max(20px,calc((100% - 1120px)/2));bottom:24px;margin:0}.a3-cover__in{padding-bottom:64px}}
+@media(min-width:1000px){.a3-cover__fc{right:max(20px,calc((100% - 1120px)/2));bottom:24px;margin:0}}
+/* Article heroes no longer emit captions; keep styles for category covers only. */
+.is-article .a3-cover__fc{display:none}
 
 .ft__disc{margin:32px 0 0;max-width:90ch;font-size:12px;line-height:1.6;color:#8E8983}
 

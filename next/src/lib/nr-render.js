@@ -252,7 +252,6 @@ ${hero.src ? `<link rel="preload" as="image" href="${A(hero.src)}" fetchpriority
     <a class="a3-cat" href="/blog/${catSlug}">${esc(post.category)}</a>
     <h1 class="a3-h1">${esc(post.title)}</h1>
     <p class="a3-sub">${post.subtitle}</p>
-    ${hero.caption ? `<figcaption class="a3-cover__fc">${hero.caption}</figcaption>` : ''}
   </div>
 </figure>
 <header class="a3-hd"><div class="a3-wrap">
