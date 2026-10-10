@@ -1,0 +1,354 @@
+{
+  "fetchedAt": "2026-10-10T17:03:38.672Z",
+  "totalArticles": 102,
+  "ok": 53,
+  "catchallWould404": 49,
+  "explicitWould404": 0,
+  "unmapped": [],
+  "catchallMissing": [
+    {
+      "old": "/blogs/scalp-concerns/causes-of-itchy-scalp",
+      "destination": "/blog/causes-of-itchy-scalp",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/treatment-methods-posts/radio-frequency-for-a-healthy-scalp",
+      "destination": "/blog/radio-frequency-for-a-healthy-scalp",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/treatment-methods-posts/benefits-of-using-a-scalp-mask",
+      "destination": "/blog/benefits-of-using-a-scalp-mask",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/calcium-d-glucarate-for-healthy-hormone-balance",
+      "destination": "/blog/calcium-d-glucarate-for-healthy-hormone-balance",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/taking-care-of-your-hair-posts/clary-sage-for-hair-is-clary-sage-good-for-your-hair",
+      "destination": "/blog/clary-sage-for-hair-is-clary-sage-good-for-your-hair",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/lysine-for-hair-growth-benefits-you-should-know",
+      "destination": "/blog/lysine-for-hair-growth-benefits-you-should-know",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/vitamin-d-deficiency-and-hair-loss-what-s-the-connection",
+      "destination": "/blog/vitamin-d-deficiency-and-hair-loss-what-s-the-connection",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/sea-iodine-for-hair-loss-should-you-take-them",
+      "destination": "/blog/sea-iodine-for-hair-loss-should-you-take-them",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/tocotrienol-vitamin-e-what-you-should-know-about-this-mega-antioxidant-for-hair-growth",
+      "destination": "/blog/tocotrienol-vitamin-e-what-you-should-know-about-this-mega-antioxidant-for-hair-growth",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/taking-care-of-your-hair-posts/top-6-essential-oils-for-growing-healthy-hair",
+      "destination": "/blog/top-6-essential-oils-for-growing-healthy-hair",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/trace-minerals-for-hair-growth",
+      "destination": "/blog/trace-minerals-for-hair-growth",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/treatment-methods-posts/should-you-use-ultraviolet-b-phototherapy-for-scalp-conditions",
+      "destination": "/blog/should-you-use-ultraviolet-b-phototherapy-for-scalp-conditions",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/vitamin-d-deficiency-and-hair-loss-how-to-boost-your-vitamin-d-levels",
+      "destination": "/blog/vitamin-d-deficiency-and-hair-loss-how-to-boost-your-vitamin-d-levels",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/taking-care-of-your-hair-posts/taking-care-of-your-hair-type",
+      "destination": "/blog/taking-care-of-your-hair-type",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/scalp-concerns/scalp-issues-how-to-identify-the-symptoms",
+      "destination": "/blog/scalp-issues-how-to-identify-the-symptoms",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/taking-care-of-your-hair-posts/relaxers-are-bad-for-your-health-heres-why",
+      "destination": "/blog/relaxers-are-bad-for-your-health-heres-why",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/taking-care-of-your-hair-posts/excessive-oil-can-be-causing-harmful-build-up-on-your-scalp",
+      "destination": "/blog/excessive-oil-can-be-causing-harmful-build-up-on-your-scalp",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/taking-care-of-your-hair-posts/how-can-essential-oils-foster-hair-growth",
+      "destination": "/blog/how-can-essential-oils-foster-hair-growth",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/looking-to-save-your-hair-from-hair-loss-and-shedding-do-these-things-right-now",
+      "destination": "/blog/looking-to-save-your-hair-from-hair-loss-and-shedding-do-these-things-right-now",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/suffering-from-hair-loss-after-having-covid-19-coronavirus-heres-what-you-should-do",
+      "destination": "/blog/suffering-from-hair-loss-after-having-covid-19-coronavirus-heres-what-you-should-do",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/holistic-living-for-glorious-hair",
+      "destination": "/blog/holistic-living-for-glorious-hair",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/can-female-androgenetic-alopecia-be-reversed",
+      "destination": "/blog/can-female-androgenetic-alopecia-be-reversed",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/treatment-methods-posts/hair-therapy-what-is-it",
+      "destination": "/blog/hair-therapy-what-is-it",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/can-lack-of-sleep-cause-hair-loss",
+      "destination": "/blog/can-lack-of-sleep-cause-hair-loss",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/taking-care-of-your-hair-posts/how-to-use-a-hair-mask",
+      "destination": "/blog/how-to-use-a-hair-mask",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/which-vitamin-deficiency-causes-hair-loss",
+      "destination": "/blog/which-vitamin-deficiency-causes-hair-loss",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/your-guide-to-seasonal-hair-loss",
+      "destination": "/blog/your-guide-to-seasonal-hair-loss",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/scalp-concerns/seborrheic-dermatitis-and-hair-loss-how-to-give-proper-care-nourishment",
+      "destination": "/blog/seborrheic-dermatitis-and-hair-loss-how-to-give-proper-care-nourishment",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/unlocking-the-secrets-the-science-behind-trichology-hair-growth-treatment",
+      "destination": "/blog/unlocking-the-secrets-the-science-behind-trichology-hair-growth-treatment",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/unraveling-ccca-hair-loss-treatment-causes-symptoms-and-effective-solutions",
+      "destination": "/blog/unraveling-ccca-hair-loss-treatment-causes-symptoms-and-effective-solutions",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/understanding-female-pattern-baldness-in-20s-symptoms-to-solutions",
+      "destination": "/blog/understanding-female-pattern-baldness-in-20s-symptoms-to-solutions",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/treatment-methods-posts/secret-to-luscious-locks-the-significance-of-advanced-hair-therapy",
+      "destination": "/blog/secret-to-luscious-locks-the-significance-of-advanced-hair-therapy",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/treatment-methods-posts/prp-hair-treatment-atlanta-significance-benefits",
+      "destination": "/blog/prp-hair-treatment-atlanta-significance-benefits",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/know-the-secrets-how-to-wear-hair-mask",
+      "destination": "/blog/know-the-secrets-how-to-wear-hair-mask",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/a-comprehensive-guide-on-choosing-the-best-trichologist-for-black-hair",
+      "destination": "/blog/a-comprehensive-guide-on-choosing-the-best-trichologist-for-black-hair",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/scalp-concerns/best-trichologist-near-me-know-the-truth-behind-it",
+      "destination": "/blog/best-trichologist-near-me-know-the-truth-behind-it",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/dermatologists-near-me-our-skins-best-friend",
+      "destination": "/blog/dermatologists-near-me-our-skins-best-friend",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/dermatologist-atlanta-all-you-need-to-know",
+      "destination": "/blog/dermatologist-atlanta-all-you-need-to-know",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/how-to-find-the-best-dermatologist-hair-loss-specialist-near-me",
+      "destination": "/blog/how-to-find-the-best-dermatologist-hair-loss-specialist-near-me",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/dermatologist-hair-loss-the-right-solution-for-you",
+      "destination": "/blog/dermatologist-hair-loss-the-right-solution-for-you",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/health-wellness-posts/dermatologist-atlanta-top-concerns-conditions",
+      "destination": "/blog/dermatologist-atlanta-top-concerns-conditions",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/treatment-methods-posts/your-guide-to-prp-hair-treatment-benefits",
+      "destination": "/blog/your-guide-to-prp-hair-treatment-benefits",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/your-guide-to-hair-loss-treatment-for-men",
+      "destination": "/blog/your-guide-to-hair-loss-treatment-for-men",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/your-guide-to-the-best-hair-loss-treatment-for-women",
+      "destination": "/blog/your-guide-to-the-best-hair-loss-treatment-for-women",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/thinning-hair-treatment-causes-solutions",
+      "destination": "/blog/thinning-hair-treatment-causes-solutions",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/hair-treatment-for-hair-loss-symptoms-solutions",
+      "destination": "/blog/hair-treatment-for-hair-loss-symptoms-solutions",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/how-to-choose-the-best-atlanta-hair-doctor-for-your-hair-health",
+      "destination": "/blog/how-to-choose-the-best-atlanta-hair-doctor-for-your-hair-health",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/all-you-need-to-know-about-iodine-hair-loss-conditions",
+      "destination": "/blog/all-you-need-to-know-about-iodine-hair-loss-conditions",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    },
+    {
+      "old": "/blogs/hair-loss/top-tips-to-find-the-best-hair-loss-specialist-by-yourself",
+      "destination": "/blog/top-tips-to-find-the-best-hair-loss-specialist-by-yourself",
+      "rule": "/blogs/:category/:slug",
+      "kind": "catchall",
+      "exists": false
+    }
+  ],
+  "exactMissing": []
+}
