@@ -180,14 +180,18 @@ for (const [link, from] of links) {
   fail(from, `broken link ${link} (HTTP ${r.status})`);
 }
 
-// legacy Shopify URLs: exactly one 301 to a 200
+// legacy Shopify URLs: exactly one permanent redirect (301 or 308) to a 200.
+// vercel.json permanent:true emits 308; Google treats 308 like 301 for equity.
 for (const p of LEGACY) {
   const r = await get(p);
-  if (r.status !== 301) { fail(p, `legacy URL returns ${r.status}, expected 301`); continue; }
+  if (![301, 308].includes(r.status)) {
+    fail(p, `legacy URL returns ${r.status}, expected 301 or 308`);
+    continue;
+  }
   const to = new URL(r.headers.get("location"), base);
   const r2 = await get(to.pathname);
-  if (r2.status !== 200) fail(p, `301 target ${to.pathname} returns ${r2.status} (chain or broken)`);
-  if (!paths.includes(to.pathname)) fail(p, `301 target ${to.pathname} is not in sitemap`);
+  if (r2.status !== 200) fail(p, `${r.status} target ${to.pathname} returns ${r2.status} (chain or broken)`);
+  if (!paths.includes(to.pathname)) fail(p, `${r.status} target ${to.pathname} is not in sitemap`);
 }
 for (const p of MUST_404) { const r = await get(p); if (r.status !== 404) fail(p, `expected 404, got ${r.status}`); }
 
